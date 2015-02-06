@@ -16,10 +16,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</script>
 
         <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-   		<link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-		<script src="js/modernizr.custom.28468.js"></script>
+        <link href="css/ihover.min.css" rel="stylesheet" />
+        <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <script src="js/modernizr.custom.28468.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/simptip-mini.css" media="screen,projection" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
         <script src="js/jquery.min.js"></script>
         </head>
 	<body>
@@ -128,7 +129,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="post-grids">
 
-                    <div class="ih-item square colored effect10 left_to_right" style="float:left;"><a href="#">
+                    <div class="ih-item square colored effect10 left_to_right post-grid" style="float:left;"><a href="#">
                         <div class="img"><img src="images/GA.jpg" alt="img"></div>
                         <div class="info">
                             <div class="info-back">
@@ -138,7 +139,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div></a>
                         <h2 class="pic-desc">GA-DISEC</h2>
                     </div>
-                    <div class="ih-item square colored effect10 left_to_right" style="float:left;"><a href="#">
+                    <div class="ih-item square colored effect10 left_to_right post-grid" style="float:left;"><a href="#">
                         <div class="img"><img src="images/HRC.jpg" alt="img"></div>
                         <div class="info">
                             <div class="info-back">
@@ -148,7 +149,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div></a>
                         <h2 class="pic-desc">UN-HRC</h2>
                     </div>
-                    <div class="ih-item square colored effect10 left_to_right" style="float:left;"><a href="#">
+                    <div class="ih-item square colored effect10 left_to_right post-grid" style="float:left;"><a href="#">
                         <div class="img"><img src="images/NATO.jpg" alt="img"></div>
                         <div class="info">
                             <div class="info-back">
@@ -158,7 +159,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </div></a>
                         <h2 class="pic-desc">NATO</h2>
                     </div>
-                    <div class="ih-item square colored effect10 left_to_right" style="float:left;"><a href="#">
+                    <div class="ih-item square colored effect10 left_to_right post-grid" style="float:left;"><a href="#">
                         <div class="img"><img src="images/comingsoon.jpg" alt="img"></div>
                         <div class="info">
                             <div class="info-back">
@@ -368,7 +369,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             //initialize();
         </script>
 
-        <link href="css/ihover.min.css" rel="stylesheet" />
 
         <style>
             .tooltip{
@@ -376,18 +376,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             }
             .gm-style-iw + div {display: none;}
             .ih-item.square{
-                width:290px;
-                margin-right: 5px;
-
+                //width:290px;
+                //margin-right: 5px;
             }
             .ih-item img{
                 -webkit-filter: grayscale(100%); filter: grayscale(100%);
             }
-            .ih-item.square.h3{
-                font-size:20px;
+            .ih-item.square h3{
+                font-size:1.6em;
             }
             .ih-item.square.effect10 .info p{
-                font-size: 14px;
+                font-size: 0.95em;
             }
         </style>
 	</body>
