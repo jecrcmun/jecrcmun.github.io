@@ -20,7 +20,37 @@ a{text-decoration:none;}
 nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
+div.post-grid img{-webkit-filter: grayscale(100%); filter: grayscale(100%);}
+.pic-desc{
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    top: 160px;
+    left: 0px;
+    color: white;
+    background: black;
+    display: block;
+    padding: 0.5em 0;
+    width: 275px
+}
+.square:hover .pic-desc{
+    display: none;
+}
 /*end reset*/
+.post-grid{
+    border:4px solid black;
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px;
+}
+.post-grid img{
+    border-bottom: 4px solid black;
+}
+
+.post-grid:hover{
+    transform: rotate(1deg) scaleX(1.1) scaleY(1.1);
+    transition: 0.3s all;
+}
+
 @font-face {
     font-family: 'open_sansregular';
     src: url('../fonts/OpenSans-Regular-webfont.eot');
@@ -56,24 +86,30 @@ body{
 	float: left;
 }
 .logo span{
-	height: 40px;
-	width: 45px;
+	height: 100px;
+	width: 110px;
 	display: inline-block;
-	background: url(../images/logo-icon.png) no-repeat 0px 0px;
+	/*background: url(../images/logo-icon.png) no-repeat 0px 0px;*/
+    background: url(../images/logo3.png) no-repeat 0px 0px;
 	vertical-align: initial;
 	margin-right: 7px;
 }
 .logo a{
 	font-family: 'trump_town_proregular';
 	color: #3A494C;
-	font-size: 3em;
+	font-size: 4em;
+    height: 105px;
+    line-height: 105px;
 	text-transform: uppercase;
+    display: block;
+    vertical-align: top;
 }
 .top-header {
 	padding: 3em 0;
 }
 .header{
-	background: url(../images/header-bg.jpg);
+	/*background: url(../images/header-bg.jpg);*/
+    background: #6699ff;
 	min-height: 650px;
 }
 .top-nav{
@@ -341,7 +377,8 @@ body{
 }
 /*---start-Blog-section-----*/
 .blog-grid-left{
-	width:30%;
+	width:31%;
+	width:31%;
 	float:left;
 }
 .blog-grid-left span,.blog-grid2-right span{
@@ -428,9 +465,10 @@ body{
 }
 /*---start-team----*/
 .team{
-	background:url(../images/meet-bg.jpg) no-repeat;
+	/*background:url(../images/meet-bg.jpg) no-repeat;*/
+    background: #B5D3EB;
     background-size: cover;
-	padding:4em 0
+	padding:2em 0
 }
 .team-head{
 	text-align:center;
@@ -450,13 +488,13 @@ body{
 /*----*/
 .team-members{
 	width: 90%;
-	margin: 6em auto 4em;
+	margin: 3em auto 4em;
 }
 .team-member{
-	width: 28.33%;
+	width: 25.33%;
 	float: left;
 	text-align: center;
-	margin-right: 7.5%;
+	margin-right: 9%;
 	padding-bottom:0.8em;
 }
 .team-member:nth-child(3){
@@ -523,23 +561,25 @@ body{
 }
 /*------recent-postings-----*/
 .recent-posts{
-	background: url(../images/post-bg.jpg);
-	padding: 4em 0;
+	/*background: url(../images/post-bg.jpg);
+	*/
+    background: #455555;
+    padding: 4em 0;
 }
 .post-grids {
 	margin: 6em 0 1em;
 }
 .post-grid{
-	width: 29.33%;
+	width: 21.33%;
 	float: left;
-	margin-right: 5%;
+	margin-right: 4%;
 	text-align: center;
 	background: #FFF;
 	padding-bottom: 1em;
 	margin-bottom: 5em;
 	box-shadow: 0px 0px 10px rgba(238, 238, 238, 0.08);
 }
-.post-grid:nth-child(3){
+.post-grid:nth-child(4){
 	margin-right:0;
 }
 /*----recent-posts-head-----*/
@@ -575,7 +615,7 @@ body{
 	color: #383838;
 	font-family: trebuchet ms,'open_sansregular';
 	font-size: 1.8em;
-	margin: 1em 0 0em 0;
+	margin: 0.4em 0 0em 0;
 	display: block;
 	font-weight: 900;
 }
@@ -589,7 +629,62 @@ body{
 .post-grid label{
 	color:#545454;
 	font-size:1.2em;
-	font-style:italic;
+}
+.mygrid{
+    width:250px;
+    height: 150px;
+    margin: 1%;
+    color:white;
+}
+.mygrid:hover{
+    background-color: black;
+    opacity: 0.5;
+
+}
+.mygrid .mygridc{
+    width: 0;
+}
+
+.mygrid:hover .mygridc{
+    background:black;
+    width:100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.mygrid:hover .mygridc::after {
+    position: relative;
+    font-weight: bolder;
+    top:50px;
+    left:10px;
+    content:"Some content";
+    font-size: 0.8em;
+}
+.mygrid:hover:nth-of-type(5) .mygridc:after{
+    content:"Global framework for the use of Lethal Autonomous Robotics";
+}
+
+.mygrid:hover:nth-of-type(6) .mygridc:after{
+    content:"Extremism- Growing support for the extreme right movement";
+}
+
+.mygrid:hover:nth-of-type(7) .mygridc:after{
+    content:"Crimean & East Ukraine Crises- Reconsideration of Russian Federation in the partnership for peace program";
+}
+
+.mygrid:hover:nth-of-type(8) .mygridc:after{
+    content:"Global framework for the use of Lethal Autonomous Robotics";
+}
+.mygrid:nth-of-type(5){
+background:url(../images/GA.jpg);
+}
+.mygrid:nth-of-type(6){
+    background:url(../images/HRC.jpg);
+}
+.mygrid:nth-of-type(7){
+    background:url(../images/NATO.jpg);
+}
+.mygrid:nth-of-type(8){
+    background:url(../images/comingsoon.jpg);
 }
 /*---start-contact----*/
 .contact{
@@ -685,12 +780,16 @@ body{
 }
 .ftwiter:hover{
 	background:url(../images/footer-social-icons.png) no-repeat 0px -56px;
+    transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
+    -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
 }
 .fface{
 	background: url(../images/footer-social-icons.png) no-repeat -70px 0px;
+    -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
 }
 .fface:hover{
 	background: url(../images/footer-social-icons.png) no-repeat -70px -56px;
+    transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
 }
 .fhtml{
 	background: url(../images/footer-social-icons.png) no-repeat -143px 0px;
@@ -759,7 +858,7 @@ body{
 		width: 12%;
 	}
 	.blog-grid-right {
-		width: 67%;
+		width: 32%;
 	}
 	.contatct-form {
 		width: 60%;
@@ -793,7 +892,7 @@ body{
 		width: 60%;
 	}
 	.post-grid {
-		width: 31%;
+		width: 21%;
 		margin-right: 3%;
 	}	
 }
@@ -817,7 +916,7 @@ body{
 		width: 70%;
 	}
 	.post-grid {
-		width: 31%;
+		width: 21%;
 		margin-right: 3%;
 	}	
 	.top-nav ul li {
@@ -876,8 +975,9 @@ body{
 		margin-bottom:1.5em;
 	}
 	.team {
-		background: url(../images/meet-bg.jpg);
-	}
+        /*background:url(../images/meet-bg.jpg) no-repeat;*/
+        background: #B5D3EB;
+    }
 	.contatct-form {
 		width: 80%;
 		margin: 2em auto;
@@ -987,8 +1087,9 @@ body{
 		margin-bottom:1.5em;
 	}
 	.team {
-		background: url(../images/meet-bg.jpg);
-	}
+        /*background:url(../images/meet-bg.jpg) no-repeat;*/
+        background: #B5D3EB;
+    }
 	.contatct-form {
 		width: 80%;
 		margin: 2em auto;
@@ -1122,8 +1223,9 @@ body{
 		margin-bottom:1.5em;
 	}
 	.team {
-		background: url(../images/meet-bg.jpg);
-		padding: 2em 0;
+        /*background:url(../images/meet-bg.jpg) no-repeat;*/
+        background: #B5D3EB;
+        padding: 2em 0;
 	}
 	.contatct-form {
 		width:100%;
@@ -1294,8 +1396,9 @@ body{
 		margin-bottom:1.5em;
 	}
 	.team {
-		background: url(../images/meet-bg.jpg);
-		padding: 2em 0;
+        /*background:url(../images/meet-bg.jpg) no-repeat;*/
+        background: #B5D3EB;
+        padding: 2em 0;
 	}
 	.contatct-form {
 		width:100%;

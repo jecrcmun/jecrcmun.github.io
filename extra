@@ -1,0 +1,25 @@
+
+					<div class="post-grid">
+						<img src="images/GA.jpg">
+						<h4><a href="#">GA-DISEC</a></h4>
+						<label>Global framework for the use of Lethal Autonomous Robotics</label>
+						<!--<p>Sustaining Millenium Development Goals Progress in an Age of Economic Uncertainty</p>-->
+					</div>
+					<div class="post-grid">
+						<img src="images/HRC.jpg">
+						<h4><a href="#">UN-HRC</a></h4>
+						<label>Extremism- Growing support for the extreme right movement</label>
+						<!--<p>Perspectives of Assisted Suicide and its conflict with Right to Life</p>-->
+					</div>
+					<div class="post-grid">
+						<img src="images/NATO.jpg" style=" max-width: 100%;">
+						<h4><a href="#">NATO</a></h4>
+						<label>Crimean & East Ukraine Crises- Reconsideration of Russian Federation in the partnership for peace program.</label>
+						<!--<p>Development Trends and Operational Implications of Future Trends in Science and Technology</p>-->
+					</div>
+                    <div class="post-grid">
+                        <img src="images/comingsoon.jpg" style="">
+                        <h4><a href="#">Futuristic Committee</a></h4>
+                        <label>Coming soon...</label>
+                        <!--<p>Sustaining Millenium Development Goals Progress in an Age of Economic Uncertainty</p>-->
+                    </div>
