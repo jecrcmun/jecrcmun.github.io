@@ -95,3 +95,18 @@
 
                     .close:hover { background: #00d9ff; }
                 </style>
+<?php
+require_once 'functions.php';
+echo $_POST;
+if(isset($_POST['name'] && isset($_POST['email']) && isset($_POST['message'])){
+
+$name = mysql_real_escape_string($_POST['name']);
+$email = mysql_real_escape_string($_POST['email']);
+echo $name.$email;
+//mysql_query("INSERT INTO muncontact ('name','email','message') VALUES(
+
+if(mysql_query("INSERT INTO muncontact ('name','email','message') VALUES('$name','email','$message'))
+echo "$message sent";
+
+}
+?>

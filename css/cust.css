@@ -149,9 +149,9 @@ a.address-icon.myicon:hover {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    -webkit-box-shadow: 0px 9px 0px rgba(5,31,219,1), 0px 9px 25px rgba(0,0,0,.7);
-    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    box-shadow: 0px 9px 0px rgba(5,31,219,1), 0px 9px 25px rgba(0,0,0,.7);
+    -webkit-box-shadow: 0px 5px 0px rgba(5,31,219,0.5), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 5px 0px rgba(219,31,5,0.5), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 5px 0px rgba(5,31,219,0.5), 0px 9px 25px rgba(0,0,0,.7);
     //margin: 100px auto;
     width: 160px;
     text-align: center;
