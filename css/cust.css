@@ -2,8 +2,8 @@
 a.social-wrap {
     margin:0px 0px 0em 5px;
     padding:0px 0px 0px 0px;
-    width:60px;
-    height:60px;
+    width:48px;
+    height:48px;
     float:left;
     text-indent:-99999px;
     background: #FFF;
@@ -21,6 +21,7 @@ a.social-wrap {
     border-bottom-left-radius:5px;
     border-bottom-right-radius:5px;
     border-radius:20em;
+    background-size: 48px 110px;
 }
 a.myicon{
     margin:0px 10px 0em 10px;
@@ -32,22 +33,26 @@ a.myicon{
     text-indent:-99999px;
 }
 a.facebook-icon.social-wrap {
-    background: #00f url(http://4.bp.blogspot.com/-njqMpTvxYbs/UFM2yXm-AnI/AAAAAAAAEFU/yfm_dKxQ2hs/s1600/facebook.png) no-repeat -0px -88px;
+    background: #00f url(http://4.bp.blogspot.com/-njqMpTvxYbs/UFM2yXm-AnI/AAAAAAAAEFU/yfm_dKxQ2hs/s1600/facebook.png) no-repeat -0px -0px;
     -webkit-transition:All 0.3s ease-out;
     -moz-transition:All 0.3s ease-out;
     -o-transition:All 0.3s ease-out;
+    background-size: 48px 110px;
 }
 a.facebook-icon.social-wrap:hover {
-    background: #191919 url(http://4.bp.blogspot.com/-njqMpTvxYbs/UFM2yXm-AnI/AAAAAAAAEFU/yfm_dKxQ2hs/s1600/facebook.png) no-repeat -0px -0px;
+    background: #fff url(http://4.bp.blogspot.com/-njqMpTvxYbs/UFM2yXm-AnI/AAAAAAAAEFU/yfm_dKxQ2hs/s1600/facebook.png) no-repeat -0px -64px;
+    background-size: 48px 110px;
 }
 a.twitter-icon.social-wrap {
-    background: #66ddee url(http://2.bp.blogspot.com/-BtalCDk0UGg/UFM206t5yfI/AAAAAAAAEFk/1cwjqImigQo/s1600/twitter-1.png) no-repeat -0px -88px;
+    background: #66ddee url(http://2.bp.blogspot.com/-BtalCDk0UGg/UFM206t5yfI/AAAAAAAAEFk/1cwjqImigQo/s1600/twitter-1.png) no-repeat -0px -0px;
     -webkit-transition:All 0.3s ease-out;
     -moz-transition:All 0.3s ease-out;
     -o-transition:All 0.3s ease-out;
+    background-size: 48px 110px;
 }
 a.twitter-icon.social-wrap:hover {
-    background: #191919 url(http://2.bp.blogspot.com/-BtalCDk0UGg/UFM206t5yfI/AAAAAAAAEFk/1cwjqImigQo/s1600/twitter-1.png) no-repeat -0px -0px;
+    background: #fff url(http://2.bp.blogspot.com/-BtalCDk0UGg/UFM206t5yfI/AAAAAAAAEFk/1cwjqImigQo/s1600/twitter-1.png) no-repeat -0px -64px;
+    background-size: 48px 110px;
 }
 a.google-p-icon.social-wrap {
     background:#191919 url(http://1.bp.blogspot.com/-qITbsA3n7_w/UFM2z36eMnI/AAAAAAAAEFc/PK9Cmf7JZd4/s1600/google.png) no-repeat -0px -88px;
@@ -82,7 +87,7 @@ a.mail-icon.myicon:hover {
 
 a.address-icon.myicon {
     border:none;
-    background:url(../images/mapmarker.png) no-repeat 1px 0px;
+    background:url(../images/mapmarker.png) no-repeat 0px 0px;
     -webkit-transition:All 0.3s ease-out;
     -moz-transition:All 0.3s ease-out;
     -o-transition:All 0.3s ease-out;
@@ -98,8 +103,8 @@ a.address-icon.myicon:hover {
     padding:0 0.8em 0 0;
 }
 .row .icon-desc{
-    font-size:28px;
-    line-height: 60px;
+    font-size:24px;
+    line-height: 48px;
     color:white;
     vertical-align: middle;
 }
@@ -108,24 +113,19 @@ a.address-icon.myicon:hover {
     margin-bottom:0.1em;
     padding:3px 0 3px 0.5em;
     border-bottom:1px solid gray;
+    line-height: 48px;
+    font-size:24px;
 }
 .icon-desc{
     float:none;
 }
 .phone-link,.email-link{
     padding:0 0 0 0.5em;
-    line-height: 48px;
-    font-size:28px;
-}
-.phone-link .icon-desc,.email-link .icon-desc{
-    line-height: 48px;
 }
 .address-link.row .icon-desc{
     line-height: 30px;
-    font-size:25px;
-}
-.address-link .myicon{
-    margin-left:1em;
+    font-size:24px;
+    margin-left:75px;
 }
 .phone-link .icon,.email-link .icon,.address-link .icon{
     padding-right:0.3em;
@@ -149,9 +149,9 @@ a.address-icon.myicon:hover {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    -webkit-box-shadow: 0px 5px 0px rgba(5,31,219,0.5), 0px 9px 25px rgba(0,0,0,.7);
-    -moz-box-shadow: 0px 5px 0px rgba(219,31,5,0.5), 0px 9px 25px rgba(0,0,0,.7);
-    box-shadow: 0px 5px 0px rgba(5,31,219,0.5), 0px 9px 25px rgba(0,0,0,.7);
+    -webkit-box-shadow: 0px 3px 0px rgba(5,31,219,0.5), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,0.5), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 3px 0px rgba(5,31,219,0.5), 0px 9px 25px rgba(0,0,0,.7);
     //margin: 100px auto;
     width: 160px;
     text-align: center;
