@@ -26,7 +26,7 @@ div.post-grid img{
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
-    filter: url(resources.svg#desaturate); /* Gecko */
+    filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");   filter: url(resources.svg#desaturate); /* Gecko */
     filter: gray; /* IE */
     -webkit-filter: grayscale(1); /* Old WebKit */
 }
@@ -474,6 +474,7 @@ body{
 	font-size: 4.5em;
 	font-family: 'trump_town_proregular';
 	text-transform: uppercase;
+    text-shadow: 1px 1px 5px black;
 }
 .team-head p{
 	color: #EEE;
@@ -599,6 +600,7 @@ body{
 	font-size: 4.5em;
 	font-family: 'trump_town_proregular';
 	text-transform: uppercase;
+    text-shadow: 1px 1px 5px black;
 }
 .recent-posts-head p{
 	color: #EEE;
@@ -707,6 +709,7 @@ background:url(../images/GA.jpg);
 	font-size: 4.5em;
 	font-family: 'trump_town_proregular';
 	text-transform: uppercase;
+    text-shadow: 1px 1px 5px black;
 }
 .contact-head p{
 	color: #D3D0D0;
@@ -1042,7 +1045,7 @@ background:url(../images/GA.jpg);
 	}
 	.team-head h3 {
 		font-size: 4em;
-        text-shadow: 1px 1px 5px black;
+
 	}
 	.team-head p,.recent-posts-head p,.contact-head p {
 		width: 70%;
