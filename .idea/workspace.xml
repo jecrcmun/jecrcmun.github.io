@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EBapplications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EBapplications.html" afterPath="$PROJECT_DIR$/EBapplications.html" />
     </list>
     <ignored path="jecrcmun.github.io-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +55,7 @@
       <file leaf-file-name="EBapplications.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EBapplications.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="28" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.29453263" vertical-offset="393" max-vertical-offset="1280">
+            <state line="3" column="28" selection-start="58" selection-end="58" vertical-scroll-proportion="0.105820104" vertical-offset="0" max-vertical-offset="1280">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -559,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EBapplications.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.29453263" vertical-offset="393" max-vertical-offset="1280">
+        <state line="3" column="28" selection-start="58" selection-end="58" vertical-scroll-proportion="0.105820104" vertical-offset="0" max-vertical-offset="1280">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
