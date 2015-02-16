@@ -247,11 +247,19 @@ a.address-icon.myicon:hover {
     .message-sg img{
         width:220px;
     }
+    .message-sg h3{
+        font-size:2.5em;
+    }
 }
 
 @media only screen and (max-width: 640px) and (min-width:240px) {
     .message-sg img{
         width:100%;
+        margin-bottom:5px;
+    }
+
+    .message-sg h3{
+        font-size:2em;
     }
 }
 .message-sg strong{
