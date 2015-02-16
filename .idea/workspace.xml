@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/message-sg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cust.css" afterPath="$PROJECT_DIR$/css/cust.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jecrcmun.github.io-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +83,7 @@
       <file leaf-file-name="cust.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/cust.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="242" column="16" selection-start="7388" selection-end="7388" vertical-scroll-proportion="0.7986577" vertical-offset="4364" max-vertical-offset="5220">
+            <state line="253" column="18" selection-start="7623" selection-end="7623" vertical-scroll-proportion="0.86577183" vertical-offset="4544" max-vertical-offset="5340">
               <folding>
                 <element signature="e#31#282#2" expanded="true" />
                 <element signature="e#333#602#2" expanded="true" />
@@ -620,7 +616,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/cust.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="16" selection-start="7388" selection-end="7388" vertical-scroll-proportion="0.7986577" vertical-offset="4364" max-vertical-offset="5220">
+        <state line="253" column="18" selection-start="7623" selection-end="7623" vertical-scroll-proportion="0.86577183" vertical-offset="4544" max-vertical-offset="5340">
           <folding>
             <element signature="e#31#282#2" expanded="true" />
             <element signature="e#333#602#2" expanded="true" />
