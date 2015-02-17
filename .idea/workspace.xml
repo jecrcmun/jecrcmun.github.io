@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cust.css" afterPath="$PROJECT_DIR$/css/cust.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="jecrcmun.github.io-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +82,7 @@
       <file leaf-file-name="cust.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/cust.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="20" selection-start="7132" selection-end="7132" vertical-scroll-proportion="0.36777583" vertical-offset="4370" max-vertical-offset="5520">
+            <state line="230" column="18" selection-start="7154" selection-end="7154" vertical-scroll-proportion="0.4028021" vertical-offset="4370" max-vertical-offset="5520">
               <folding>
                 <element signature="e#31#282#2" expanded="true" />
                 <element signature="e#333#602#2" expanded="true" />
@@ -612,7 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/cust.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="20" selection-start="7132" selection-end="7132" vertical-scroll-proportion="0.36777583" vertical-offset="4370" max-vertical-offset="5520">
+        <state line="230" column="18" selection-start="7154" selection-end="7154" vertical-scroll-proportion="0.4028021" vertical-offset="4370" max-vertical-offset="5520">
           <folding>
             <element signature="e#31#282#2" expanded="true" />
             <element signature="e#333#602#2" expanded="true" />

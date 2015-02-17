@@ -228,7 +228,7 @@ a.address-icon.myicon:hover {
 }
 .message-sg p{
     line-height: 1.3em;
-    text-indent: 2.5em;
+    text-indent: 0em;
     margin: 0.8em 0;
     text-align: justify;
 
