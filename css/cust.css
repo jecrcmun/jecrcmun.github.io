@@ -257,10 +257,10 @@ a.address-icon.myicon:hover {
 #modal .window {
     position:fixed;
     z-index:10000;
-    width:320px;
+    width:300px;
     /*height:248px;*/
     /* give the window negative margins that match the width/2 and height/2 so it is centered */
-    margin-left:-160px;
+    margin-left:-150px;
     margin-top:-225px;
     /* position the top left corner off stage so it can't be seen (instead of display:none;) */
     left:-1000px;
