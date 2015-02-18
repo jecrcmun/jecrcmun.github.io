@@ -1544,6 +1544,41 @@ background:url(../images/GA.jpg);
 		text-align:center;
 	}
 }
+.message-sg h3{
+    color: #FFF;
+    text-align:center;
+    font-size: 3.5em;
+    font-family: 'trump_town_proregular';
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px black;
+    margin-bottom:1em;
+}
+.message-sg p{
+    line-height: 1.3em;
+    text-indent: 0em;
+    margin: 0.8em 0;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) and (min-width:640px) {
+    .message-sg h3{
+        font-size:2.8em;
+    }
+}
+
+@media only screen and (max-width: 640px) and (min-width:240px) {
+    .message-sg h3{
+        font-size:2.5em;
+    }
+}
+.message-sg strong{
+    font-weight: bolder;
+}
+.message-sg em{
+    font-style: italic;
+}
+
+
 
 
 

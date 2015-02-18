@@ -217,57 +217,6 @@ a.address-icon.myicon:hover {
     font-size:1em;
     line-height: 1em;
 }
-.message-sg h3{
-    color: #FFF;
-    text-align:center;
-    font-size: 3.5em;
-    font-family: 'trump_town_proregular';
-    text-transform: uppercase;
-    text-shadow: 1px 1px 5px black;
-    margin-bottom:1em;
-}
-.message-sg p{
-    line-height: 1.3em;
-    text-indent: 0em;
-    margin: 0.8em 0;
-    text-align: justify;
-}
-.message-sg img{
-    margin: 0 1em 0px 0px;
-    float:left;
-    border-radius:2em;
-    width:300px;
-}
-@media only screen and (max-width: 1024px) and (min-width:768px){
-    .message-sg img{
-        width:250px;
-    }
-}
-@media only screen and (max-width: 768px) and (min-width:640px) {
-    .message-sg img{
-        width:220px;
-    }
-    .message-sg h3{
-        font-size:2.8em;
-    }
-}
-
-@media only screen and (max-width: 640px) and (min-width:240px) {
-    .message-sg img{
-        width:100%;
-        margin-bottom:5px;
-    }
-
-    .message-sg h3{
-        font-size:2.5em;
-    }
-}
-.message-sg strong{
-    font-weight: bolder;
-}
-.message-sg em{
-    font-style: italic;
-}
 
 /*Modal styling*/
 .close {
