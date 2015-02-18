@@ -169,7 +169,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </div>
                 </div>
             </div>
-
             <div class="recent-posts message-sg" id="messageSG">
                 <div class="wrap">
                     <h3>Message from the Secretary General</h3>
@@ -584,9 +583,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         alert("Message sending failed. Please try contacting by other means.");
                     }
                 });
-                // run when page is ready
-
-
 
                 /*
                 $.get('http://localhost/technolovers/post/1',{},function(info){
@@ -594,12 +590,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 });
                 */
             });
+            //initialize();
+
+            // run when page is ready
             $(document).ready(function(){
 
                 // create variable to hold the current modal window
                 var activeWindow;
 
                 $('a.modalLink').click(function(e){
+
                     // cancel the default link behaviour
                     e.preventDefault();
 
@@ -645,7 +645,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 }
 
             });
-            //initialize();
+
         </script>
 
 
