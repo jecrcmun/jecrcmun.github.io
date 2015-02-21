@@ -333,7 +333,11 @@ body{
 	margin: 0 auto;
 	text-align: center;
 	font-weight: 900;
-	width: 10%;
+    width:90%;
+    min-height:90px;
+    margin-bottom:0.5em;
+    display: table;
+    vertical-align: middle;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
