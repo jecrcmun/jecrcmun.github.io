@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Delegate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo" afterPath="$PROJECT_DIR$/todo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jecrcmun.github.io-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="42" selection-start="6440" selection-end="6441" vertical-scroll-proportion="0.3321033" vertical-offset="2860" max-vertical-offset="15340">
+            <state line="152" column="42" selection-start="6440" selection-end="6441" vertical-scroll-proportion="-3.3333333" vertical-offset="2860" max-vertical-offset="15340">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="329" column="18" selection-start="7667" selection-end="7667" vertical-scroll-proportion="-7.6" vertical-offset="6390" max-vertical-offset="31800">
+            <state line="328" column="25" selection-start="7660" selection-end="7660" vertical-scroll-proportion="0.2977233" vertical-offset="6390" max-vertical-offset="31820">
               <folding />
             </state>
           </provider>
@@ -757,16 +753,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="329" column="18" selection-start="7667" selection-end="7667" vertical-scroll-proportion="-7.6" vertical-offset="6390" max-vertical-offset="31800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="42" selection-start="6440" selection-end="6441" vertical-scroll-proportion="0.3321033" vertical-offset="2860" max-vertical-offset="15340">
+        <state line="152" column="42" selection-start="6440" selection-end="6441" vertical-scroll-proportion="-3.3333333" vertical-offset="2860" max-vertical-offset="15340">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -777,6 +766,13 @@
             <marker date="1424539112608" expanded="false" signature="31319:31330" placeholder="..." />
             <marker date="1424539112608" expanded="false" signature="31806:31817" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="328" column="25" selection-start="7660" selection-end="7660" vertical-scroll-proportion="0.2977233" vertical-offset="6390" max-vertical-offset="31820">
+          <folding />
         </state>
       </provider>
     </entry>
