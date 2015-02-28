@@ -506,11 +506,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <div id="message-intro">
                            In case of any query, feel free to drop a message.
                         </div>
-                        <form class="contact-form" role="form" id="contactform">
+                        <iframe src="modal.html" name="myiframe" id="myiframe" width=0 height=0 style="display:none;"></iframe>
+                        <form action="http://www.technolovers.in/jecrcmun.php" method="get" class="contact-form" role="form" id="contactform" target="myiframe">
                                 <div class="form-group">
                                     <div class="input-group">
                                             <span class="input-group-addon">Name</span>
-                                            <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                            <input type="text" class="form-control" name="name" placeholder="Name" required />
                                     </div>
                                 </div>
 
@@ -518,7 +519,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 <div class="form-group">
                                     <div class="input-group">
                                             <span class="input-group-addon">Email</span>
-                                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
                                     </div>
                                 </div>
 
@@ -645,11 +646,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             });
 
             $('#contactform').submit(function(e){
-                e.preventDefault();
+                //e.preventDefault();
                 var data = $("#contactform").serialize();
                 var url = 'http://www.technolovers.in/jecrcmun.php?'+data;
                 var btn = $("#contactform #mybtn");
-                btn.val("Sending......");
+                //btn.val("Sending......");
+                //$('body').append("");
+                /*
                 $.ajax({
                     crossOrigin: true,
                     data: data,
@@ -670,7 +673,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 });
                 // run when page is ready
 
-
+                */
 
                 /*
                 $.get('http://localhost/technolovers/post/1',{},function(info){
@@ -729,6 +732,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 }
 
             });
+            function contactResponse(output){
+                if(output==1){
+                    alert("Message successfully sent !");
+                } else {
+                    alert("Cannot sent message. Please try any other method to contact.");
+                }
+            }
             //initialize();
         </script>
 
