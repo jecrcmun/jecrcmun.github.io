@@ -22,6 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             section#EB{
                 background: #212136;
                 padding:30px 0;
+                padding-bottom:0;
             }
             section#comm-sec{
                 background: #eee;
@@ -290,22 +291,71 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </section>
 		</div>
 		<div class="footer">
-			<div class="wrap">
-				<div class="footer-grids">
-					<div class="footer-left">
-						<ul>
-							<li><a target="_blank" class="ftwiter" href="http://twitter.com/jecrcmun"> </a></li>
-							<li><a target="_blank" class="fface" href="https://www.facebook.com/jecrcmun"> </a></li>
-							<li><a class="fhtml" href="#"> </a></li>
-							<li><a class="fflick" href="#"> </a></li>
-							<div class="clear"> </div>
-						</ul>
-					</div>
-					<div class="footer-right" id="contact">
-					</div>
+			<div class="wrap" style="width:90%;margin-left:5%;">
+				<div class="footer-left col-md-6">
+                    <ul>
+                        <li><a target="_blank" class="ftwiter" href="http://twitter.com/jecrcmun"> </a></li>
+                        <li><a target="_blank" class="fface" href="https://www.facebook.com/jecrcmun"> </a></li>
+                        <li><a class="fhtml" href="#"> </a></li>
+                        <li><a class="fflick" href="#"> </a></li>
+                        <div class="clear"> </div>
+                    </ul>
 				</div>
+                <div class="footer-right col-md-6">
+                    <p>Developed by <a href="http://vcidst.github.io">Shailendra Paliwal</a></p>
+                    <p>Maintained by <a href="http://www.facebook.com/lokeshthepopper">Lokesh Devnani</a></p>
+                </div>
+                <div class="clearfix"></div>
 			</div>
 		</div>
+        <style>
+            .footer{
+                background: rgb(34,34,34);
+                padding: 2em 10px;
+            }
+            .footer .footer-left ul{
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+            }
+            .footer .footer-left ul li{
+                display: inline-block;
+                margin-right: 5px;
+            }
+            .footer .footer-left ul li a{
+                width: 57px;
+                height: 56px;
+                display: block;
+            }
+            .footer-right{
+                text-align:right;
+                font-size: 17px;
+            }
+            .footer-right p{
+                margin:0;
+                color:#3282f3;
+            }
+            .footer-right p a{
+                color: #F88B27;
+            }
+
+            .ftwiter{
+                background:url(../images/footer-social-icons.png) no-repeat 0px 0px;
+            }
+            .ftwiter:hover{
+                background:url(../images/footer-social-icons.png) no-repeat 0px -56px;
+                transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
+                -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
+            }
+            .fface{
+                background: url(../images/footer-social-icons.png) no-repeat -70px 0px;
+                -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
+            }
+            .fface:hover{
+                background: url(../images/footer-social-icons.png) no-repeat -70px -56px;
+                transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
+            }
+        </style>
 		<!----//End-footer---->
 		<!---End-wrap----->
         <script src="../js/jquery.min.js"></script>
