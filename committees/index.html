@@ -15,131 +15,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
         <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <!--    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	-->   <style>
-
-            /* NAVBAR */
-            .navbar-default {
-                border-color: transparent;
-                background-color: #212136;
-            }
-
-            .navbar-default .navbar-brand {
-                font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-                color: #F88B27;
-            }
-
-            .navbar-default .navbar-brand:hover,
-            .navbar-default .navbar-brand:focus,
-            .navbar-default .navbar-brand:active,
-            .navbar-default .navbar-brand.active {
-                color: #F88B27;
-            }
-
-            .navbar-default .navbar-collapse {
-                border-color: rgba(255,255,255,.02);
-            }
-
-            .navbar-default .navbar-toggle {
-                border-color: #F88B27;
-                background-color: #F88B27;
-            }
-
-            .navbar-default .navbar-toggle .icon-bar {
-                background-color: #fff;
-            }
-
-            .navbar-default .navbar-toggle:hover,
-            .navbar-default .navbar-toggle:focus {
-                background-color: #F88B27;
-            }
-
-            .navbar-default .nav li a {
-                text-transform: uppercase;
-                font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-                font-weight: 400;
-                letter-spacing: 1px;
-                color: #fff;
-            }
-
-            .navbar-default .nav li a:hover,
-            .navbar-default .nav li a:focus {
-                outline: 0;
-                color: #F88B27;
-            }
-
-            .navbar-default .navbar-nav>.active>a {
-                border-radius: 0;
-                color: #fff;
-                background-color: #F88B27;
-            }
-
-            .navbar-default .navbar-nav>.active>a:hover,
-            .navbar-default .navbar-nav>.active>a:focus {
-                color: #fff;
-                background-color: #F88B27;
+	-->
+        <link href="../css/navbar-custom.css" rel="stylesheet" />
+        <style>
+            html, .content{
+                background-color: #eee;
             }
             .content{
-                margin-top: 51px;
+                margin-top: 100px;
             }
-
-            .navbar-header a img{
-                width: 44px;
-                margin-right: 10px;
-            }
-            .navbar-header a{
-                margin-top:-12px;
-            }
-
-            @media(min-width:768px) {
-                .navbar-header a{
-                    margin-top:-0px;
-                }
-                .navbar-header {
-                    margin-top: -30px;
-                }
-                .navbar-shrink .navbar-header{
-                    margin-top: -18px;
-                }
-                .navbar-header a img{
-                    width:80px;
-                }
-                .navbar-shrink a img{
-                    width:55px;
-                }
+            @media (max-width:990px) {
                 .content{
-                    margin-top:100px;
-                }
-                .navbar-default {
-                    padding: 25px 0;
-                    border: 0;
-                    background-color: #212136;
-                    -webkit-transition: padding .3s;
-                    -moz-transition: padding .3s;
-                    transition: padding .3s;
-                }
-
-                .navbar-default .navbar-brand {
-                    font-size: 2em;
-                    -webkit-transition: all .3s;
-                    -moz-transition: all .3s;
-                    transition: all .3s;
-                }
-
-                .navbar-default .navbar-nav>.active>a {
-                    border-radius: 3px;
-                }
-
-                .navbar-default.navbar-shrink {
-                    padding: 10px 0;
-                    background-color: #222;
-                }
-
-                .navbar-default.navbar-shrink .navbar-brand {
-                    font-size: 1.5em;
+                    margin-top: 60px;
                 }
             }
-
-            /* NAVBAR STYLING END */
+            nav.navbar-default{
+                background: #212136;
+            }
 
             section#EB{
                 background: #212136;
@@ -281,8 +173,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	    </style>
     </head>
 	<body>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -291,7 +183,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="../images/logo3.png" />JECRC MUN</a>
+                <a class="navbar-brand page-scroll" href="#mainlogo">
+                    <img id="mainlogo" src="../img/logo-white-big.png" alt="JECRC MUN 2015 logo" />
+                    JECRC MUN <span style="color:white;">2015</span>
+                    <span id="motto">Better World: Vision &amp; Realization</span>
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -313,23 +209,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        </nav>
+        <!-- /.container-fluid -->
+    </nav>
+
 	    <!---start-content---->
 		<div class="content">
             <section id="comm-sec">
                 <h1 style="color:#334;">COMMITTEES</h1>
-                <div class="comm-div" style="border-top:1px solid #BBB;">
+                <div class="comm-div" id="GADISEC" style="border-top:1px solid #BBB;">
                     <div class="col-md-4">
                         <img class="img-responsive" src="../images/GA.jpg" />
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8" >
                         <h2>GA-DISEC</h2>
                         <span>The First Committee considers all disarmament and international security matters within the scope of the Charter or relating to the powers and functions of any other organ of the United Nations; the general principles of cooperation in the maintenance of international peace and security, as well as principles governing disarmament and the regulation and measures aimed at strengthening stability through lower levels of armaments; promotion of cooperative arrangements and seeks out solutions to the challenges in the international security regime</span>
                         <a href="#C-GADISEC" class="btn btn-primary page-scroll">Executive Board for GA-DISEC</a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                <div class="comm-div">
+                <div class="comm-div" id="UNHRC">
                     <div class="col-md-8">
                         <h2>UN-HRC</h2>
                         <span>The Human Rights Council is an intergovernmental body within the UN system made up of 47 member states responsible for strengthening the promotion and protection of human rights around the globe. The Council was created by the UN General Assembly on March 15, 2006 with the main purpose of addressing situations of human rights violations and make recommendations on them.</span>
@@ -340,7 +238,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                <div class="comm-div">
+                <div class="comm-div" id="NATO">
                     <div class="col-md-4">
                         <img class="img-responsive" src="../images/NATO.jpg" />
                     </div>
@@ -351,7 +249,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                <div class="comm-div">
+                <div class="comm-div" id="IAEA">
                     <div class="col-md-8">
                         <h2>IAEA</h2>
                         <span>The International Atomic Energy Agency (IAEA) is an international organization that seeks to promote nuclear disarmament and peaceful use of nuclear technology. Its programs aim to encourage the development of peaceful applications of nuclear technology, provide international safeguards against the misuse of nuclear technology, and promote nuclear safety and nuclear security standards. The IAEA reports to the United Nations General Assembly and the Security Council.</span>

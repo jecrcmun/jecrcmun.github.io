@@ -9,132 +9,20 @@
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+    <link href="css/navbar-custom.css" rel="stylesheet" type="text/css" />
     <style>
-
-            /* NAVBAR */
-        .navbar-default {
-            border-color: transparent;
-            background-color: #212136;
-        }
-
-        .navbar-default .navbar-brand {
-            font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-            color: #F88B27;
-        }
-
-        .navbar-default .navbar-brand:hover,
-        .navbar-default .navbar-brand:focus,
-        .navbar-default .navbar-brand:active,
-        .navbar-default .navbar-brand.active {
-            color: #F88B27;
-        }
-
-        .navbar-default .navbar-collapse {
-            border-color: rgba(255,255,255,.02);
-        }
-
-        .navbar-default .navbar-toggle {
-            border-color: #F88B27;
-            background-color: #F88B27;
-        }
-
-        .navbar-default .navbar-toggle .icon-bar {
-            background-color: #fff;
-        }
-
-        .navbar-default .navbar-toggle:hover,
-        .navbar-default .navbar-toggle:focus {
-            background-color: #F88B27;
-        }
-
-        .navbar-default .nav li a {
-            text-transform: uppercase;
-            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-            font-weight: 400;
-            letter-spacing: 1px;
-            color: #fff;
-        }
-
-        .navbar-default .nav li a:hover,
-        .navbar-default .nav li a:focus {
-            outline: 0;
-            color: #F88B27;
-        }
-
-        .navbar-default .navbar-nav>.active>a {
-            border-radius: 0;
-            color: #fff;
-            background-color: #F88B27;
-        }
-
-        .navbar-default .navbar-nav>.active>a:hover,
-        .navbar-default .navbar-nav>.active>a:focus {
-            color: #fff;
-            background-color: #F88B27;
-        }
-        .content{
-            margin-top: 51px;
-        }
-
-        .navbar-header a img{
-            width: 44px;
-            margin-right: 10px;
-        }
-        .navbar-header a{
-            margin-top:-12px;
-        }
-
-        @media(min-width:768px) {
-            .navbar-header a{
-                margin-top:-0px;
-            }
-            .navbar-header {
-                margin-top: -30px;
-            }
-            .navbar-shrink .navbar-header{
-                margin-top: -18px;
-            }
-            .navbar-header a img{
-                width:80px;
-            }
-            .navbar-shrink a img{
-                width:55px;
-            }
-            .content{
-                margin-top:100px;
-            }
-            .navbar-default {
-                padding: 25px 0;
-                border: 0;
-                background-color: #212136;
-                -webkit-transition: padding .3s;
-                -moz-transition: padding .3s;
-                transition: padding .3s;
+            header{
+                margin-top: 100px;
             }
 
-            .navbar-default .navbar-brand {
-                font-size: 2em;
-                -webkit-transition: all .3s;
-                -moz-transition: all .3s;
-                transition: all .3s;
+            nav{
+                background: #212136;
+            }
+            footer{
+                border-top: 1px solid #f92;
             }
 
-            .navbar-default .navbar-nav>.active>a {
-                border-radius: 3px;
-            }
-
-            .navbar-default.navbar-shrink {
-                padding: 10px 0;
-                background-color: #222;
-            }
-
-            .navbar-default.navbar-shrink .navbar-brand {
-                font-size: 1.5em;
-            }
-        }
-
-        /* NAVBAR STYLING END */
+            /* NAVBAR STYLING END */
 
     </style>
 </head>
@@ -149,7 +37,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="images/logo3.png" />JECRC MUN</a>
+                <a class="navbar-brand page-scroll" href="#mainlogo">
+                    <img id="mainlogo" src="img/logo-white-big.png" alt="JECRC MUN 2015 logo" />
+                    JECRC MUN <span style="color:white;">2015</span>
+                    <span id="motto">Better World: Vision &amp; Realization</span>
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -159,22 +51,29 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://www.jecrcmun.co.in">Home</a>
+                        <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#comm-sec">Committees</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#EB">Executive Board</a>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
     </nav>
 
 
-    <!-- Header -->
+<!-- Header -->
     <header>
         <div class="container">
             <div class="intro-text">
@@ -198,17 +97,17 @@
 
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <div><img src="images/peek.png"/></div>
+                    <div><img src="img/peek.png"/></div>
                     <h4>Peeking into Cultures</h4>
                     <p>Exploring ethnic diversities and socities that are ever so different from ours always brings revelations. It is in unveiling this human story, we find compassion and feel connected with the rest of humanity.</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <div><img src="images/speak.png"/></div>
+                    <div><img src="img/speak.png"/></div>
                     <h4>Addressing Problems</h4>
                     <p>Part of being a delegate in an MUN often involves looking at the situation inside out, from the perspective of the nations. This requires analyzing the problems faced by the natives and identifying the obstacles development in the region faces.</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <div><img src="images/resolutions.png" alt="" /></div>
+                    <div><img src="img/resolutions.png" alt="" /></div>
                     <h4>Putting Forward Solutions</h4>
                     <p>What follows a Model UN Conference(usually) is a resolution, that details the modus operandi of the solution that has been put forward by the member states.</p>
                 </div>
@@ -237,34 +136,16 @@
             </div>
         </div>
     </section>
-    <styled>
-        section#committees .thumbnail {
-            position:relative;
-            overflow:hidden;
-        }
 
-        .caption {
-            position:absolute;
-            top:0;
-            right:0;
-            background:rgba(90, 90, 90, 0.75);
-            width:100%;
-            height:100%;
-            padding:2%;
-            display: none;
-            text-align: left;
-            color:#fff !important;
-            z-index:2;
-        }
-    </styled>
     <style>
-        .cuadro_intro_hover{
+        .committee-container{
             padding: 0px;
             position: relative;
             overflow: hidden;
             height: 200px;
+            background-color:#cccccc;
         }
-        .cuadro_intro_hover:hover .caption{
+        .committee-container:hover .caption{
             opacity: 1;
             transform: translateY(-150px);
             -webkit-transform:translateY(-150px);
@@ -272,10 +153,20 @@
             -ms-transform:translateY(-150px);
             -o-transform:translateY(-150px);
         }
-        .cuadro_intro_hover img{
+        .committee-container p:first-of-type{
+            text-align:center;
+            /*margin-top:20px;*/
+        }
+        .committee-container img{
             z-index: 4;
         }
-        .cuadro_intro_hover .caption{
+        .committee-container h3{
+            border-top:2px solid white;
+            border-bottom:2px solid white;
+            padding:10px;
+            margin-top: 20px;
+        }
+        .committee-container .caption{
             position: absolute;
             top:150px;
             -webkit-transition:all 0.3s ease-in-out;
@@ -285,14 +176,14 @@
             transition:all 0.3s ease-in-out;
             width: 100%;
         }
-        .cuadro_intro_hover .blur{
+        .committee-container .blur{
             background-color: rgba(0,0,0,0.7);
             height: 300px;
             z-index: 5;
             position: absolute;
             width: 100%;
         }
-        .cuadro_intro_hover .caption-text{
+        .committee-container .caption-text{
             z-index: 10;
             color: #fff;
             position: absolute;
@@ -305,50 +196,62 @@
     <section id="committees">
         <div class="container">
             <div class="row">
-                <h1>Committees</h1>
+                <h1>COMMITTEES</h1>
+                <p class="text-center">There are 4 committees in JECRC Model United Nations. Your participation is awaited.</p>
             </div>
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="thumbnail">
-                        <img src="images/GA.jpg" alt="..." class="">
-                        <div class="caption">
-                            <h4>GA-DISEC</h4>
-                            <p>Global Framework for autonomous</p>
-                            <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
-                            <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a>
-                            </p>
+                <div class="col-lg-6">
+                    <div class="col-lg-offset-0 col-lg-6 col-md-offset-1 col-md-5 col-xs-6">
+                        <div class="committee-container">
+                            <p><img src="img/GA.jpg" class="img-responsive" alt="GA-DISEC"></p>
+                            <div class="caption">
+                                <div class="blur"></div>
+                                <div class="caption-text">
+                                    <h3>GA-DISEC</h3>
+                                    <p>Global Framework For The Use Of Lethal Autonomous Robotics</p>
+                                    <a class="btn btn-default" target="_blank" href="committees/index.html#GADISEC">Agenda</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-5 col-md-offset-1 col-lg-6 col-lg-offset-0 ">
+                        <div class="committee-container">
+                            <p><img src="img/HRC.jpg" class="img-responsive" alt="UNHRC"></p>
+                            <div class="caption">
+                                <div class="blur"></div>
+                                <div class="caption-text">
+                                    <h3>UN-HRC</h3>
+                                    <p>Extremism- Growing Support For The Extreme Right Movement</p>
+                                    <a class="btn btn-default" target="_blank" href="committees/index.html#UNHRC">Agenda</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-3">
-                    <div class="thumbnail">
-                        <img src="images/HRC.jpg" alt="..." class="">
-                        <div class="caption">
-                            <h4>UN-HRC</h4>
-                            <p>Extremism- Growing Support For The Extreme Right Movement</p>
-
-                            <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
-                                <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a>
-                            </p>
+                <div class="col-lg-6">
+                    <div class="col-lg-offset-0 col-lg-6 col-md-offset-1 col-md-5 col-xs-6">
+                        <div class="committee-container">
+                            <p><img src="img/NATO.jpg" class="img-responsive" alt="NATO"></p>
+                            <div class="caption">
+                                <div class="blur"></div>
+                                <div class="caption-text">
+                                    <h3>NATO</h3>
+                                    <p>Crimean & East Ukraine Crisis- Reconsideration Of Russian Federation In The Partnership For Peace Program</p>
+                                    <a class="btn btn-default" target="_blank" href="committees/index.html#NATO" >Agenda</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-
-            </div>
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="cuadro_intro_hover " style="background-color:#cccccc;">
-                        <p style="text-align:center; margin-top:20px;">
-                            <img src="images/HRC.jpg" class="img-responsive" alt="">
-                        </p>
-                        <div class="caption">
-                            <div class="blur"></div>
-                            <div class="caption-text">
-                                <h6 style="border-top:2px solid white; border-bottom:2px solid white; padding:10px;">THIS IS H3</h6>
-                                <p>Loren ipsum dolor si amet ipsum dolor si amet ipsum dolor...</p>
-                                <a class=" btn btn-default" href="#"><span class="glyphicon glyphicon-plus"> INFO</span></a>
+                    <div class="col-xs-6 col-md-5 col-md-offset-1 col-lg-6 col-lg-offset-0 ">
+                        <div class="committee-container">
+                            <p><img src="img/IAEA.jpg" class="img-responsive" alt="IAEA"></p>
+                            <div class="caption">
+                                <div class="blur"></div>
+                                <div class="caption-text">
+                                    <h3>IAEA</h3>
+                                    <p>Improving Global Emergency Preparedness For Nuclear Crisis Situations</p>
+                                    <a class="btn btn-default" target="_blank" href="committees/index.html#IAEA">Agenda</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -359,15 +262,220 @@
             </div>
         </div>
     </section>
+    <section id="apply">
+        <div class="container">
+
+        </div>
+    </section>
+    <section id="secretariat">
+        <div class="container">
+            <div class="row">
+                <h1>SECRETARIAT</h1>
+                <p class="text-center">One of the principal organs of United Nations, the Secretariat promotes the aiding states to collectively maintain international peace and security</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-circle img-responsive img-thumbnail img-eb" src="img/dg.png" />
+                    <h4>Sakshi Chauhan</h4>
+                    <h5>Director General</h5>
+                    <p>&#9990; +91-8955907798</p>
+                    <ul>    <li><a href="https://www.facebook.com/sakshi.chauhan.18" target="_blank" class="sec-social fb"></a></li>
+                            <li><a href="mailto:sakshi.95.chauhan@gmail.com" target="_blank" class="sec-social mail"></a></li>
+                            <li><a href="#" target="_blank" class="sec-social twit"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-circle img-responsive img-thumbnail img-eb" src="img/sg.jpg" />
+                    <h4>Manpreet Kaur</h4>
+                    <h5>Secretary General</h5>
+                    <p>&#9990; +91-9785087734</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/Manpreet0107" target="_blank" class="sec-social fb"></a></li>
+                        <li><a href="mailto:kaur.m0107@gmail.com" target="_blank" class="sec-social mail"></a></li>
+                        <li><a href="https://twitter.com/wordsmith107" target="_blank" class="sec-social twit"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-circle img-responsive img-thumbnail img-eb" src="img/dsg.jpg" />
+                    <h4>Shubham Sharma</h4>
+                    <h5>Deputy Secretary General</h5>
+                    <p>&#9990; +91-9530273190</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=1720435015" target="_blank" class="sec-social fb"></a></li>
+                        <li><a href="mailto:shubham.sharma95@gmail.com" target="_blank" class="sec-social mail"></a></li>
+                        <li><a href="#" target="_blank" class="sec-social twit"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-center">
+                <a href="#teamModal" class="btn btn-primary">View the team</a>
+            </div>
+        </div>
+    </section>
+    <section id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Venue</h3>
+                    <p>Conference will be held at <a id="jecrclink" href="http://jecrcfoundation.com/">Jaipur Engineering College and Research Center</a>, Jaipur.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="venue-map"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/april4.png" class="col-xs-4 col-lg-offset-4"/>
+                    <img src="img/april5.png" class="col-xs-4"/>
+                </div>
+                <div class="col-md-6">
+                    <h3>Schedule</h3>
+                    <p>JECRC Model United Nations will take place on 4th and 5th April, 2015</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id=contact>
+        <div class="container">
+            <div class="row">
+                <h3>CONTACT US!</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="facebook-link row">
+                        <div class="icon">
+                            <a class='facebook-icon social-wrap' href='http://www.facebook.com/jecrcmun' target='_blank'>Facebook</a>
+                        </div>
+                        <div class="icon-desc">
+                            /jecrcmun
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="twitter-link row">
+                        <div class="icon">
+                            <a class='twitter-icon social-wrap' href='http://www.twitter.com/jecrcmun' target='_blank'>Twitter</a>
+                        </div>
+                        <div class="icon-desc">
+                            @jecrcmun
+                        </div>
+                    </div>
+                    <div class="google-p-link row" style="display:none;">
+                        <div class="icon">
+                            <a class='google-p-icon social-wrap' href='http://www.facebook.com/' target='_blank'>g+</a>
+                        </div>
+                        <div class="icon-desc">
+                            FInd us on google+
+                        </div>
+                    </div>
+                    <div class="email-link row">
+                        <div class="icon">
+                            <a class='mail-icon myicon' href='mailto:info@jecrcmun.co.in' target='_blank'>Email id:</a>
+                        </div>
+                        <div class="icon-desc">
+                            info@jecrcmun.co.in
+                        </div>
+                    </div>
+                    <div class="phone-link row">
+                        <div class="icon">
+                            <a class='phone-icon myicon scroll' href="#" target='_blank'>Shubham Sharma</a>
+                        </div>
+                        <div class="icon-desc">
+                            +91-9530273190
+                        </div>
+                    </div>
+                    <div class="address-link row">
+                        <div class="icon">
+                            <a class='address-icon myicon scroll' href='#schedule' target='_blank'>Location</a>
+                        </div>
+                        <div class="icon-desc">
+                            JECRC Campus,
+                            Shri Ram ki Nangal, via Sitapura RIICO,
+                            Tonk Road, Jaipur-302 022
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div id="message-intro">
+                        In case of any query, feel free to drop a message.
+                    </div>
+                    <iframe src="modal.html" name="myiframe" id="myiframe" width=0 height=0 style="display:none;"></iframe>
+                    <form action="http://www.technolovers.in/jecrcmun.php" method="get" class="contact-form" role="form" id="contactform" target="myiframe">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">Name</span>
+                                <input type="text" class="form-control" name="name" placeholder="Name" required />
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">Email</span>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+                            <div class="input-group">
+                                <span class="input-group-addon">Message</span>
+                                <textarea name="msg" class="form-control " rows="4" cols="78" placeholder="Enter your message here" required="true"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="controls" style="margin-left: 5%;">
+                            <input type="submit" id="mybtn"  class="btn btn-primary" value="Send Message" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="wrap" style="width:90%;margin-left:5%;">
+            <div class="footer-left col-md-6">
+                <ul>
+                    <li><a target="_blank" class="ftwiter" href="http://twitter.com/jecrcmun"> </a></li>
+                    <li><a target="_blank" class="fface" href="https://www.facebook.com/jecrcmun"> </a></li>
+                    <li><a class="fhtml" href="#"> </a></li>
+                    <li><a class="fflick" href="#"> </a></li>
+                    <div class="clear"> </div>
+                </ul>
+            </div>
+            <div class="footer-right col-md-6">
+                <p>Developed by <a href="http://vcidst.github.io">Shailendra Paliwal</a></p>
+                <p>Maintained by <a href="http://www.facebook.com/lokeshthepopper">Lokesh Devnani</a></p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
         <style>
-        section#EB{
-            background: #212136;
-            padding:30px 0;
-            padding-bottom:0;
+        .sec-social{
+            width: 32px;
+            height: 32px;
+            margin:5px;
+            display:block;
+            float: left;
         }
-        section#comm-sec{
-            background: #eee;
-            padding:30px 0;
+        .sec-social.fb{
+            background: url(img/facebook-icon.png);
+        }
+        .sec-social.mail{
+            background: url(img/mail-icon.png);
+        }
+        .sec-social.twit{
+             background: url(img/twitter-icon.png);
+         }
+        section#secretariat ul{
+            padding:0;
+            list-style: none;
+            text-align: center;
+        }
+        section#secretariat ul li{
+            display: inline-block;
+        }
+        section#secretariat p{
+            text-align:center;
+            margin-bottom:0;
         }
         h1{
             font-size: 50px;
@@ -417,6 +525,30 @@
             margin-left:20%;
             margin-right: 20%;
             width:60%;
+            padding: 7px;
+
+            background-image: -moz-linear-gradient(top, #50abdf, #1f78aa);
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#50abdf), to(#1f78aa));
+            background-image: -webkit-linear-gradient(top, #50abdf, #1f78aa);
+            background-image: -o-linear-gradient(top, #50abdf, #1f78aa);
+            background-image: linear-gradient(to bottom, #50abdf, #1f78aa);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff50abdf', endColorstr='#ff1f78aa', GradientType=0);
+            background-size: 50% 100%;
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            -webkit-transition: all 0.2s linear;
+            -moz-transition: all 0.2s linear;
+            -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+        }
+        .img-eb:hover{
+            background-position: 100% 50%;
+            transition : background 0.5s;
+        }
+        @media (max-width: 990px) {
+            .img-eb{
+                width:50%;
+            }
         }
         .center-block{
             padding-bottom: 30px;
@@ -500,17 +632,6 @@
     </style>
 
     <style>
-        .container{
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-        header{
-            height: 300px;
-            background: #333;
-        }
-        section#sg-msg{
-            background: #f7f7f7;
-        }
         h1{
             color: #334;
         }
@@ -530,6 +651,36 @@
         section#about .col-md-4{
             padding: 1em 2.5em;
         }
+        .container{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        header{
+            height: 300px;
+            background: #333;
+        }
+        section#EB{
+            background: #212136;
+            padding:30px 0;
+            padding-bottom:0;
+        }
+        section#comm-sec{
+            background: #eee;
+            padding:30px 0;
+        }
+        section#secretariat{
+            background: #212136;
+        }
+        section#secretariat h1{
+            color: #F88B27;
+        }
+        section#secretariat p{
+            color: #A1A67A;
+        }
+        section#sg-msg{
+            background: #f7f7f7;
+        }
+
     </style>
 
             <!-- js includes --->
@@ -539,14 +690,7 @@
     <script src="js/customize.js"></script>
     <script>
         $("[rel='tooltip']").tooltip();
-        $('.thumbnail').hover(
-                function(){
-                    $(this).find('.caption').slideDown(250); //.fadeIn(250)
-                },
-                function(){
-                    $(this).find('.caption').slideUp(250); //.fadeOut(205)
-                }
-        );
+
     </script>
 
 
