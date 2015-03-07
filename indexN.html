@@ -10,6 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link href="css/navbar-custom.css" rel="stylesheet" type="text/css" />
+    <link href="css/customize.css" rel="stylesheet" type="text/css" />
     <style>
             header{
                 margin-top: 100px;
@@ -51,19 +52,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#committees">Committees</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#apply">Apply</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#schedule">Venue</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -136,63 +137,6 @@
             </div>
         </div>
     </section>
-
-    <style>
-        .committee-container{
-            padding: 0px;
-            position: relative;
-            overflow: hidden;
-            height: 200px;
-            background-color:#cccccc;
-        }
-        .committee-container:hover .caption{
-            opacity: 1;
-            transform: translateY(-150px);
-            -webkit-transform:translateY(-150px);
-            -moz-transform:translateY(-150px);
-            -ms-transform:translateY(-150px);
-            -o-transform:translateY(-150px);
-        }
-        .committee-container p:first-of-type{
-            text-align:center;
-            /*margin-top:20px;*/
-        }
-        .committee-container img{
-            z-index: 4;
-        }
-        .committee-container h3{
-            border-top:2px solid white;
-            border-bottom:2px solid white;
-            padding:10px;
-            margin-top: 20px;
-        }
-        .committee-container .caption{
-            position: absolute;
-            top:150px;
-            -webkit-transition:all 0.3s ease-in-out;
-            -moz-transition:all 0.3s ease-in-out;
-            -o-transition:all 0.3s ease-in-out;
-            -ms-transition:all 0.3s ease-in-out;
-            transition:all 0.3s ease-in-out;
-            width: 100%;
-        }
-        .committee-container .blur{
-            background-color: rgba(0,0,0,0.7);
-            height: 300px;
-            z-index: 5;
-            position: absolute;
-            width: 100%;
-        }
-        .committee-container .caption-text{
-            z-index: 10;
-            color: #fff;
-            position: absolute;
-            height: 300px;
-            text-align: center;
-            top:-20px;
-            width: 100%;
-        }
-    </style>
     <section id="committees">
         <div class="container">
             <div class="row">
@@ -338,13 +282,13 @@
     <section id=contact>
         <div class="container">
             <div class="row">
-                <h3>CONTACT US!</h3>
+                <h1>CONTACT US!</h1>
             </div>
             <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 contact-info">
                     <div class="facebook-link row">
                         <div class="icon">
-                            <a class='facebook-icon social-wrap' href='http://www.facebook.com/jecrcmun' target='_blank'>Facebook</a>
+                            <a class='facebook-icon' href='http://www.facebook.com/jecrcmun' target='_blank'>Facebook</a>
                         </div>
                         <div class="icon-desc">
                             /jecrcmun
@@ -353,7 +297,7 @@
                     </div>
                     <div class="twitter-link row">
                         <div class="icon">
-                            <a class='twitter-icon social-wrap' href='http://www.twitter.com/jecrcmun' target='_blank'>Twitter</a>
+                            <a class='twitter-icon' href='http://www.twitter.com/jecrcmun' target='_blank'>Twitter</a>
                         </div>
                         <div class="icon-desc">
                             @jecrcmun
@@ -361,7 +305,7 @@
                     </div>
                     <div class="google-p-link row" style="display:none;">
                         <div class="icon">
-                            <a class='google-p-icon social-wrap' href='http://www.facebook.com/' target='_blank'>g+</a>
+                            <a class='google-p-icon' href='http://www.facebook.com/' target='_blank'>g+</a>
                         </div>
                         <div class="icon-desc">
                             FInd us on google+
@@ -369,7 +313,7 @@
                     </div>
                     <div class="email-link row">
                         <div class="icon">
-                            <a class='mail-icon myicon' href='mailto:info@jecrcmun.co.in' target='_blank'>Email id:</a>
+                            <a class='email-icon' href='mailto:info@jecrcmun.co.in' target='_blank'>Email id:</a>
                         </div>
                         <div class="icon-desc">
                             info@jecrcmun.co.in
@@ -377,7 +321,7 @@
                     </div>
                     <div class="phone-link row">
                         <div class="icon">
-                            <a class='phone-icon myicon scroll' href="#" target='_blank'>Shubham Sharma</a>
+                            <a class='phone-icon page-scroll' href="#" target='_blank'>Shubham Sharma</a>
                         </div>
                         <div class="icon-desc">
                             +91-9530273190
@@ -385,7 +329,7 @@
                     </div>
                     <div class="address-link row">
                         <div class="icon">
-                            <a class='address-icon myicon scroll' href='#schedule' target='_blank'>Location</a>
+                            <a class='address-icon page-scroll' href='#schedule' target='_blank'>Location</a>
                         </div>
                         <div class="icon-desc">
                             JECRC Campus,
@@ -430,6 +374,7 @@
             </div>
         </div>
     </section>
+    <link href="css/contact-custom.css" rel="stylesheet" />
     <div class="footer">
         <div class="wrap" style="width:90%;margin-left:5%;">
             <div class="footer-left col-md-6">
@@ -670,6 +615,13 @@
         }
         section#secretariat{
             background: #212136;
+        }
+        section#contact{
+            background: #212136;
+            font-family: "ROBOTO SLAB","Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        section#contact h1{
+            color: #F88B27;
         }
         section#secretariat h1{
             color: #F88B27;
