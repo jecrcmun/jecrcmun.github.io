@@ -6,6 +6,8 @@
     overflow: hidden;
     height: 200px;
     background-color:#cccccc;
+    border:3px solid white;
+    margin-bottom: 1.5em;
 }
 .committee-container:hover .caption{
     opacity: 1;
@@ -27,6 +29,8 @@
     border-bottom:2px solid white;
     padding:10px;
     margin-top: 20px;
+    color: #F88B27;
+    margin-bottom:5px;
 }
 .committee-container .caption{
     position: absolute;
@@ -37,6 +41,10 @@
     -ms-transition:all 0.3s ease-in-out;
     transition:all 0.3s ease-in-out;
     width: 100%;
+}
+section#committees .committee-container .caption .caption-text p{
+    color: white;
+    padding: 0 1px 0px 1px;
 }
 .committee-container .blur{
     background-color: rgba(0,0,0,0.7);

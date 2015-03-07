@@ -41,6 +41,11 @@
 #contact .contact-info .row .icon a{
     background-size: 40px;
 }
+#contact .contact-info .row .icon a:hover{
+    transform: scale(1.2) rotate(-5deg);
+    -webkit-transform: scale(1.2) rotate(-5deg);
+    -webkit-transition: all 0.4s;-moz-transition: all 0.4s;-ms-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4s;
+}
 
 .contact-form,.contact-form input,.contact-form textarea{
     font-size:17px;

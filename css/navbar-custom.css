@@ -3,6 +3,9 @@
     src: url(Roboto-Black.ttf);
 }
 /* NAVBAR */
+nav{
+    background: #212136;
+}
 
 .navbar-default {
     border-color: transparent;
