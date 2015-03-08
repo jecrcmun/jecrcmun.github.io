@@ -150,3 +150,55 @@ nav{
         width: auto;
     }
 }
+
+/* Navbar ends */
+
+/* footer design starts */
+footer{
+    background: rgb(34,34,34);
+    padding: 2em 10px;
+    border-top: 1px solid #f92;
+}
+footer .footer-left ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+footer .footer-left ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+footer .footer-left ul li a{
+    width: 57px;
+    height: 56px;
+    display: block;
+}
+footer .footer-right{
+    text-align:right;
+    font-size: 17px;
+}
+.footer-right p{
+    margin:0;
+    color:#3282f3;
+    text-align: right;
+}
+.footer-right p a{
+    color: #F88B27;
+}
+.ftwiter{
+    background:url(../img/footer-social-icons.png) no-repeat 0px 0px;
+}
+.ftwiter:hover{
+    background:url(../img/footer-social-icons.png) no-repeat 0px -56px;
+    transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
+    -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
+}
+.fface{
+    background: url(../img/footer-social-icons.png) no-repeat -70px 0px;
+    -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
+}
+.fface:hover{
+    background: url(../img/footer-social-icons.png) no-repeat -70px -56px;
+    transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
+}
+/*footer design ends */

@@ -1,15 +1,3 @@
-contact page:
-address
-email id
-DSG's number(Choco)
-MUN's fb link
-MUN's gmail link
-
-
-
-delegate applications are now open.
-International press applications are opening soon.
-
 
 
 for team members
@@ -20,7 +8,8 @@ onhover- (white,orange); 2 second transition; increase padding of img-thumbnail 
 add link to country matrix.
 Make developer contact modal.
 make carousel
-
+add visitor counter
+fix map marker( jecrc image)
 
 
     <styled>

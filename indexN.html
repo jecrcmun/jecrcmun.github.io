@@ -8,14 +8,23 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/fave-icon.png" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link href="css/navbar-custom.css" rel="stylesheet" type="text/css" />
-    <link href="css/customize.css" rel="stylesheet" type="text/css" />
+    -->
     <style>
-
-            /* NAVBAR STYLING END */
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 400;
+            src: url(css/RobotoSlab-Regular.ttf);
+            src: url(css/RobotoSlab-Regular.ttf);
+        }
 
     </style>
+
+    <link href="css/navbar-custom.css" rel="stylesheet" type="text/css" />
+    <link href="css/customize.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
 
@@ -63,7 +72,6 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-<!-- Header -->
     <header>
         <div class="container">
             <div class="intro-text">
@@ -83,17 +91,17 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center flytoRight">
                     <div><img src="img/peek.png"/></div>
                     <h4>Peeking into Cultures</h4>
                     <p>Exploring ethnic diversities and socities that are ever so different from ours always brings revelations. It is in unveiling this human story, we find compassion and feel connected with the rest of humanity.</p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center flytoTop">
                     <div><img src="img/speak.png"/></div>
                     <h4>Addressing Problems</h4>
                     <p>Part of being a delegate in an MUN often involves looking at the situation inside out, from the perspective of the nations. This requires analyzing the problems faced by the natives and identifying the obstacles development in the region faces.</p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center flytoLeft">
                     <div><img src="img/resolutions.png" alt="" /></div>
                     <h4>Putting Forward Solutions</h4>
                     <p>What follows a Model UN Conference(usually) is a resolution, that details the modus operandi of the solution that has been put forward by the member states.</p>
@@ -130,8 +138,8 @@
                 <p class="text-center">There are 4 committees in JECRC Model United Nations. Your participation is awaited.</p>
             </div>
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="col-lg-offset-0 col-lg-6 col-md-offset-1 col-md-5 col-xs-6">
+                <div class="col-lg-6 flytoTop">
+                    <div class="col-lg-offset-0 col-lg-6 col-md-offset-1 col-md-5 col-sm-6">
                         <div class="committee-container">
                             <p><img src="img/GA.jpg" class="img-responsive" alt="GA-DISEC"></p>
                             <div class="caption">
@@ -144,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-md-5 col-md-offset-1 col-lg-6 col-lg-offset-0 ">
+                    <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-6 col-lg-offset-0 ">
                         <div class="committee-container">
                             <p><img src="img/HRC.jpg" class="img-responsive" alt="UNHRC"></p>
                             <div class="caption">
@@ -158,8 +166,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="col-lg-offset-0 col-lg-6 col-md-offset-1 col-md-5 col-xs-6">
+                <div class="col-lg-6 flytoTop">
+                    <div class="col-lg-offset-0 col-lg-6 col-md-offset-1 col-md-5 col-sm-6">
                         <div class="committee-container">
                             <p><img src="img/NATO.jpg" class="img-responsive" alt="NATO"></p>
                             <div class="caption">
@@ -172,7 +180,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-md-5 col-md-offset-1 col-lg-6 col-lg-offset-0 ">
+                    <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-6 col-lg-offset-0 ">
                         <div class="committee-container">
                             <p><img src="img/IAEA.jpg" class="img-responsive" alt="IAEA"></p>
                             <div class="caption">
@@ -188,7 +196,8 @@
                 </div>
             </div>
             <div class="row text-center">
-                <a href="committees/index.html" class="btn btn-primary">See the Executive Board</a>
+                <a href="committees/index.html" class="btn btn-success col-md-offset-1 col-md-4" target="_blank">See the Executive Board</a>
+                <a href="CountryMatrix_.pdf" class="btn btn-success col-md-offset-2 col-md-4" target="_blank">View Country Matrix</a>
             </div>
         </div>
     </section>
@@ -200,15 +209,15 @@
                 <p class="text-center">International Press Applications are now open.</p>
             </div>
             <div class="row">
-                <div class="col-md-6 text-center" style="margin-bottom: 1.5em;">
+                <div class="col-md-6 text-center flytoLeft" style="margin-bottom: 1.5em;">
                     <img src="img/delegate.png" style="height:175px;"/>
                     <p><em>Delegate Application Fee:</em> &#8377; 900 <br><em>Accomodation Fee:</em> &#8377; 600</p>
-                    <a href="Delegate.html" class="btn btn-success btn-block">Click here to apply as a Delegate</a>
+                    <a href="Delegate.html" class="btn btn-success btn-block shakeButton" target="_blank">Click here to apply as a Delegate</a>
                 </div>
-                <div class="col-md-6 text-center" style="margin-bottom: 1.5em;">
+                <div class="col-md-6 text-center flytoRight" style="margin-bottom: 1.5em;">
                     <img src="img/ipapplications.png" style="height:175px;"/>
                     <p> <br><em>Journalist Fee:</em> &#8377; 500 <br></p>
-                    <a href="IPapplications.html" class="btn btn-success btn-block">Click here for International Press Applications</a>
+                    <a href="IPapplications.html" class="btn btn-success btn-block shakeButton" target="_blank">Click here for International Press Applications</a>
                 </div>
             </div>
             <div class="row"></div>
@@ -222,7 +231,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <img class="img-circle img-responsive img-thumbnail img-eb" src="img/dg.png" />
+                    <img class="img-circle img-responsive img-thumbnail img-eb flytoLeft" src="img/dg.png" />
                     <h4>Sakshi Chauhan</h4>
                     <h5>Director General</h5>
                     <p>&#9990; +91-8955907798</p>
@@ -231,7 +240,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <img class="img-circle img-responsive img-thumbnail img-eb" src="img/sg.jpg" />
+                    <img class="img-circle img-responsive img-thumbnail img-eb flytoTop" src="img/sg.jpg" />
                     <h4>Manpreet Kaur</h4>
                     <h5>Secretary General</h5>
                     <p>&#9990; +91-9785087734</p>
@@ -242,7 +251,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <img class="img-circle img-responsive img-thumbnail img-eb" src="img/dsg.jpg" />
+                    <img class="img-circle img-responsive img-thumbnail img-eb flytoRight" src="img/dsg.jpg" />
                     <h4>Shubham Sharma</h4>
                     <h5>Deputy Secretary General</h5>
                     <p>&#9990; +91-9530273190</p>
@@ -253,7 +262,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <a href="#teamModal" class="btn btn-primary">View the team</a>
+                <a href="#teamModal" class="btn btn-success col-md-offset-4 col-md-4">View the team</a>
             </div>
         </div>
     </section>
@@ -322,7 +331,7 @@
                     </div>
                     <div class="phone-link row">
                         <div class="icon">
-                            <a class='phone-icon page-scroll' href="#" target='_blank'>Shubham Sharma</a>
+                            <a class='phone-icon page-scroll' href="#secretariat">Shubham Sharma</a>
                         </div>
                         <div class="icon-desc">
                             +91-9530273190
@@ -330,7 +339,7 @@
                     </div>
                     <div class="address-link row">
                         <div class="icon">
-                            <a class='address-icon page-scroll' href='#schedule' target='_blank'>Location</a>
+                            <a class='address-icon page-scroll' href='#schedule'>Location</a>
                         </div>
                         <div class="icon-desc">
                             JECRC Campus,
@@ -343,7 +352,7 @@
                     <div id="message-intro">
                         In case of any query, feel free to drop a message.
                     </div>
-                    <iframe src="modal.html" name="myiframe" id="myiframe" width=0 height=0 style="display:none;"></iframe>
+                    <iframe src="" name="myiframe" id="myiframe" width=0 height=0 style="display:none;"></iframe>
                     <form action="http://www.technolovers.in/jecrcmun.php" method="get" class="contact-form" role="form" id="contactform" target="myiframe">
                         <div class="form-group">
                             <div class="input-group">
@@ -376,7 +385,7 @@
         </div>
     </section>
     <link href="css/contact-custom.css" rel="stylesheet" />
-    <div class="footer">
+    <footer>
         <div class="wrap" style="width:90%;margin-left:5%;">
             <div class="footer-left col-md-6">
                 <ul>
@@ -393,135 +402,8 @@
             </div>
             <div class="clearfix"></div>
         </div>
-    </div>
+    </footer>
         <style>
-        section#secretariat ul{
-                padding:0;
-                list-style: none;
-                text-align: center;
-        }
-        section#secretariat ul li{
-                display: inline-block;
-        }
-        .sec-social{
-            width: 32px;
-            height: 32px;
-            margin:5px;
-            display:block;
-            float: left;
-        }
-        .sec-social.fb{ background: url(img/facebook-icon.png); }
-        .sec-social.mail{ background: url(img/mail-icon.png);   }
-        .sec-social.twit{ background: url(img/twitter-icon.png); }
-
-        section#secretariat p{
-            text-align:center;
-            margin-bottom:0;
-        }
-
-
-
-        section{
-            padding: 35px 0;
-        }
-        section .container div.row:first-of-type{
-            margin-bottom: 40px;
-        }
-        p{
-            text-align:justify;
-            font-size: 16px;
-            font-family: "Roboto Slab";
-        }
-        section .row{
-            margin-top: 2em;
-            margin-bottom: 2em;
-        }
-        .container{
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-        hr{
-            margin:0 auto;
-            width:80%;
-            border-color: #9999AA;
-            margin-top:5px;
-        }
-        h1{
-            font-size: 50px;
-            display: block;
-            color: #F88B27;
-            font-weight: bold;
-            text-align: center;
-            margin: 0;
-            padding-top: 15px;
-        }
-        h2{
-            color:#F88B27;
-            text-align:center;
-            font-weight:bold;
-            font-size:38px;
-            margin-bottom:5px;
-        }
-        h3{
-            margin-top:0;
-            color:#A1A67A;
-            text-align:center;
-            font-weight:normal;
-            font-size:25px;
-            margin-bottom:20px;
-        }
-        h4{
-            text-align:center;
-            font-weight:normal;
-            font-size:22px;
-            margin-bottom:5px;
-            color: #31708f;
-            font-weight: bold;
-        }
-        h5{
-            color:#FFFFFF;
-            margin-top:0;
-            text-align:center;
-            font-weight:normal;
-            font-size:15px;
-        }
-
-
-
-
-        .img-eb{
-            margin-left:20%;
-            margin-right: 20%;
-            width:60%;
-            padding: 7px;
-
-            background-image: -moz-linear-gradient(top, #50abdf, #1f78aa);
-            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#50abdf), to(#1f78aa));
-            background-image: -webkit-linear-gradient(top, #50abdf, #1f78aa);
-            background-image: -o-linear-gradient(top, #50abdf, #1f78aa);
-            background-image: linear-gradient(to bottom, #50abdf, #1f78aa);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff50abdf', endColorstr='#ff1f78aa', GradientType=0);
-            background-size: 50% 100%;
-            background-position: 0 0;
-            background-repeat: no-repeat;
-            -webkit-transition: all 0.2s linear;
-            -moz-transition: all 0.2s linear;
-            -o-transition: all 0.2s linear;
-            transition: all 0.2s linear;
-        }
-        .img-eb:hover{
-            background-position: 100% 50%;
-            transition : background 0.5s;
-        }
-        @media (max-width: 990px) {
-            .img-eb{
-                width:50%;
-                margin-left: 25%;
-            }
-        }
-
-
-
         .center-block{
             padding-bottom: 30px;
             border-bottom:1px solid #999;
@@ -555,215 +437,26 @@
             margin-top: 20px;
             margin-bottom: 20px;
         }
-        .footer{
-            background: rgb(34,34,34);
-            padding: 2em 10px;
-        }
-        .footer .footer-left ul{
-            list-style: none;
-            margin: 0px;
-            padding: 0px;
-        }
-        .footer .footer-left ul li{
-            display: inline-block;
-            margin-right: 5px;
-        }
-        .footer .footer-left ul li a{
-            width: 57px;
-            height: 56px;
-            display: block;
-        }
-        .footer-right{
-            text-align:right;
-            font-size: 17px;
-        }
-        .footer-right p{
-            margin:0;
-            color:#3282f3;
-        }
-        .footer-right p a{
-            color: #F88B27;
-        }
-
-        .ftwiter{
-            background:url(img/footer-social-icons.png) no-repeat 0px 0px;
-        }
-        .ftwiter:hover{
-            background:url(img/footer-social-icons.png) no-repeat 0px -56px;
-            transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
-            -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
-        }
-        .fface{
-            background: url(img/footer-social-icons.png) no-repeat -70px 0px;
-            -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
-        }
-        .fface:hover{
-            background: url(img/footer-social-icons.png) no-repeat -70px -56px;
-            transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
-        }
-    </style>
-
-    <style>
-        footer{
-            border-top: 1px solid #f92;
-        }
-        header{
-            height: 500px;
-            padding-top:100px;
-            background: #212136;
-        }
-        section#about .col-md-4{
-            padding: 1em 2.5em;
-        }
-        section#EB{
-            background: #212136;
-            padding-bottom:0;
-        }
-        section#comm-sec{
-            background: #eee;
-        }
-        section#secretariat{
-            background: #212136;
-        }
-        section#contact{
-            background: #212136;
-            font-family: "ROBOTO SLAB","Helvetica Neue", Helvetica, Arial, sans-serif;
-        }
-        section#committees{
-            background: #212136;
-        }
-        section#about h1,section#sg-msg h1{
-            color:  #334;
-        }
-        section#committees p , section#secretariat p{
-            color: #A1A67A;
-        }
-        section#schedule .row{
-            padding: 40px 5px;
-            margin-top:0;
-            margin-bottom: 0;
-        }
-        section#schedule #venue-map{
-            background-color:#234;
-        }
-        section#schedule p{
-            font-size: 20px;
-        }
-        section#schedule .schedule-dates{
-            margin-top: 20px;
-            max-width:100px;
-        }
-        section#sg-msg{
-            background: #f7f7f7;
-        }
-
-        section#apply{
-            background: white;
-        }
-        section#apply img{
-           margin-bottom: 10px;
-        }
-        section#apply p{
-            text-align: center;
-        }
-        .h-hidden{
-            opacity:0;
-        }
-        .h-visible{
-            opacity: 1;
-        }
 
     </style>
 
             <!-- js includes --->
-    <link href="css/animate.css" rel="stylesheet" />
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/customize.js"></script>
-    <style>
-        .flytoTop{
-            opacity: 0;
-            transition: all 600ms ease-in-out;
-            transform: translateY(100px) scale(1.05) translate3d(0, 0, 0);
-        }
-        .flytoRight,.col-md-4 {
-            opacity: 0;
-            transition: all 600ms ease-in-out;
-            transform: translateX(-100px) translateY(20px) scale(1.05) translate3d(0, 0, 0);
-        }
-        .flytoLeft{
-            opacity: 0;
-            transition: all 600ms ease-in-out;
-            transform: translateX(-100px) translateY(20px) scale(1.05) translate3d(0, 0, 0);
-        }
-        .shakeButton{
-            animation: shake 0.6s ease-in-out;
-            -webkit-animation: none;
-        }
-        .shakeEffect{
-            opacity: 1;
-            animation: shake 0.6s ease-in-out;
-            -webkit-animation: shake 0.6s ease-in-out;
-        }
-
-        .show-block {
-            opacity: 1;
-            transform: translateX(0) translateY(0) scale(1) translate3d(0, 0, 0);
-        }
-        @keyframes shake {
-            0% {
-                transform: translateX(0);
-            }
-
-            20% {
-                transform: translateX(-10px);
-            }
-
-            40% {
-                transform: translateX(10px);
-            }
-
-            60% {
-                transform: translateX(-10px);
-            }
-
-            80% {
-                transform: translateX(10px);
-            }
-
-            100% {
-                transform: translateX(0);
-            }
-        }
-        @-webkit-keyframes shake {
-            0% {
-                transform: translateX(0);
-            }
-
-            20% {
-                transform: translateX(-10px);
-            }
-
-            40% {
-                transform: translateX(10px);
-            }
-
-            60% {
-                transform: translateX(-10px);
-            }
-
-            80% {
-                transform: translateX(10px);
-            }
-
-            100% {
-                transform: translateX(0);
-            }
-        }
-    </style>
     <script>
+        $(document).ready(function(){
+            $("a#jecrclink").tooltip({
+                html:true,
+                title:"<img src='img/college.jpg' style='width:30em;' />",
+                placement:'right',
+                animation:true,
+                container:'body'
+            });
+        });
         var timer = 0;
         function recheck() {
             var window_top = $(this).scrollTop();
@@ -775,7 +468,7 @@
                 clearTimeout( timer );
             }
 
-            $('.flytoTop,.flytoLeft,.flytoRight,.shakeButton, .col-md-4').each(function(){
+            $('.flytoTop,.flytoLeft,.flytoRight,.shakeButton').each(function(){
                 var block = $(this);
                 var block_top = block.offset().top;
                 var block_height = block.height();
@@ -796,7 +489,6 @@
                 }
             });
         }
-
         $(function(){
             $(window).scroll(function(){
                 recheck();
@@ -822,7 +514,7 @@
                 title:"JECRC"
             });
             var infowindow = new google.maps.InfoWindow({
-                content: "<img src='images/college.jpg' style='width:15em;border: 2px solid black;' />",
+                content: "<img src='img/college.jpg' style='width:15em;border: 2px solid black;' />",
                 disableAutoPan:true,
                 maxWidth:120
             });
@@ -835,30 +527,6 @@
             });
         }
         google.maps.event.addDomListener(window, 'load', initialize);
-
-        $("#jecrclink").tooltip({
-            html:true,
-            title:"<img src='images/college.jpg' style='width:30em;' />",
-            //title:'hello',
-            placement:'right',
-            animation:true,
-            container:'body',
-            trigger:'manual'
-
-        }).on('mouseover', function() {
-            $(this).tooltip('show');
-        }).on('mouseout', function() {
-            $(this).tooltip('destroy');
-            $(this).tooltip({
-                html:true,
-                title:"<img src='images/college.jpg' style='width:30em;' />",
-                placement:'right',
-                animation:true,
-                container:'body',
-                trigger:'manual'
-
-            });
-        });
 
     </script>
 
