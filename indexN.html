@@ -74,10 +74,8 @@
     </nav>
     <header>
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+
+                <a id=mylink2 class="btn btn-primary btn-lg" data-toggle="modal" data-target="#lokeshModal">Hello</a>
             </div>
         </div>
     </header>
@@ -126,7 +124,7 @@
                     <strong>Manpreet Kaur</strong><br/>
                     <em style="font-size:14px;">Secretary General</em>
                 </p>
-                <a href="#dialog" class="modalLink">Click here</a> for my team.<br><br>
+                <a href="#" class="modalLink" data-toggle="modal" data-target="#modaldiv" >Click here</a> for my team.<br><br>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -231,7 +229,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <img class="img-circle img-responsive img-thumbnail img-eb flytoLeft" src="img/dg.png" />
+                    <img class="img-circle img-responsive img-thumbnail img-eb flytoLeft" src="img/dg.jpg" />
                     <h4>Sakshi Chauhan</h4>
                     <h5>Director General</h5>
                     <p>&#9990; +91-8955907798</p>
@@ -262,7 +260,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <a href="#teamModal" class="btn btn-success col-md-offset-4 col-md-4">View the team</a>
+                <a href="#teamModal" data-toggle="modal" data-target="#modaldiv" class="btn btn-success col-md-offset-4 col-md-4">View the team</a>
             </div>
         </div>
     </section>
@@ -392,55 +390,18 @@
                     <li><a target="_blank" class="ftwiter" href="http://twitter.com/jecrcmun"> </a></li>
                     <li><a target="_blank" class="fface" href="https://www.facebook.com/jecrcmun"> </a></li>
                     <li><a class="fhtml" href="#"> </a></li>
-                    <li><a class="fflick" href="#"> </a></li>
                     <div class="clear"> </div>
                 </ul>
             </div>
             <div class="footer-right col-md-6">
                 <p>Developed by <a href="http://vcidst.github.io">Shailendra Paliwal</a></p>
-                <p>Maintained by <a href="http://www.facebook.com/lokeshthepopper">Lokesh Devnani</a></p>
+                <p>Maintained by <a data-toggle="modal" data-target="#lokeshModal" href="#">Lokesh Devnani</a></p>
             </div>
             <div class="clearfix"></div>
         </div>
     </footer>
-        <style>
-        .center-block{
-            padding-bottom: 30px;
-            border-bottom:1px solid #999;
-        }
-        .EBdivs{
-            padding-top:20px;
-        }
-        .comm-div{
-            margin-left:5%;
-            padding-top: 30px;
-            padding-bottom: 15px;
-            width:90%;
-            text-align: justify;
-            border-bottom:1px solid #269abc;
-        }
-        .comm-div h2{
-            margin-top:0;
-        }
-        .comm-div img{
-            margin-top:5px;
-        }
-        .comm-div span{
-            color: #555;
-            font-size:21px;
-        }
-        .comm-div a.btn{
-            display:block;
-            margin-left:auto;
-            margin-right:auto;
-            font-size:18px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
 
-    </style>
-
-            <!-- js includes --->
+    <!-- js includes --->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -528,8 +489,240 @@
         }
         google.maps.event.addDomListener(window, 'load', initialize);
 
-    </script>
 
+    $(document).ready(function(){
+       // $("modaldiv").modal();
+    });
+
+    </script>
+    <div class="modal fade" id="modaldiv" data-backdrop="true" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Team</h4>
+                </div>
+                <div class="modal-body OClist">
+                    <div>
+                        USG Delegate Affairs:
+                        <ul>
+                            <li>Divyanshi Sharma <span style="color:#999"> (+919549634423)</span></li>
+                            <li>Chaitanaya Sethi <span style="color:#999"> (+918890860033)</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        USG Outreach:
+                        <ul>
+                            <li>Mukul Mathur</li>
+                            <li>Jayesh Vanjani</li>
+                            <li>Harshita Jain</li>
+                            <li>Harsh Yadav</li>
+                        </ul>
+                    </div>
+                    <div>
+                        USG Logistics:
+                        <ul>
+                            <li>Shubham Sharma</li>
+                            <li>Shivansh Ahuja</li>
+                        </ul>
+                    </div>
+                    <div>
+                        USG Technical &amp; Design:
+                        <ul>
+                            <li>Anukriti Vijayavargia</li>
+                            <li>Komal Singh Pahwa</li>
+                            <li>Lokesh Devnani</li>
+                        </ul>
+                    </div>
+                    <div>
+                        USG Finance:
+                        <ul>
+                            <li>Vijit Nagpal</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+    <div class="modal fade" id="lokeshModal" data-backdrop="true" tabindex="-1" role="dialog" aria-labelledby="lokeshModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="upper-intro">
+                        <div class="myintro">
+                            <h3>Lokesh Devnani</h3>
+                            <p>Web-Developer | Dancer | Engg. Student | TechFreak | CodeLover | Dreamer | MusicLover</p>
+                        </div>
+                        <div class="mypic">
+                            <div class="infos">
+                                <a href="http://twitter.com/lokeshthegenius" class="sprite twitter">@lokeshthegenius</a>
+                                <a href="http://www.facebook.com/lokeshthepopper" class="sprite facebook">lokeshthepopper</a>
+                                <a href="http://github.com/lokesh" class="sprite github">@lokesh</a>
+                            </div>
+                            <img class="img-responsive im" src="img/lokesh.jpg" />
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p style="padding-bottom:0;">lokeshthegenius@gmail.com</p>
+                    <p>+91-8946936804</p>
+                </div>
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+
+    <style>
+        /* Modal styling */
+        @media (min-width: 500px){
+            .modal-dialog {
+                width: 350px;
+                margin: 10px auto;
+            }
+        }
+        @media (min-width: 768px){
+            .modal-dialog {
+                width: 400px;
+                margin: 30px auto;
+            }
+        }
+        .modal-content{
+            font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+            overflow: hidden;
+        }
+        .modal-header{
+            background: #212136;
+        }
+        .modal-body , .modal-footer{
+            background: #f7f7f7;
+        }
+        #modaldiv .modal-footer{
+            border-top: none;
+            padding-top: 0;
+        }
+        .modal-header h4{
+            color: #F88B27;
+        }
+        .modal-header .close{
+            color: red;
+        }
+        .OClist div{
+            font-weight: bold;
+            color: #F88B27;
+        }
+        .OClist div li{
+            font-weight: normal;
+            color: #212136;
+        }
+
+        #lokeshModal .modal-dialog{
+            width: 400px;
+        }
+        #lokeshModal .modal-content{
+            overflow: visible;
+        }
+        #lokeshModal .modal-body{
+            padding:0;
+        }
+        #lokeshModal .upper-intro{
+            background: rgba(0,0,0,0.8);
+        }
+
+        #lokeshModal .upper-intro .myintro{
+            width: 65%;
+            padding: 2%;
+            color: #A96;
+            float: left;
+        }
+        #lokeshModal .upper-intro .myintro h3{
+            color: #FFF;
+            font-weight: bold;
+        }
+        #lokeshModal .upper-intro .mypic{
+            width: 35%;
+            float: left;
+            position: relative;
+        }
+        #lokeshModal .upper-intro .mypic .infos{
+            position:absolute;
+            height: 75%;
+            right: -10px;
+        }
+        .infos a {
+            -webkit-border-radius: 17px;
+            -moz-border-radius: 17px;
+            -ms-border-radius: 17px;
+            -o-border-radius: 17px;
+            border-radius: 17px;
+            -webkit-box-shadow: -1px 1px 0 1px rgba(90, 81, 15, 0.2);
+            -moz-box-shadow: -1px 1px 0 1px rgba(90, 81, 15, 0.2);
+            box-shadow: -1px 1px 0 1px rgba(90, 81, 15, 0.2);
+            position: absolute;
+            width: 20px;
+            height: 22px;
+            background-color: #d5d2a8;
+            color: #fff;
+            text-decoration: none;
+            text-indent: -10000px;
+            font-size: 12px;
+            left: inherit;
+            right: -1%;
+        }
+
+        .infos a:hover {
+            padding: 2px 10px 0 18px;
+            width: auto;
+            border: none;
+            text-indent: 0;
+            opacity: 0.95; }
+
+        .sprite {
+            background: url("https://docs.google.com/uc?export=download&id=0B3VygIVAuRCQRzF1d0RyWHFFRU0") no-repeat;
+            background-size: 23px; }
+
+        .twitter {
+            background-position: -1px 5px;
+            top: 16%;
+            left: -5%; }
+
+        .twitter:hover { background-color: #2094dd !important; }
+
+        .facebook {
+            background-position: -2px -27px;
+            top: 42%;
+            left: -10%; }
+
+        .facebook:hover { background-color: #3b5998 !important; }
+
+        .github {
+            background-position: -2px -10px;
+            bottom: 17%;
+            left: -1%; }
+
+        .github:hover { background-color: #444 !important; }
+
+        #lokeshModal .modal-footer{
+            background: #212136;
+        }
+        #lokeshModal .modal-footer p{
+            text-align:center;
+            padding: 5px 2px;
+            margin: 0;
+            color: #A96;
+        }
+        #lokeshModal .modal-footer{
+            padding: 0;
+        }
+        #lokeshModal .close{
+            margin-top: -10px;
+        }
+    </style>
 
 
 
