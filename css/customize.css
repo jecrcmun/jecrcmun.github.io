@@ -318,6 +318,7 @@ section#secretariat p{
 }
 
 /* animations and effects */
+/*
 .flytoTop{
     opacity: 0;
     transition: all 600ms ease-in-out;
@@ -344,7 +345,7 @@ section#secretariat p{
     animation: shake 0.6s ease-in-out;
     -webkit-animation: shake 0.6s ease-in-out;
 }
-
+*/
 .show-block {
     opacity: 1;
     transform: translateX(0) translateY(0) scale(1) translate3d(0, 0, 0);
