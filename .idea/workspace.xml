@@ -2,110 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\OCmembers.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\apply.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\apply\index2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\committees\images\cstdchair.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\committees\images\cstdrapp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\committees\images\cstdvicechair.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\committees\images\hrcchair.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\committees\images\hrcrapp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\committees\images\hrcvicechair.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\committees\images\undpcochair.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\committees\images\undpcochair1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\committees\images\undprapp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\committees\index2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\css\cust.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\css\custom" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\css\ihover.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\css\magnific-popup.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\css\map.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\css\screen.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\css\simptip-mini.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\extra\dropdown_pure_css.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\fonts\OpenSans-Regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\fonts\OpenSans-Regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\fonts\OpenSans-Regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\fonts\OpenSans-Regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\fonts\Trump_Town_Pro-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\fonts\Trump_Town_Pro-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\fonts\Trump_Town_Pro-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\fonts\Trump_Town_Pro-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\GA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\HRC.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\IAEA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\NATO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\blog-pic1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\college.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\comingsoon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\cstd.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\cstd2013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\depsecgen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\dirgen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\euthanasia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\fave-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\footer-social-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\footer-social-icons0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\future.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\header-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\hrc2013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\logo-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\logo3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\logo4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\mailicon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\main1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\main2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\mainicon2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\manpreet.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\mapmarker.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\markericon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\mdgoals.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\meet-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\message-sg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\move-top.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\pattern.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\peek.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\phone-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\phoneicon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\phoneicon2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\portfolio-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\post-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\resolutions.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\sakshi.PNG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\secgen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\shattered.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\shubham.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\slider-pagenate.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\slider-pic3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\slider-pic4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\slider-pic5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\social-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\speak.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\time.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images\undp.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\img\GA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\img\HRC.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\img\IAEA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\img\NATO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\index - Copy.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\indexN.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\js\fliplightbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\js\jquery.ajax-cross-origin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\js\jquery.magnific-popup.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\js\jquery.mixitup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\js\move-top.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\mainlogo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\modal.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Delegate.html" afterPath="$PROJECT_DIR$/Delegate.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IPapplications.html" afterPath="$PROJECT_DIR$/IPapplications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/customize.css" afterPath="$PROJECT_DIR$/css/customize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/committees/index.html" afterPath="$PROJECT_DIR$/committees/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/navbar-custom.css" afterPath="$PROJECT_DIR$/css/navbar-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jecrcmun.github.io-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Delegate.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Delegate.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Delegate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="21" selection-start="2742" selection-end="2951" vertical-scroll-proportion="-12.655172" vertical-offset="1153" max-vertical-offset="1900">
+            <state line="71" column="16" selection-start="2742" selection-end="2742" vertical-scroll-proportion="0.47089946" vertical-offset="1153" max-vertical-offset="1840">
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
@@ -152,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IPapplications.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IPapplications.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IPapplications.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="20" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.21164021" vertical-offset="1060" max-vertical-offset="1720">
+            <state line="60" column="16" selection-start="2545" selection-end="2545" vertical-scroll-proportion="-4.827586" vertical-offset="1060" max-vertical-offset="1660">
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
@@ -256,8 +154,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/committees/index.html" />
         <option value="$PROJECT_DIR$/IPapplications2.html" />
-        <option value="$PROJECT_DIR$/Delegate.html" />
         <option value="$PROJECT_DIR$/IPapplications.html" />
+        <option value="$PROJECT_DIR$/Delegate.html" />
       </list>
     </option>
   </component>
@@ -405,7 +303,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -747,27 +645,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Delegate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="21" selection-start="2742" selection-end="2951" vertical-scroll-proportion="-12.655172" vertical-offset="1153" max-vertical-offset="1900">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IPapplications.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="20" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.21164021" vertical-offset="1060" max-vertical-offset="1720">
+        <state line="60" column="16" selection-start="2545" selection-end="2545" vertical-scroll-proportion="-4.827586" vertical-offset="1060" max-vertical-offset="1660">
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Delegate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="16" selection-start="2742" selection-end="2742" vertical-scroll-proportion="0.47089946" vertical-offset="1153" max-vertical-offset="1840">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
