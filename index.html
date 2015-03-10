@@ -484,7 +484,7 @@
                         if(block.hasClass('shakeButton'))
                             block.removeClass('shakeEffect');
 
-                    },100);
+                    },250);
                 }
             });
         }
@@ -492,9 +492,7 @@
             $(window).scroll(function(){
                 recheck();
             });
-            $(window).resize(function(){
-                recheck();
-            });
+
             recheck();
         });
 
