@@ -252,12 +252,12 @@
                 <div class="col-md-6 text-center flytoLeft" style="margin-bottom: 1.5em;">
                     <img src="img/delegate.png" style="height:175px;"/>
                     <p><em>Delegate Application Fee:</em> &#8377; 900 <br><em>Accomodation Fee:</em> &#8377; 600</p>
-                    <a href="Delegate.html" class="btn btn-success btn-block shakeButton" target="_blank">Click here to apply as a Delegate</a>
+                    <a href="Delegate.html" class="btn btn-success btn-block" target="_blank">Click here to apply as a Delegate</a>
                 </div>
                 <div class="col-md-6 text-center flytoRight" style="margin-bottom: 1.5em;">
                     <img src="img/ipapplications.png" style="height:175px;"/>
                     <p> <br><em>Journalist Fee:</em> &#8377; 500 <br></p>
-                    <a href="IPapplications.html" class="btn btn-success btn-block shakeButton" target="_blank">Click here for International Press Applications</a>
+                    <a href="IPapplications.html" class="btn btn-success btn-block" target="_blank">Click here for International Press Applications</a>
                 </div>
             </div>
             <div class="row"></div>
@@ -446,6 +446,8 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/customize.js"></script>
+    <link href="css/animate.css" rel="stylesheet" />
+    <script src="js/waypoints.min.js"></script>
     <script>
         $(document).ready(function(){
             $("a#jecrclink").tooltip({
@@ -455,6 +457,37 @@
                 animation:true,
                 container:'body'
             });
+        });
+
+        $(document).ready(function() {
+
+            $('.flytoLeft').waypoint(function() {
+                $(this).addClass('animated slideInLeft');
+            }, {
+                offset: '90%'
+            });
+            $('.flytoRight').waypoint(function() {
+                $(this).addClass('animated slideInRight');
+            }, {
+                offset: '92%'
+            });
+
+            $('.flytoTop').waypoint(function() {
+                $(this).addClass('animated fadeInDown');
+            }, {
+                offset: '75%'
+            });
+            $('.shakeButton').waypoint(function() {
+                $(this).addClass('animated tada');
+            }, {
+                offset: '75%'
+            });
+            $('#apply a.btn').waypoint(function() {
+                $(this).addClass('animated pulse');
+            }, {
+                offset: '75%'
+            });
+
         });
 /*
         var timer = 0;
