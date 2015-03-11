@@ -182,9 +182,9 @@
                 <p class="text-center">There are 4 committees in JECRC Model United Nations. Your participation is awaited.</p>
             </div>
             <div class="row">
-                <div class="col-lg-6 flytoTop">
+                <div class="col-lg-6">
                     <div class="col-lg-offset-0 col-lg-6 col-md-offset-1 col-md-5 col-sm-6">
-                        <div class="committee-container">
+                        <div class="committee-container fadetoRight">
                             <p><img src="img/GA-bw.jpg" class="img-responsive" alt="GA-DISEC"></p>
                             <div class="caption">
                                 <div class="blur"></div>
@@ -196,7 +196,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-6 col-lg-offset-0 ">
-                        <div class="committee-container">
+                        <div class="committee-container fadetoRight">
                             <p><img src="img/HRC-bw.jpg" class="img-responsive" alt="UNHRC"></p>
                             <div class="caption">
                                 <div class="blur"></div>
@@ -208,9 +208,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 flytoTop">
+                <div class="col-lg-6">
                     <div class="col-lg-offset-0 col-lg-6 col-md-offset-1 col-md-5 col-sm-6">
-                        <div class="committee-container">
+                        <div class="committee-container fadetoLeft">
                             <p><img src="img/NATO-bw.jpg" class="img-responsive" alt="NATO"></p>
                             <div class="caption">
                                 <div class="blur"></div>
@@ -222,7 +222,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-6 col-lg-offset-0 ">
-                        <div class="committee-container">
+                        <div class="committee-container fadetoLeft">
                             <p><img src="img/IAEA-bw.jpg" class="img-responsive" alt="IAEA"></p>
                             <div class="caption">
                                 <div class="blur"></div>
@@ -464,18 +464,28 @@
             $('.flytoLeft').waypoint(function() {
                 $(this).addClass('animated slideInLeft');
             }, {
-                offset: '90%'
+                offset: '60%'
             });
             $('.flytoRight').waypoint(function() {
                 $(this).addClass('animated slideInRight');
             }, {
-                offset: '92%'
+                offset: '60%'
             });
 
             $('.flytoTop').waypoint(function() {
                 $(this).addClass('animated fadeInDown');
             }, {
-                offset: '75%'
+                offset: '60%'
+            });
+            $('.fadetoLeft').waypoint(function() {
+                $(this).addClass('animated fadeInLeft');
+            }, {
+                offset: '60%'
+            });
+            $('.fadetoRight').waypoint(function() {
+                $(this).addClass('animated fadeInRight');
+            }, {
+                offset: '60%'
             });
             $('.shakeButton').waypoint(function() {
                 $(this).addClass('animated tada');

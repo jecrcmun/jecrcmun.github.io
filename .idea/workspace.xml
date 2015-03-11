@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\index2.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo-white-big.png" afterPath="$PROJECT_DIR$/img/logo-white-big.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="jecrcmun.github.io-master.iws" />
@@ -25,19 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="navbar-custom.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/navbar-custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="209" column="23" selection-start="4816" selection-end="4816" vertical-scroll-proportion="0.0" vertical-offset="3680" max-vertical-offset="7220">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="489" column="0" selection-start="26488" selection-end="26488" vertical-scroll-proportion="0.37269372" vertical-offset="9578" max-vertical-offset="12580">
+            <state line="202" column="9" selection-start="12089" selection-end="12089" vertical-scroll-proportion="-7.4074073" vertical-offset="3640" max-vertical-offset="12780">
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,9 +59,18 @@
                 <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1426054799194" expanded="false" signature="25454:25465" placeholder="..." />
-                <marker date="1426054799194" expanded="false" signature="28551:28586" placeholder="..." />
+                <marker date="1426087352993" expanded="false" signature="25482:25493" placeholder="..." />
+                <marker date="1426087352993" expanded="false" signature="28923:28958" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar-custom.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/navbar-custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="311" column="95" selection-start="6687" selection-end="6761" vertical-scroll-proportion="0.33274958" vertical-offset="6030" max-vertical-offset="7220">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,7 +97,6 @@
         <option value="$PROJECT_DIR$/EBapplications.html" />
         <option value="$PROJECT_DIR$/index - Copy.html" />
         <option value="$PROJECT_DIR$/css/cust.css" />
-        <option value="$PROJECT_DIR$/apply/Delegate.html" />
         <option value="$PROJECT_DIR$/apply/index.html" />
         <option value="$PROJECT_DIR$/committiees/index - Copy.html" />
         <option value="$PROJECT_DIR$/committiees/index.html" />
@@ -115,8 +116,14 @@
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/css/customize.css" />
         <option value="C:/xampp/htdocs/htdocs/technolovers/inc/database.php" />
+        <option value="C:/xampp/htdocs/mailtest/index.php" />
+        <option value="C:/xampp/htdocs/mailtest/index2.php" />
+        <option value="$USER_HOME$/Desktop/stylish-social.html" />
+        <option value="$USER_HOME$/Desktop/cssdeck/animated-envelope.html" />
+        <option value="$USER_HOME$/Desktop/tables.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/apply/Delegate.html" />
       </list>
     </option>
   </component>
@@ -200,20 +207,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jecrcmun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jecrcmun.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2015-old" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -231,6 +224,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mailtest" />
       <recent name="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io" />
       <recent name="C:\Users\Lokesh Devnani\Documents\GitHub\jecrcmun.github.io\images" />
     </key>
@@ -278,7 +272,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -318,23 +312,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2274" selection-start="2438" selection-end="2439" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/xampp/htdocs/technolovers/showpost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="37" selection-start="3640" selection-end="3640" vertical-scroll-proportion="0.0" vertical-offset="1233" max-vertical-offset="5760" />
-      </provider>
-    </entry>
-    <entry file="file://C:/xampp/htdocs/technolovers/js/posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="31" selection-start="4419" selection-end="4419" vertical-scroll-proportion="0.0" vertical-offset="1960" max-vertical-offset="4680" />
-      </provider>
-    </entry>
     <entry file="file://C:/xampp/htdocs/technolovers/js/posts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="31" selection-start="4419" selection-end="4419" vertical-scroll-proportion="0.0" vertical-offset="1960" max-vertical-offset="4680" />
@@ -376,8 +353,8 @@
             <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1426054799194" expanded="false" signature="25454:25465" placeholder="..." />
-            <marker date="1426054799194" expanded="false" signature="28551:28586" placeholder="..." />
+            <marker date="1426087352993" expanded="false" signature="25482:25493" placeholder="..." />
+            <marker date="1426087352993" expanded="false" signature="28923:28958" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -626,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/navbar-custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="23" selection-start="4816" selection-end="4816" vertical-scroll-proportion="0.0" vertical-offset="3680" max-vertical-offset="7220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/xampp/htdocs/htdocs/technolovers/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="3" selection-start="215" selection-end="215" vertical-scroll-proportion="0.31034482" vertical-offset="0" max-vertical-offset="1060">
@@ -668,9 +638,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/xampp/htdocs/mailtest/PHPMailer-master/class.phpmailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2067" column="0" selection-start="72456" selection-end="72456" vertical-scroll-proportion="72.34568" vertical-offset="0" max-vertical-offset="70160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/cssdeck/animated-envelope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="238" column="1" selection-start="7879" selection-end="7879" vertical-scroll-proportion="0.95238096" vertical-offset="4220" max-vertical-offset="4900">
+          <folding>
+            <element signature="e#692#1359#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/mailtest/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="1435" selection-end="1435" vertical-scroll-proportion="-6.8965516" vertical-offset="360" max-vertical-offset="1020">
+          <folding>
+            <marker date="1426063506795" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="6" selection-start="0" selection-end="3572" vertical-scroll-proportion="0.036036037" vertical-offset="940" max-vertical-offset="2680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/mailtest/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="1" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.8172414" vertical-offset="226" max-vertical-offset="820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="489" column="0" selection-start="26488" selection-end="26488" vertical-scroll-proportion="0.37269372" vertical-offset="9578" max-vertical-offset="12580">
+        <state line="202" column="9" selection-start="12089" selection-end="12089" vertical-scroll-proportion="-7.4074073" vertical-offset="3640" max-vertical-offset="12780">
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -699,9 +715,16 @@
             <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1426054799194" expanded="false" signature="25454:25465" placeholder="..." />
-            <marker date="1426054799194" expanded="false" signature="28551:28586" placeholder="..." />
+            <marker date="1426087352993" expanded="false" signature="25482:25493" placeholder="..." />
+            <marker date="1426087352993" expanded="false" signature="28923:28958" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/navbar-custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="311" column="95" selection-start="6687" selection-end="6761" vertical-scroll-proportion="0.33274958" vertical-offset="6030" max-vertical-offset="7220">
+          <folding />
         </state>
       </provider>
     </entry>
