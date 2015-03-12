@@ -134,7 +134,7 @@ header .container{
         background: url('../img/main2.jpg') bottom right no-repeat;
     }
     #slide2,#slide3{
-        background-size: 100%;
+        background-size: 100% auto;
     }
     #slide1 {
         background-size:auto 98%;
