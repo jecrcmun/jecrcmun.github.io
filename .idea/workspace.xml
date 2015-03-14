@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responses.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jecrcmun.github.io-master.iws" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="497" column="27" selection-start="26841" selection-end="26841" vertical-scroll-proportion="-9.296296" vertical-offset="9438" max-vertical-offset="12780">
+            <state line="239" column="38" selection-start="14226" selection-end="14226" vertical-scroll-proportion="0.3321033" vertical-offset="4600" max-vertical-offset="12780">
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -58,17 +58,17 @@
                 <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1426188011070" expanded="false" signature="25482:25493" placeholder="..." />
-                <marker date="1426188011070" expanded="false" signature="28923:28958" placeholder="..." />
+                <marker date="1426329801830" expanded="false" signature="25481:25492" placeholder="..." />
+                <marker date="1426329801830" expanded="false" signature="28922:28957" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responses.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="responses.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/responses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="50" selection-start="376" selection-end="376" vertical-scroll-proportion="0.6551724" vertical-offset="0" max-vertical-offset="580">
+            <state line="19" column="50" selection-start="376" selection-end="376" vertical-scroll-proportion="-13.103448" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -139,9 +139,9 @@
         <option value="$USER_HOME$/Desktop/tables.html" />
         <option value="$PROJECT_DIR$/apply/Delegate.html" />
         <option value="$PROJECT_DIR$/css/customize.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/responses.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -287,12 +287,18 @@
       <created>1423149778476</created>
       <updated>1423149778476</updated>
     </task>
+    <task id="LOCAL-00001" summary="Responses added to github server via stretched iframe">
+      <created>1426192418457</created>
+      <updated>1426192418457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -325,6 +331,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Responses added to github server via stretched iframe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responses added to github server via stretched iframe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -371,8 +379,8 @@
             <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1426188011070" expanded="false" signature="25482:25493" placeholder="..." />
-            <marker date="1426188011070" expanded="false" signature="28923:28958" placeholder="..." />
+            <marker date="1426329801830" expanded="false" signature="25481:25492" placeholder="..." />
+            <marker date="1426329801830" expanded="false" signature="28922:28957" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -709,9 +717,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/responses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="50" selection-start="376" selection-end="376" vertical-scroll-proportion="-13.103448" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="497" column="27" selection-start="26841" selection-end="26841" vertical-scroll-proportion="-9.296296" vertical-offset="9438" max-vertical-offset="12780">
+        <state line="239" column="38" selection-start="14226" selection-end="14226" vertical-scroll-proportion="0.3321033" vertical-offset="4600" max-vertical-offset="12780">
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -740,16 +755,9 @@
             <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1426188011070" expanded="false" signature="25482:25493" placeholder="..." />
-            <marker date="1426188011070" expanded="false" signature="28923:28958" placeholder="..." />
+            <marker date="1426329801830" expanded="false" signature="25481:25492" placeholder="..." />
+            <marker date="1426329801830" expanded="false" signature="28922:28957" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/responses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="50" selection-start="376" selection-end="376" vertical-scroll-proportion="0.6551724" vertical-offset="0" max-vertical-offset="580">
-          <folding />
         </state>
       </provider>
     </entry>
