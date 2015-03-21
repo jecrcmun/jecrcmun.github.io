@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/committees/index.html" afterPath="$PROJECT_DIR$/committees/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jecrcmun.github.io-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +67,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/committees/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="54" selection-start="5552" selection-end="5552" vertical-scroll-proportion="0.329806" vertical-offset="2933" max-vertical-offset="7020">
+            <state line="187" column="42" selection-start="7300" selection-end="7300" vertical-scroll-proportion="0.07054674" vertical-offset="3700" max-vertical-offset="7080">
               <folding />
             </state>
           </provider>
@@ -304,7 +303,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -675,7 +674,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/committees/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="54" selection-start="5552" selection-end="5552" vertical-scroll-proportion="0.329806" vertical-offset="2933" max-vertical-offset="7020">
+        <state line="187" column="42" selection-start="7300" selection-end="7300" vertical-scroll-proportion="0.07054674" vertical-offset="3700" max-vertical-offset="7080">
           <folding />
         </state>
       </provider>
