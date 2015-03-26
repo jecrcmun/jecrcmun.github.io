@@ -138,7 +138,7 @@ header .container{
     }
     #slide1 {
         background-size:auto 98%;
-        background-position-x:80%;
+        background-position-x: 80%;
     }
 }
 
@@ -406,5 +406,6 @@ section#secretariat p{
     font-family: "Robot Slab",Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding : 10px 12px;
+    margin-bottom: 5px;
 }
 
