@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sponsors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/responses.html" afterPath="$PROJECT_DIR$/responses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sponsors.html" afterPath="$PROJECT_DIR$/sponsors.html" />
     </list>
     <ignored path="jecrcmun.github.io-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="26" selection-start="3672" selection-end="3672" vertical-scroll-proportion="0.3321033" vertical-offset="1420" max-vertical-offset="12660">
+            <state line="80" column="26" selection-start="3672" selection-end="3672" vertical-scroll-proportion="-3.3333333" vertical-offset="1420" max-vertical-offset="12660">
               <folding>
                 <marker date="1427900808551" expanded="false" signature="25870:25881" placeholder="..." />
                 <marker date="1427900808551" expanded="false" signature="28036:28071" placeholder="..." />
@@ -49,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sponsors.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sponsors.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sponsors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="18" selection-start="4588" selection-end="4588" vertical-scroll-proportion="-15.413794" vertical-offset="1133" max-vertical-offset="2780">
+            <state line="17" column="9" selection-start="878" selection-end="878" vertical-scroll-proportion="0.36900368" vertical-offset="140" max-vertical-offset="2780">
               <folding>
                 <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -147,9 +144,9 @@
         <option value="$PROJECT_DIR$/css/customize.css" />
         <option value="$PROJECT_DIR$/committees/index.html" />
         <option value="$PROJECT_DIR$/responses.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sponsors.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -626,24 +623,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="26" selection-start="3672" selection-end="3672" vertical-scroll-proportion="-3.3333333" vertical-offset="1420" max-vertical-offset="12660">
+          <folding>
+            <marker date="1427900808551" expanded="false" signature="25870:25881" placeholder="..." />
+            <marker date="1427900808551" expanded="false" signature="28036:28071" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sponsors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="18" selection-start="4588" selection-end="4588" vertical-scroll-proportion="-15.413794" vertical-offset="1133" max-vertical-offset="2780">
+        <state line="17" column="9" selection-start="878" selection-end="878" vertical-scroll-proportion="0.36900368" vertical-offset="140" max-vertical-offset="2780">
           <folding>
             <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="26" selection-start="3672" selection-end="3672" vertical-scroll-proportion="0.3321033" vertical-offset="1420" max-vertical-offset="12660">
-          <folding>
-            <marker date="1427900808551" expanded="false" signature="25870:25881" placeholder="..." />
-            <marker date="1427900808551" expanded="false" signature="28036:28071" placeholder="..." />
           </folding>
         </state>
       </provider>
