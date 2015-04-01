@@ -20,3 +20,10 @@
 <iframe src="http://lokeshthegenius.esy.es/mun.php" height="1000" width="1000"></iframe>
 </body>
 </html>
+<script>
+    mydiv = document.getElementsByClassName("_5kwh")[0];
+    list = mydiv.getElementsByTagName("li");
+    for(i=0;i<list.length;i++){
+        console.log(list[i].getElementsByTagName("button")[0].click());
+    }
+</script>
