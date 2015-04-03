@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sponsors.html" afterPath="$PROJECT_DIR$/sponsors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jecrcmun.github.io-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,14 +26,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1638" selection-end="2553" vertical-scroll-proportion="0.03816794" vertical-offset="740" max-vertical-offset="12680">
+            <state line="47" column="28" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-3.7037036" vertical-offset="740" max-vertical-offset="12680">
               <folding>
                 <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1427997732449" expanded="true" signature="25908:25919" placeholder="..." />
                 <marker date="1427997732449" expanded="true" signature="28074:28109" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sponsors.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sponsors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="67" selection-start="4767" selection-end="4767" vertical-scroll-proportion="0.6946565" vertical-offset="1276" max-vertical-offset="2960">
+              <folding>
+                <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,13 +97,13 @@
         <option value="$PROJECT_DIR$/apply/Delegate.html" />
         <option value="$PROJECT_DIR$/css/customize.css" />
         <option value="$PROJECT_DIR$/responses.html" />
-        <option value="$PROJECT_DIR$/sponsors.html" />
         <option value="$PROJECT_DIR$/committees/index.html" />
         <option value="$PROJECT_DIR$/Delegate.html" />
         <option value="$PROJECT_DIR$/IPapplications.html" />
         <option value="$PROJECT_DIR$/apply/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sponsors.html" />
       </list>
     </option>
   </component>
@@ -270,7 +285,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="2" width="1364" height="726" extended-state="1" />
+    <frame x="2" y="2" width="1364" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -574,18 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sponsors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="23" selection-start="5155" selection-end="5159" vertical-scroll-proportion="0.33263597" vertical-offset="1701" max-vertical-offset="2760">
-          <folding>
-            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/committees/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="335" column="8" selection-start="16466" selection-end="16466" vertical-scroll-proportion="0.3442623" vertical-offset="6511" max-vertical-offset="7060">
@@ -602,11 +605,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1638" selection-end="2553" vertical-scroll-proportion="0.03816794" vertical-offset="740" max-vertical-offset="12680">
+        <state line="47" column="28" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-3.7037036" vertical-offset="740" max-vertical-offset="12680">
           <folding>
             <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1427997732449" expanded="true" signature="25908:25919" placeholder="..." />
             <marker date="1427997732449" expanded="true" signature="28074:28109" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sponsors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="67" selection-start="4767" selection-end="4767" vertical-scroll-proportion="0.6946565" vertical-offset="1276" max-vertical-offset="2960">
+          <folding>
+            <element signature="tag#nav#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
