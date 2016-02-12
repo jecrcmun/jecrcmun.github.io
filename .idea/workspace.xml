@@ -2,95 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4c3c2f-1fb8-40ba-9a15-8399ae64afbe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CountryMatrix.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CountryMatrix_.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/committees/img/GA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/committees/img/HRC.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/committees/img/IAEA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/committees/img/NATO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/Roboto-Black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/RobotoSlab-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/contact-custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/customize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/navbar-custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/googlecd0f067adcd3958c.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/GA-bw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/HRC-bw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/IAEA-bw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/NATO-bw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/april4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/april5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/college.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/contact-address.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/contact-email.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/contact-facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/contact-phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/contact-twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/delegate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dsg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/facebook-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/footer-social-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/hojc-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ipapplications.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jmag-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jmag-logo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-white-big-low.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-white-big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/lokesh.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mail-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/main-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/main-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/main1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/main2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/peek.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/re-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/resolutions.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/speak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tcr-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/time.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/toko-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/toko-logo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/twitter-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/uber_logotype_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/customize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.cslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.easing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/modernizr.custom.28468.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/viewportchecker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/waypoints.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apply/CountryMatrix.pdf" afterPath="$PROJECT_DIR$/resources/CountryMatrix.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apply/CountryMatrix_.pdf" afterPath="$PROJECT_DIR$/resources/CountryMatrix_.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apply/index.html" afterPath="$PROJECT_DIR$/apply.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/DISEC.pdf" afterPath="$PROJECT_DIR$/resources/DISEC.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/IAEA.pdf" afterPath="$PROJECT_DIR$/resources/IAEA.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/NATO.pdf" afterPath="$PROJECT_DIR$/resources/NATO.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/UNHRC.pdf" afterPath="$PROJECT_DIR$/resources/UNHRC.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Abhishek Natani.JPG" afterPath="$PROJECT_DIR$/assets/img/eb/Abhishek Natani.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Alif Hossein.jpg" afterPath="$PROJECT_DIR$/assets/img/eb/Alif Hossein.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Ankita Sabharwal.jpg" afterPath="$PROJECT_DIR$/assets/img/eb/Ankita Sabharwal.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Daman Mahajan.JPG" afterPath="$PROJECT_DIR$/assets/img/eb/Daman Mahajan.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Deyasini Basu.jpg" afterPath="$PROJECT_DIR$/assets/img/eb/Deyasini Basu.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Dikshant.jpg" afterPath="$PROJECT_DIR$/assets/img/eb/Dikshant.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Jemin Shah.jpg" afterPath="$PROJECT_DIR$/assets/img/eb/Jemin Shah.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Raunak.jpg" afterPath="$PROJECT_DIR$/assets/img/eb/Raunak.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Ravish Rana.jpg" afterPath="$PROJECT_DIR$/assets/img/eb/Ravish Rana.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Rutwik.jpg" afterPath="$PROJECT_DIR$/assets/img/eb/Rutwik.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Sahil Puri.jpg" afterPath="$PROJECT_DIR$/assets/img/eb/Sahil Puri.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Shivangi Kaushik.jpeg" afterPath="$PROJECT_DIR$/assets/img/eb/Shivangi Kaushik.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/img/Tannishtha.jpg" afterPath="$PROJECT_DIR$/assets/img/eb/Tannishtha.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/committees/index.html" afterPath="$PROJECT_DIR$/committees.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2014/committiees/index.html" afterPath="$PROJECT_DIR$/2014/committiees/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jecrcmun.github.io.iml" afterPath="$PROJECT_DIR$/.idea/jecrcmun.github.io.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/customize.css" afterPath="$PROJECT_DIR$/assets/css/customize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sponsors.html" afterPath="$PROJECT_DIR$/sponsors.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -116,7 +28,43 @@
     <favorites_list name="jecrcmun.github.io-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="customize.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/customize.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3444" max-vertical-offset="7640">
+              <caret line="183" column="16" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sponsors.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sponsors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33269963" vertical-offset="2805" max-vertical-offset="3420">
+              <caret line="149" column="77" selection-start-line="149" selection-start-column="77" selection-end-line="149" selection-end-column="77" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h1#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar-custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/navbar-custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2220" max-vertical-offset="7380">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -129,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sponsors.html" />
         <option value="$PROJECT_DIR$/2014/committiees/index.html" />
         <option value="$PROJECT_DIR$/2015-old/Delegate.html" />
         <option value="$PROJECT_DIR$/committees/index.html" />
@@ -139,8 +86,9 @@
         <option value="$PROJECT_DIR$/apply/index.html" />
         <option value="$PROJECT_DIR$/committees.html" />
         <option value="$PROJECT_DIR$/apply.html" />
-        <option value="$PROJECT_DIR$/assets/css/customize.css" />
         <option value="$PROJECT_DIR$/assets/css/navbar-custom.css" />
+        <option value="$PROJECT_DIR$/assets/css/customize.css" />
+        <option value="$PROJECT_DIR$/sponsors.html" />
       </list>
     </option>
   </component>
@@ -196,6 +144,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jecrcmun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jecrcmun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jecrcmun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jecrcmun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jecrcmun.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,20 +257,40 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="32" width="1368" height="737" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33709678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -392,6 +392,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1480" max-vertical-offset="2960">
           <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -417,6 +423,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2960">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -516,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sponsors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57761735" vertical-offset="1300" max-vertical-offset="2960">
-          <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/contact-custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1161" max-vertical-offset="1740">
@@ -594,22 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/customize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8500">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/navbar-custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3448276" vertical-offset="0" max-vertical-offset="7380">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apply.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38022813" vertical-offset="0" max-vertical-offset="2680">
@@ -623,6 +612,35 @@
         <state vertical-scroll-proportion="1.5862069" vertical-offset="14060" max-vertical-offset="31480">
           <caret line="749" column="31" selection-start-line="749" selection-start-column="31" selection-end-line="749" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/navbar-custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2220" max-vertical-offset="7380">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/customize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3444" max-vertical-offset="7640">
+          <caret line="183" column="16" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sponsors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33269963" vertical-offset="2805" max-vertical-offset="3420">
+          <caret line="149" column="77" selection-start-line="149" selection-start-column="77" selection-end-line="149" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

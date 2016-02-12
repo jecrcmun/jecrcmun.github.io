@@ -73,8 +73,7 @@ h5{
 
 
 header{
-    background: #212136;
-    padding-top: 60px;
+   padding-top: 60px;
 }
 header .container{
     width: 100%;
@@ -85,7 +84,7 @@ header .container{
 }
 
 .carousel-caption {
-    background: rgba(33,33,55,0.5);
+    background: rgba(0,38,45,0.5);
     left:0;
     right:0;
     z-index: 1;
@@ -121,7 +120,6 @@ header .container{
         right: 55%;
         top:  0%;
         bottom: 0%;
-        background: rgba(33,33,55,0.5);
         height: 100%;
         vertical-align: middle;
         display: table;
@@ -154,14 +152,13 @@ section#about .col-md-4{
     padding: 1em 2.5em;
 }
 section#EB{
-    background: #212136;
     padding-bottom:0;
 }
 section#comm-sec{
     background: #eee;
 }
-section#committees, section#secretariat, section#contact{
-    background: #212136;
+header, section#EB, section#committees, section#secretariat, section#contact{
+    background: #00262D;
 }
 section#sg-msg{
     background: #f7f7f7;
@@ -173,7 +170,7 @@ section#contact{
     font-family: "ROBOTO SLAB","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 section#about h1,section#sg-msg h1{
-    color:  #334;
+    color:  #00262D;
 }
 section#committees p , section#secretariat p{
     color: #A1A67A;
@@ -184,7 +181,7 @@ section#schedule .row{
     margin-bottom: 0;
 }
 section#schedule #venue-map{
-    background-color:#234;
+    background-color:#00262D;
 }
 section#schedule p{
     font-size: 20px;
@@ -359,59 +356,19 @@ section#secretariat p{
     transform: translateX(0) translateY(0) scale(1) translate3d(0, 0, 0);
 }
 @keyframes shake {
-    0% {
-        transform: translateX(0);
-    }
-
-    20% {
-        transform: translateX(-10px);
-    }
-
-    40% {
-        transform: translateX(10px);
-    }
-
-    60% {
-        transform: translateX(-10px);
-    }
-
-    80% {
-        transform: translateX(10px);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
+    0%,100% {  transform: translateX(0); }
+    20%,60% {  transform: translateX(-10px);  }
+    40%,80% {  transform: translateX(10px);  }
 }
 @-webkit-keyframes shake {
-    0% {
-        transform: translateX(0);
-    }
-
-    20% {
-        transform: translateX(-10px);
-    }
-
-    40% {
-        transform: translateX(10px);
-    }
-
-    60% {
-        transform: translateX(-10px);
-    }
-
-    80% {
-        transform: translateX(10px);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
+    0%,100% {  transform: translateX(0); }
+    20%,60% {  transform: translateX(-10px);  }
+    40%,80% {  transform: translateX(10px);  }
 }
 /*animations end */
 
 .btn.btn-success{
-    font-family: "Robot Slab",Arial, Helvetica, sans-serif;
+    font-family: "Roboto Slab",Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding : 10px 12px;
     margin-bottom: 5px;
