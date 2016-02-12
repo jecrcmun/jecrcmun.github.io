@@ -22,7 +22,7 @@ nav{
 
 .navbar-default .navbar-brand {
     font-family: "Roboto Bk","Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #F88B27;
+    color: #F0b017;
     height: 44px;
     padding:3px;
 }
@@ -42,8 +42,8 @@ nav{
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #F88B27;
-    background-color: #F88B27;
+    border-color: #F0b017;
+    background-color: #F0b017;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -52,7 +52,7 @@ nav{
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #F88B27;
+    background-color: #F0b017;
 }
 
 .navbar-default .nav li a {
@@ -66,19 +66,19 @@ nav{
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #F88B27;
+    color: #F0b017;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #F88B27;
+    background-color: #F0b017;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #F88B27;
+    background-color: #F0b017;
 }
 
 .navbar-default a img{
@@ -165,7 +165,7 @@ nav{
 footer{
     background: rgb(34,34,34);
     padding: 2em 10px;
-    border-top: 1px solid #f92;
+    border-top: 1px solid #F0b017;
 }
 footer .footer-left ul{
     list-style: none;
@@ -191,7 +191,7 @@ footer .footer-right{
     text-align: right;
 }
 .footer-right p a{
-    color: #F88B27;
+    color: #F0b017;
 }
 .ftwiter{
     background:url(../img/site/footer-social-icons.png) no-repeat 0px 0px;
@@ -239,14 +239,14 @@ footer .footer-right{
     padding-top: 0;
 }
 .modal-header h4{
-    color: #F88B27;
+    color: #F0b017;
 }
 .modal-header .close{
     color: red;
 }
 .OClist div{
     font-weight: bold;
-    color: #F88B27;
+    color: #F0b017;
 }
 .OClist div li{
     font-weight: normal;
