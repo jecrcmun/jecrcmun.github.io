@@ -228,9 +228,14 @@
             <div class="row">
                 <h1 style="margin-bottom: 10px;">APPLY</h1>
                 <p class="text-center" style="margin-bottom: 0px;">Prizes worth &#8377; <strong style="font-weight: 900;">1 lakh</strong>!</p>
-                <p class="text-center">International Press Applications are now open.</p>
+                <p class="text-center hidden">International Press Applications are now open.</p>
             </div>
             <div class="row">
+                <div class="col-md-offset-3 col-md-6 text-center" style="margin-bottom: 1.5em;">
+                    <a href="#" class="btn btn-success btn-block" target="_blank">Delegate Applications Opening Soon</a>
+                </div>
+            </div>
+            <div class="row hidden">
                 <div class="col-md-6 text-center flytoLeft" style="margin-bottom: 1.5em;">
                     <img src="assets/img/site/delegate.png" style="height:175px;"/>
                     <p><em>Delegate Application Fee:</em> &#8377; 900 <br><em>Accomodation Fee:</em> &#8377; 600</p>
@@ -442,12 +447,12 @@
         $(document).ready(function() {
 
             $('.flytoLeft').waypoint(function() {
-                $(this).addClass('animated slideInLeft');
+                $(this).addClass('animated fadeInLeft');
             }, {
                 offset: '80%'
             });
             $('.flytoRight').waypoint(function() {
-                $(this).addClass('animated slideInRight');
+                $(this).addClass('animated fadeInRight');
             }, {
                 offset: '80%'
             });
