@@ -374,3 +374,10 @@ section#secretariat p{
     margin-bottom: 5px;
 }
 
+.desaturate{
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(#greyscale);
+    filter: gray;
+}
