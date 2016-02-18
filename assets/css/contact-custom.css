@@ -33,13 +33,13 @@
     line-height: 25px;
 }
 
-#contact .contact-info a.facebook-icon{ background: url(../img/site/contact-facebook.png);}
-#contact .contact-info a.twitter-icon{ background: url(../img/site/contact-twitter.png);}
-#contact .contact-info a.email-icon{ background: url(../img/site/contact-email.png);}
-#contact .contact-info a.phone-icon{ background: url(../img/site/contact-phone.png);}
-#contact .contact-info a.address-icon{ background: url(../img/site/contact-address.png);}
+#contact .contact-info a.facebook-icon{ background: url(../img/site/facebook-icon.png);}
+#contact .contact-info a.twitter-icon{ background: url(../img/site/twitter-icon.png);}
+#contact .contact-info a.email-icon{ background: url(../img/site/mail-icon.png);}
+#contact .contact-info a.phone-icon{ background: url(../img/site/call-icon.png);}
+#contact .contact-info a.address-icon{ background: url(../img/site/place-icon.png); margin-top: 5px;}
 #contact .contact-info .row .icon a{
-    background-size: 40px;
+    background-size: 100% 100%;
 }
 #contact .contact-info .row .icon a:hover{
     transform: scale(1.2) rotate(-5deg);
