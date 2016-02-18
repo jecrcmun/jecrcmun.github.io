@@ -73,6 +73,7 @@
     font-weight:bolder;
     font-size:1em;
     line-height: 1em;
+    border: none;
 }
 #contactform .controls input{
     background: #F0b017;

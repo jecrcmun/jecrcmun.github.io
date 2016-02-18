@@ -164,51 +164,21 @@ nav{
 
 /* footer design starts */
 footer{
-    background: rgb(34,34,34);
-    padding: 2em 10px;
-    border-top: 1px solid #F0b017;
-}
-footer .footer-left ul{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
-footer .footer-left ul li{
-    display: inline-block;
-    margin-right: 5px;
-}
-footer .footer-left ul li a{
-    width: 57px;
-    height: 56px;
-    display: block;
+    background: #071F23;
+    padding: 15px;
 }
 footer .footer-right{
     text-align:right;
     font-size: 17px;
 }
 .footer-right p{
-    margin:0;
-    color:#3282f3;
+    color:#0A4550;
     text-align: right;
+    margin: 0;
 }
 .footer-right p a{
-    color: #F0b017;
-}
-.ftwiter{
-    background:url(../img/site/footer-social-icons.png) no-repeat 0px 0px;
-}
-.ftwiter:hover{
-    background:url(../img/site/footer-social-icons.png) no-repeat 0px -56px;
-    transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
-    -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
-}
-.fface{
-    background: url(../img/site/footer-social-icons.png) no-repeat -70px 0px;
-    -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
-}
-.fface:hover{
-    background: url(../img/site/footer-social-icons.png) no-repeat -70px -56px;
-    transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
+    color: #387B88;
+    margin-left: 5px;
 }
 /*footer design ends */
 
@@ -243,7 +213,7 @@ footer .footer-right{
     color: #F0b017;
 }
 .modal-header .close{
-    color: red;
+    color: #FFF;
 }
 .OClist div{
     font-weight: bold;

@@ -69,6 +69,7 @@ h5{
     text-align:center;
     font-weight:normal;
     font-size:15px;
+    font-style: italic;
 }
 
 
@@ -294,12 +295,13 @@ section#secretariat p{
     width:60%;
     padding: 7px;
 
-    background-image: -moz-linear-gradient(top, #50abdf, #1f78aa);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#50abdf), to(#1f78aa));
-    background-image: -webkit-linear-gradient(top, #50abdf, #1f78aa);
-    background-image: -o-linear-gradient(top, #50abdf, #1f78aa);
-    background-image: linear-gradient(to bottom, #50abdf, #1f78aa);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff50abdf', endColorstr='#ff1f78aa', GradientType=0);
+
+    background-image: -moz-linear-gradient(top, #5CB85C, #09A554);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5CB85C), to(#09A554));
+    background-image: -webkit-linear-gradient(top, #5CB85C, #09A554);
+    background-image: -o-linear-gradient(top, #5CB85C, #09A554);
+    background-image: linear-gradient(to bottom, #5CB85C, #09A554);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5CB85C', endColorstr='#ff09A554', GradientType=0);
     background-size: 50% 100%;
     background-position: 0 0;
     background-repeat: no-repeat;
