@@ -100,16 +100,23 @@ header .container{
 #myCarousel .item { height: 400px; }
 
 #slide1 {
-    background: url('../img/site/logo-white-big.png') top center no-repeat;
-    background-size: auto 98%;
+    background: url('../img/slider/main1.jpg') center center no-repeat;
 }
 
 #slide2 {
-    background: url('../img/slider/main1.jpg') top center no-repeat;
+    background: url('../img/slider/main2.jpg') top center no-repeat;
 }
 
 #slide3 {
-    background: url('../img/slider/main2.jpg') bottom center no-repeat;
+    background: url('../img/slider/main3.jpg') center center no-repeat;
+}
+
+#slide4 {
+    background: url('../img/slider/main5.jpg') center center no-repeat;
+}
+
+#slide1, #slide2,#slide3,#slide4{
+    background-size:cover;
 }
 .secrMsg{
     text-align: center;
@@ -135,24 +142,6 @@ header .container{
     .carousel-caption h2{
         display: table-cell;
         vertical-align: middle;
-    }
-    #slide1 {
-        background: url('../img/site/logo-white-big.png') top center no-repeat;
-    }
-
-    #slide2 {
-        background: url('../img/slider/main1.jpg') top right no-repeat;
-    }
-
-    #slide3 {
-        background: url('../img/slider/main2.jpg') bottom right no-repeat;
-    }
-    #slide2,#slide3{
-        background-size: 100% auto;
-    }
-    #slide1 {
-        background-size:auto 98%;
-        background-position-x: 80%;
     }
 }
 
