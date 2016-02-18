@@ -111,6 +111,14 @@ header .container{
 #slide3 {
     background: url('../img/slider/main2.jpg') bottom center no-repeat;
 }
+.secrMsg{
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .secrMsg{
+        text-align: left;;
+    }
+}
 @media (min-width: 768px) {
     header{
         padding-top: 120px;
