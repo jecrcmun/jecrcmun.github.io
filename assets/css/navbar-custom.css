@@ -12,7 +12,7 @@
 
 /* NAVBAR */
 nav{
-    background: #212136;
+    background: #00262D;
 }
 
 .navbar-default {
@@ -229,7 +229,7 @@ footer .footer-right{
     overflow: hidden;
 }
 .modal-header{
-    background: #212136;
+    background: #00262D;
 }
 .modal-body , .modal-footer{
     background: #f7f7f7;
@@ -250,7 +250,7 @@ footer .footer-right{
 }
 .OClist div li{
     font-weight: normal;
-    color: #212136;
+    color: #00262D;
 }
 
 
@@ -344,7 +344,7 @@ footer .footer-right{
 .github:hover { background-color: #444 !important; }
 
 #lokeshModal .modal-footer{
-    background: #212136;
+    background: #00262D;
 }
 #lokeshModal .modal-footer p{
     text-align:center;
@@ -359,6 +359,6 @@ footer .footer-right{
     margin-top: -10px;
 }
 .modal-header{
-    background: #212136;
+    background: #00262D;
 }
 /* Lokesh Modal ended */
