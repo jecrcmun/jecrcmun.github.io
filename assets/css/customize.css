@@ -100,6 +100,7 @@ header .container{
 
 #myCarousel .item { height: 400px; }
 
+
 #slide1 {
     background: url('../img/slider/main1.jpg') center center no-repeat;
 }
@@ -111,14 +112,15 @@ header .container{
 #slide3 {
     background: url('../img/slider/main3.jpg') center center no-repeat;
 }
-
-#slide4 {
-    background: url('../img/slider/main5.jpg') center center no-repeat;
-}
-
 #slide1, #slide2,#slide3,#slide4{
     background-size:cover;
 }
+
+#slide4 {
+    background: url('../img/slider/main5.jpg') center right no-repeat;
+    background-size: contain;
+}
+
 .secrMsg{
     text-align: center;
 }
