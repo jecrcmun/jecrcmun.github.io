@@ -222,7 +222,7 @@
                                 <div class="blur"></div>
                                 <div class="caption-text">
                                     <h3>LOK SABHA</h3>
-                                    <p>Justification for the absence of UNIFORM CIVIL CODE.</p>
+                                    <p>Customizing and framing a Uniform Civil Code for the Indian Scenario</p>
                                 </div>
                             </div>
                         </div>
@@ -524,6 +524,14 @@
 
     $(document).ready(function(){
        // $("modaldiv").modal();
+       $("#mybtn").click(function(){
+           $.ajax({
+                url: "//formspree.io/you@email.com",
+                method: "POST",
+                data: {message: "hello!"},
+                dataType: "json"
+            });
+       });
     });
 
     </script>
