@@ -355,7 +355,7 @@
                             <a class='google-p-icon' href='http://www.facebook.com/' target='_blank'>g+</a>
                         </div>
                         <div class="icon-desc">
-                            FInd us on google+
+                            Find us on google+
                         </div>
                     </div>
                     <div class="email-link row">
@@ -394,7 +394,7 @@
                         <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-addon">Name</span>
-                                <input type="text" class="form-control" name="name" placeholder="Name" required />
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Name" required />
                             </div>
                         </div>
 
@@ -402,14 +402,15 @@
                         <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-addon">Email</span>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
+                                <input type="email" class="form-control" id="email" name="_replyto" placeholder="Email" required />
                             </div>
                         </div>
-
+                        <input type="hidden" name="_cc" value="lokeshthegenius@gmail.com"/>
+                        <input type="hidden" name="_subject" value="MUN response recieved"/>
                         <div class="form-group ">
                             <div class="input-group">
                                 <span class="input-group-addon">Message</span>
-                                <textarea name="msg" class="form-control " rows="4" cols="78" placeholder="Enter your message here" required="true"></textarea>
+                                <textarea name="message" class="form-control " rows="4" cols="78" placeholder="Enter your message here" required="true"></textarea>
                             </div>
                         </div>
 
@@ -524,12 +525,16 @@
 
     $(document).ready(function(){
        // $("modaldiv").modal();
-       $("#mybtn").click(function(){
+       $("#contactform").submit(function(e){
            $.ajax({
-                url: "//formspree.io/you@email.com",
+                url: "//formspree.io/lokeshthegenius@gmail.com",
                 method: "POST",
-                data: {message: "hello!"},
-                dataType: "json"
+                //data: {_replyto:'lokeshthegenius@gmail.com', _cc:'lokeshthegenius@gmail.com',message: "MUN response!"},
+                data: $("#contactform").serialize(),
+                dataType: "json",
+                success: function(data){
+                    alert("Sent! We'll be in touch soon.");
+                }
             });
        });
     });
@@ -595,7 +600,7 @@
                     <div class="upper-intro">
                         <div class="myintro">
                             <h3>Lokesh Devnani</h3>
-                            <p>Web-Developer | Dancer | Engg. Student | TechFreak | CodeLover | Dreamer | MusicLover</p>
+                            <p>Web-Developer | Dancer | Engg. Student | TechFreak | CodeLover | Dreamer</p>
                         </div>
                         <div class="mypic">
                             <div class="infos">
@@ -609,8 +614,8 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <p style="padding-bottom:0;">lokeshthegenius@gmail.com</p>
-                    <p>+91-8946936804</p>
+                    <p style="padding-bottom:0;">contact@lokeshd.com</p>
+                    <p>www.lokeshd.com</p>
                 </div>
             </div><!-- /.modal-content -->
         </div>
