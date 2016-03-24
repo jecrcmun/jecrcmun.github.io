@@ -291,12 +291,16 @@ footer .footer-right{
     background: url("https://docs.google.com/uc?export=download&id=0B3VygIVAuRCQRzF1d0RyWHFFRU0") no-repeat;
     background-size: 23px; }
 
-.twitter {
-    background-position: -1px 5px;
+.website {
+    background: url("../img/site/www.png");
+    background-size: 11px;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    background-color: #2094dd !important;
     top: 16%;
     left: -5%; }
 
-.twitter:hover { background-color: #2094dd !important; }
+.website:hover { background-color: #2094dd !important; }
 
 .facebook {
     background-color: #3b5998 !important;
@@ -314,10 +318,11 @@ footer .footer-right{
 
 .github:hover { background-color: #444 !important; }
 
+
 #lokeshModal .modal-footer{
     background: #00262D;
 }
-#lokeshModal .modal-footer p{
+#lokeshModal .modal-footer p, #lokeshModal .modal-footer a{
     text-align:center;
     padding: 5px 2px;
     margin: 0;
