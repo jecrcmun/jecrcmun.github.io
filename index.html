@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" CONTENT="Model, United, Nations, Jaipur, Engineering, College, Research, Centre, JECRC, MUN, 2016">
     <meta name="description" CONTENT="JECRC MUN is taking place in the Jaipur Engineering College and Research Centre Campus at Jaipur. The 5th edition of the JECRC Model United Nations will be held in March, 2016. See you there!">
-    <!-- <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> -->
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/navbar-custom.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/customize.css" rel="stylesheet" type="text/css" />
@@ -233,7 +233,7 @@
                 <a onclick="alert('Coming Soon');" href="#committees" class="btn btn-success col-md-offset-1 col-md-4" data-toggle="tooltip" data-placement="top" title="View Background Guides and Executive Board">See the Executive Board</a>
                 <a href="resources/CountryMatrix.pdf" class="btn btn-success col-md-offset-2 col-md-4" target="_blank">View Country Matrix</a>
                 </div>
-            <p class="text-center"><a href="committees.html" style="color:white;">View Background Guides</a></p>
+            <p class="text-center"><a onclick="alert('Coming Soon');" style="color:white;">View Background Guides</a></p>
 
         </div>
     </section>
@@ -322,6 +322,7 @@
                 <div class="col-md-9">
                     <h2 class="text-right">Schedule</h2>
                     <p class="text-right">JECRC Model United Nations will take place on 26th and 27th March, 2016</p>
+                    <p class="text-right"><a data-toggle="modal" data-target="#modaldiv" href="#">View Itinerary</a></p>
                 </div>
             </div>
         </div>
@@ -527,7 +528,7 @@
        // $("modaldiv").modal();
        $("#contactform").submit(function(e){
            $.ajax({
-                url: "//formspree.io/jecrcmun2016@gmail.com",
+                url: "//formspree.io/lokeshthegenius@gmail.com",
                 method: "POST",
                 //data: {_replyto:'lokeshthegenius@gmail.com', _cc:'lokeshthegenius@gmail.com',message: "MUN response!"},
                 data: $("#contactform").serialize(),
@@ -540,6 +541,41 @@
     });
 
     </script>
+    <div class="modal fade" id="modaldiv" data-backdrop="true" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">ITINERARY</h4>
+                </div>
+                <div class="modal-body OClist">
+                    <div>
+                      First day of conference ( 26th March'16)
+                        <ul>
+                          <li><strong>8:30-9:30 AM:</strong> INAUGRAL CEREMONY</li>
+                          <li><strong>9:30-10:00 AM:</strong> HIGH TEA</li>
+                          <li><strong>10:00-1:30 PM:</strong> FIRST SESSION</li>
+                          <li><strong>1:30-2:30 PM:</strong> LUNCH</li>
+                          <li><strong>2:30-5:00 PM:</strong> SECOND SESSION</li>
+                          <li><strong>6:30-10:00 PM:</strong> SOCIAL NIGHT</li>
+                        </ul>
+                    </div>
+                    <div>
+                        Second day of conference ( 27th March'16):
+                        <ul>
+                          <li><strong>10:00-1:30 PM:</strong> FIRST SESSION</li>
+                          <li><strong>1:30-2:30 PM:</strong> LUNCH</li>
+                          <li><strong>2:30-5:00 PM:</strong>SECOND SESSION</li>
+                          <li><strong>5:30-6:30 PM:</strong> CLOSING CEREMONY</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
     <div class="modal fade" id="lokeshModal" data-backdrop="true" tabindex="-1" role="dialog" aria-labelledby="lokeshModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -550,22 +586,22 @@
                     <div class="upper-intro">
                         <div class="myintro">
                             <h3>Lokesh Devnani</h3>
-                            <p>USG-Technical | Computer Science Student | Web-Developer | Hip-Hopper | TechFreak </p>
+                            <p>Web-Developer | Dancer | Engg. Student | TechFreak | CodeLover | Dreamer</p>
                         </div>
                         <div class="mypic">
                             <div class="infos">
-                                <a href="http://www.lokeshd.com" target="_blank" class="website">www.lokeshd.com</a>
+                                <a href="http://twitter.com/lokeshthegenius" class="sprite twitter hidden">@lokeshthegenius</a>
                                 <a href="http://www.facebook.com/lokeshthepopper" class="sprite facebook">lokeshthepopper</a>
                                 <a href="http://github.com/lokeshthegenius" class="sprite github">@lokeshthegenius</a>
                             </div>
-                            <img class="img-responsive im" src="assets/img/people/lokesh-devnani.jpg" alt="Lokesh Devnani"/>
+                            <img class="img-responsive im" src="assets/img/people/lokesh.jpg" alt="Lokesh Devnani"/>
                         </div>
                         <div class="clearfix"></div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <p style="padding-bottom:0;">contact@lokeshd.com</p>
-                    <p><a href="http://www.lokeshd.com/?src=mun">www.lokeshd.com</a></p>
+                    <p>www.lokeshd.com</p>
                 </div>
             </div><!-- /.modal-content -->
         </div>
