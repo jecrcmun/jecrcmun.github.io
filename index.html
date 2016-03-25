@@ -109,8 +109,7 @@
                 <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
 
             </div><!-- end myCarousel -->
-            <style>
-            </style>
+
          </div>
     </header>
     <section id="about">
@@ -310,6 +309,7 @@
                 <div class="col-md-6">
                     <h2>Venue</h2>
                     <p>Conference will be held at <a id="jecrclink" href="http://jecrcfoundation.com/">Jaipur Engineering College and Research Center</a>, Jaipur.</p>
+                    <p><a data-toggle="modal" data-target="#busroutes" href="#">View Bus Routes</a></p>
                 </div>
                 <div class="col-md-6">
                     <div id="venue-map" style="height:225px;border:2px solid black;"></div>
@@ -541,6 +541,78 @@
     });
 
     </script>
+    <style>
+      #busroutes .OClist table td{
+        color: #444;
+        padding: 0 1em;
+      }
+      #busroutes .bus-driver{
+        padding-left: 1em;
+        color: #444;
+      }
+      #busroutes .routes:nth-of-type(2){
+        padding-top: 2em;
+      }
+    </style>
+    <div class="modal fade" id="busroutes" data-backdrop="true" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">BUS ROUTES</h4>
+                </div>
+                <div class="modal-body OClist ">
+                  <div class="routes">
+                    <h3>ROUTE NUMBER-1</h3>
+                    <p>Driver - <div class="bus-driver">Suresh ji : <em>+91-9352642996</em></div></p>
+
+                    ROUTE :
+                    <table>
+                      <tr><td>murlipura(kedia palace) </td><td>6.45 am</td></tr>
+                      <tr><td>vidhyadhar nagar(thana) </td><td>6.50 am</td></tr>
+                      <tr><td>shashtri nagar(reliance fresh) </td><td>7.00 am</td></tr>
+                      <tr><td>jhotwara khatipura road </td><td>7.05 am</td></tr>
+                      <tr><td>khatipura(gupta store) </td><td>7.10 am</td></tr>
+                      <tr><td>vaishali nagar </td><td>7.20 am</td></tr>
+                      <tr><td>nirman nagar(chhabra restaraunt) </td><td>7.30 am</td></tr>
+                      <tr><td>mansarovar(metro station) </td><td>7.35 am</td></tr>
+                      <tr><td>kisan dharm kata </td><td>7.40 am</td></tr>
+                      <tr><td>madhyam marg </td><td>7.50 am</td></tr>
+                      <tr><td>sanganer </td><td>8.00 am</td></tr>
+                      <tr><td>college </td><td>8.15 am</td></tr>
+                    </table>
+                  </div>
+                  <div class="routes">
+                    <h3>ROUTE NUMBER-2</h3>
+                    <p>Driver - <div class="bus-driver">Ram Phool Ji : <em>+91-9636888689</em></div></p>
+
+                    ROUTE :
+                    <table>
+                      <tr><td>kukas(udml) </td><td>6.20 am</td></tr>
+                      <tr><td>transport nagar(gurudwara) </td><td>6.45 am</td></tr>
+                      <tr><td>raja park(pink square) </td><td>7:00 am</td></tr>
+                      <tr><td>raja park<tr><td>(main gurudwara) </td><td>7:05 am</td><td></td></tr></td></tr>
+                      <tr><td>moti doongri </td><td>7:10 am</td></tr>
+                      <tr><td>rambagh </td><td>7:15 am</td></tr>
+                      <tr><td>ajmeri gate </td><td>7:25 am</td></tr>
+                      <tr><td>mi road(raj mandir) </td><td>7:30 am</td></tr>
+                      <tr><td>govt. hostel </td><td>7:35 am</td></tr>
+                      <tr><td>c scheme(ajmer pulia) </td><td>7:40 am</td></tr>
+                      <tr><td>22 godam </td><td>7:45 am</td></tr>
+                      <tr><td>imli pathak </td><td>8:00 am</td></tr>
+                      <tr><td>durgapura </td><td>8:05 am</td></tr>
+                      <tr><td>fortis </td><td>8:10 am</td></tr>
+                      <tr><td>b-2 byepass </td><td>8:15 am</td></tr>
+                      <tr><td>college </td><td>8:30 am</td></tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
     <div class="modal fade" id="modaldiv" data-backdrop="true" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">

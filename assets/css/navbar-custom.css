@@ -219,7 +219,7 @@ footer .footer-right{
     font-weight: bold;
     color: #F0b017;
 }
-.OClist div li{
+.OClist div li, .OClist div table{
     font-weight: normal;
     color: #00262D;
 }
