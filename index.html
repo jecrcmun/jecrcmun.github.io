@@ -7,7 +7,7 @@
     <meta name="description" CONTENT="JECRC MUN is taking place in the Jaipur Engineering College and Research Centre Campus at Jaipur. The 5th edition of the JECRC Model United Nations will be held in March, 2016. See you there!">
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/navbar-custom.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/navbar-custom.css?v=1" rel="stylesheet" type="text/css" />
     <link href="assets/css/customize.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="assets/img/site/favicon.ico">
 </head>
@@ -553,6 +553,11 @@
       #busroutes .routes:nth-of-type(2){
         padding-top: 2em;
       }
+      #itinerary table td{
+        padding: 4px;
+        border: 1px solid #ddd;
+      }
+
     </style>
     <div class="modal fade" id="busroutes" data-backdrop="true" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -614,32 +619,35 @@
         </div>
     </div>
     <div class="modal fade" id="modaldiv" data-backdrop="true" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog" id="itinerary">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h4 class="modal-title" id="myModalLabel">ITINERARY</h4>
                 </div>
-                <div class="modal-body OClist">
+                <div class="modal-body OClist" >
+
                     <div>
                       First day of conference ( 26th March'16)
-                        <ul>
-                          <li><strong>8:30-9:30 AM:</strong> INAUGRAL CEREMONY</li>
-                          <li><strong>9:30-10:00 AM:</strong> HIGH TEA</li>
-                          <li><strong>10:00-1:30 PM:</strong> FIRST SESSION</li>
-                          <li><strong>1:30-2:30 PM:</strong> LUNCH</li>
-                          <li><strong>2:30-5:00 PM:</strong> SECOND SESSION</li>
-                          <li><strong>6:30-10:00 PM:</strong> SOCIAL NIGHT</li>
-                        </ul>
+                        <table>
+                          <tr><td>8:15-9:15 AM</td><td> REGISTRATION</td><td> A- BLOCK</tr>
+                          <tr><td>9:30-10:20 AM</td><td> INAUGURAL CEREMONY</td><td> AUDITORIUM</tr>
+                          <tr><td>10.20-10.45 AM</td><td>HIGH TEA </td><td>A-BLOCK</tr>
+                          <tr><td>10:45-1:30 PM</td><td> FIRST SESSION</td><td> RESPECTIVE COMMITTEES</tr>
+                          <tr><td>1:30-2:30 PM</td><td> LUNCH </td><td>GIRLS HOSTEL MESS</tr>
+                          <tr><td>2:30-5:00 PM</td><td> SECOND SESSION</td><td> RESPECTIVE COMMITTEES</tr>
+                          <tr><td>5.00-5.30 PM</td><td> REFRESHMENT BREAK</td><td> A-BLOCK</tr>
+                          <tr><td>6:30-10:00 PM</td><td> SOCIAL NIGHT</td><td> JECRC UNIVERSITY</tr>
+                        </table>
                     </div>
                     <div>
                         Second day of conference ( 27th March'16):
-                        <ul>
-                          <li><strong>10:00-1:30 PM:</strong> FIRST SESSION</li>
-                          <li><strong>1:30-2:30 PM:</strong> LUNCH</li>
-                          <li><strong>2:30-5:00 PM:</strong>SECOND SESSION</li>
-                          <li><strong>5:30-6:30 PM:</strong> CLOSING CEREMONY</li>
-                        </ul>
+                        <table>
+                          <tr><td>10:00-1:30 PM </td><td>FIRST SESSION</td><td> RESPECTIVE COMMITTEES</td></tr>
+                          <tr><td>1:30-2:30 PM </td><td>LUNCH </td><td>GIRLS HOSTEL MESS</td></tr>
+                          <tr><td>2:30-5:00 PM </td><td>SECOND SESSION </td><td>RESPECTIVE COMMITTEES</td></tr>
+                          <tr><td>5:30-6:30 PM </td><td>CLOSING CEREMONY AND PRIZE DISTRIBUTION</td><td> AUDITORIUM</td></tr>
+                        </table>
                     </div>
                 </div>
                 <div class="modal-footer">

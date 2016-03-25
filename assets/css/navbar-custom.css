@@ -188,11 +188,16 @@ footer .footer-right{
         width: 350px;
         margin: 10px auto;
     }
+
 }
 @media (min-width: 768px){
     .modal-dialog {
         width: 400px;
         margin: 30px auto;
+    }
+    #itinerary.modal-dialog{
+      width: 600px;
+      margin: 30px auto;
     }
 }
 .modal-content{
@@ -222,6 +227,9 @@ footer .footer-right{
 .OClist div li, .OClist div table{
     font-weight: normal;
     color: #00262D;
+}
+.OClist div table{
+  width: 100%;
 }
 
 
