@@ -65,7 +65,11 @@
 .commit{
 	font-size:13px;
 }
-
+.frame
+{
+	width:1140px;
+	height:200px;
+}
 /*------------------*/
 /*	SITE STRUCTURE
 /*------------------------------------------------------*/
@@ -645,7 +649,7 @@ a.glink:hover {
 
 
 	.mob_logo{
-		font-size:15px;
+		font-size:13px;
 	}
 
 
@@ -671,5 +675,11 @@ a.glink:hover {
 	}
 	.commit{
 		font-size:13px;
+	}
+	.frame
+	{
+
+		width:700px;
+		height:200px;
 	}
 }
