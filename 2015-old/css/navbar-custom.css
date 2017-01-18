@@ -1,0 +1,204 @@
+@font-face {
+    font-family:"Roboto Bk";
+    src: url(Roboto-Black.ttf);
+}
+/* NAVBAR */
+nav{
+    background: #212136;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Roboto Bk","Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #F88B27;
+    height: 44px;
+    padding:3px;
+}
+.navbar-default .navbar-brand span#motto{
+    display: none;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: rgb(9,165,84);
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #F88B27;
+    background-color: #F88B27;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #F88B27;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #F88B27;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #F88B27;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #F88B27;
+}
+
+.navbar-default a img{
+    height: 44px;
+    width: 44px;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+    /* mytime */
+    .navbar-default a.navbar-brand{
+        height: 90px;
+        padding: 0;
+        position: relative;
+        font-size: 35px;
+        margin-top:-30px;
+    }
+    .navbar-default a img{
+        display: inline;
+        width: 90px;
+        height: 90px;
+        margin-left: 8px;
+        margin-top: 15px;
+    }
+    .navbar-default a.navbar-brand span#motto{
+        display: block;
+        font-size: 17px;
+        color: white;
+        position: absolute;
+        left: 110px;
+        top: 72px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .navbar-default.navbar-shrink a.navbar-brand{
+        height: 60px;
+        margin-top: -20px;
+        font-size: 24px;
+    }
+    .navbar-default.navbar-shrink a img{
+        width: 60px;
+        height: 60px;
+    }
+    .navbar-default.navbar-shrink a span#motto{
+        font-size: 12px;
+        left: 75px;
+        top: 50px;
+    }
+    .navbar-default .container{
+        width: auto;
+    }
+}
+
+/* Navbar ends */
+
+/* footer design starts */
+footer{
+    background: rgb(34,34,34);
+    padding: 2em 10px;
+    border-top: 1px solid #f92;
+}
+footer .footer-left ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+footer .footer-left ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+footer .footer-left ul li a{
+    width: 57px;
+    height: 56px;
+    display: block;
+}
+footer .footer-right{
+    text-align:right;
+    font-size: 17px;
+}
+.footer-right p{
+    margin:0;
+    color:#3282f3;
+    text-align: right;
+}
+.footer-right p a{
+    color: #F88B27;
+}
+.ftwiter{
+    background:url(../img/footer-social-icons.png) no-repeat 0px 0px;
+}
+.ftwiter:hover{
+    background:url(../img/footer-social-icons.png) no-repeat 0px -56px;
+    transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
+    -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
+}
+.fface{
+    background: url(../img/footer-social-icons.png) no-repeat -70px 0px;
+    -webkit-transition: all ease 0.4s;-moz-transition: all ease 0.4s;-ms-transition: all ease 0.4s;-o-transition: all ease 0.4s;transition: all ease 0.4s;
+}
+.fface:hover{
+    background: url(../img/footer-social-icons.png) no-repeat -70px -56px;
+    transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);
+}
+/*footer design ends */

@@ -1,0 +1,198 @@
+
+
+for team members
+- background: linear-gradient(orange,white);
+
+onhover- (white,orange); 2 second transition; increase padding of img-thumbnail to 7px . remove border.
+
+add link to country matrix.
+Make developer contact modal.
+make carousel
+add visitor counter
+fix map marker( jecrc image)
+
+
+    <styled>
+        section#committees .thumbnail {
+            position:relative;
+            overflow:hidden;
+        }
+
+        .caption {
+            position:absolute;
+            top:0;
+            right:0;
+            background:rgba(90, 90, 90, 0.75);
+            width:100%;
+            height:100%;
+            padding:2%;
+            display: none;
+            text-align: left;
+            color:#fff !important;
+            z-index:2;
+        }
+    </styled>
+    $('.thumbnail').hover(
+                    function(){
+                        $(this).find('.caption').slideDown(250); //.fadeIn(250)
+                    },
+                    function(){
+                        $(this).find('.caption').slideUp(250); //.fadeOut(205)
+                    }
+            );
+
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="img/GA.jpg" alt="..." class="">
+                        <div class="caption">
+                            <h4>GA-DISEC</h4>
+                            <p>Global Framework for autonomous</p>
+                            <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
+                            <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="img/HRC.jpg" alt="..." class="">
+                        <div class="caption">
+                            <h4>UN-HRC</h4>
+                            <p>Extremism- Growing Support For The Extreme Right Movement</p>
+
+                            <p><a href="" class="label label-danger" rel="tooltip" title="Zoom">Zoom</a>
+                                <a href="" class="label label-default" rel="tooltip" title="Download now">Download</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+old navbar styling
+
+
+   /* NAVBAR */
+            .navbar-default {
+                border-color: transparent;
+                background-color: #212136;
+            }
+
+            .navbar-default .navbar-brand {
+                font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+                color: #F88B27;
+            }
+
+            .navbar-default .navbar-brand:hover,
+            .navbar-default .navbar-brand:focus,
+            .navbar-default .navbar-brand:active,
+            .navbar-default .navbar-brand.active {
+                color: #F88B27;
+            }
+
+            .navbar-default .navbar-collapse {
+                border-color: rgba(255,255,255,.02);
+            }
+
+            .navbar-default .navbar-toggle {
+                border-color: #F88B27;
+                background-color: #F88B27;
+            }
+
+            .navbar-default .navbar-toggle .icon-bar {
+                background-color: #fff;
+            }
+
+            .navbar-default .navbar-toggle:hover,
+            .navbar-default .navbar-toggle:focus {
+                background-color: #F88B27;
+            }
+
+            .navbar-default .nav li a {
+                text-transform: uppercase;
+                font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-weight: 400;
+                letter-spacing: 1px;
+                color: #fff;
+            }
+
+            .navbar-default .nav li a:hover,
+            .navbar-default .nav li a:focus {
+                outline: 0;
+                color: #F88B27;
+            }
+
+            .navbar-default .navbar-nav>.active>a {
+                border-radius: 0;
+                color: #fff;
+                background-color: #F88B27;
+            }
+
+            .navbar-default .navbar-nav>.active>a:hover,
+            .navbar-default .navbar-nav>.active>a:focus {
+                color: #fff;
+                background-color: #F88B27;
+            }
+            .content{
+                margin-top: 51px;
+            }
+
+            .navbar-header a img{
+                width: 44px;
+                margin-right: 10px;
+            }
+            .navbar-header a{
+                margin-top:-12px;
+            }
+
+            @media(min-width:768px) {
+                .navbar-header a{
+                    margin-top:-0px;
+                }
+                .navbar-header {
+                    margin-top: -30px;
+                }
+                .navbar-shrink .navbar-header{
+                    margin-top: -18px;
+                }
+                .navbar-header a img{
+                    width:80px;
+                }
+                .navbar-shrink a img{
+                    width:55px;
+                }
+                .content{
+                    margin-top:100px;
+                }
+                .navbar-default {
+                    padding: 25px 0;
+                    border: 0;
+                    background-color: #212136;
+                    -webkit-transition: padding .3s;
+                    -moz-transition: padding .3s;
+                    transition: padding .3s;
+                }
+
+                .navbar-default .navbar-brand {
+                    font-size: 2em;
+                    -webkit-transition: all .3s;
+                    -moz-transition: all .3s;
+                    transition: all .3s;
+                }
+
+                .navbar-default .navbar-nav>.active>a {
+                    border-radius: 3px;
+                }
+
+                .navbar-default.navbar-shrink {
+                    padding: 10px 0;
+                    background-color: #222;
+                }
+
+                .navbar-default.navbar-shrink .navbar-brand {
+                    font-size: 1.5em;
+                }
+            }
+
+            /* NAVBAR STYLING END */
