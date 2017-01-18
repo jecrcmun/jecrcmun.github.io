@@ -34,7 +34,7 @@ body, input, textarea {
 }
 
 /* Headings */
-h1, 
+h1,
 h2,
 h3,
 h4,
@@ -44,15 +44,15 @@ h6 {
 	font-weight: normal;
 	color: #272727;
 }
-h1 a, 
-h2 a, 
-h3 a, 
-h4 a, 
-h5 a, 
-h6 a { 
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
 	color: inherit;
 }
-h1 { 
+h1 {
 	font-size: 60px;
 	line-height: 50px;
 	margin-bottom: 20px;
@@ -65,16 +65,16 @@ h1.white {
 	color: #fff;
 	background: url(../images/arrow-02.png) no-repeat left 8px;
 }
-h2 { 
-	font-size: 40px; 
+h2 {
+	font-size: 40px;
 	line-height: 45px;
 	margin-bottom: 25px;
 	font-style: normal;
 	font-weight: 300;
 
 }
-h3 { 
-	font-size: 27px; 
+h3 {
+	font-size: 27px;
 	line-height: 35px;
 	margin-bottom: 20px;
 	font-style: normal;
@@ -85,16 +85,16 @@ h3.white {
 	color: #fff;
 
 }
-h4 { 
-	font-size: 22px; 
+h4 {
+	font-size: 22px;
 	line-height: 27px;
 	margin-bottom: 20px;
 	font-style: normal;
 	font-weight: 400;
 
 }
-h5 { 
-	font-size: 18px; 
+h5 {
+	font-size: 18px;
 	line-height: 25px;
 	margin-bottom: 20px;
 	font-style: normal;
@@ -111,20 +111,13 @@ h5 b {
 h5 b.white {
 	color: #fff;
 }
-h6 { 
-	font-size: 16px; 
+h6 {
+	font-size: 16px;
 	line-height: 22px;
 	margin-bottom: 20px;
 	font-style: normal;
 	font-weight: 400;
 }
-
-
-
-
-
-
-
 
 
 /* Text elements */
