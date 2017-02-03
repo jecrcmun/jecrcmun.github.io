@@ -1240,10 +1240,10 @@ a.hi-icon img {
 
 
 figure.effect-apollo img {
-	opacity: 0.95;
+	opacity: 1;
 
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transition: opacity 0.95s, -webkit-transform 0.35s;
+	transition: opacity 0.95s, transform 0.35s;
 	-webkit-transform: scale3d(1.05,1.05,1);
 	transform: scale3d(1.05,1.05,1);
 	-moz-transform: scale3d(1.05,1.05,1);
@@ -1287,7 +1287,7 @@ figure.effect-apollo h2 {
 }
 
 figure.effect-apollo:hover img {
-	opacity: 0.6;
+	opacity: 0.95;
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 	-moz-transform: scale3d(1,1,1);
@@ -2844,7 +2844,7 @@ ul.social li a{
 
 }
 
-@media only screen and (max-width: 70em) {
+@media only screen and (max-width: 40em) {
 
     .grid figure img {
         position: relative;

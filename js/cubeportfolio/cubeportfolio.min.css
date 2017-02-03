@@ -2232,7 +2232,7 @@ transition:transform .4s ease 0s!important
 	border-color:#DFDFDF
 }
 .cbp-l-filters-button {
-	margin:0 0 50px 65px;
+	margin:0 0 0px 15px;
 	text-align:left;
 }
 .cbp-l-filters-button .cbp-filter-item {

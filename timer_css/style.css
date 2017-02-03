@@ -38,17 +38,11 @@ body a:hover,body a{
 	text-decoration:none;
 }
 /*-- banner --*/
-/* .banner{ */
-	/* background:url(../images/banner.jpg) no-repeat 0px 0px; */
-	/* background-size:cover; */
-	/* -webkit-background-size:cover; */
-	/* -moz-background-size:cover; */
-	/* -o-background-size:cover; */
-	/* -ms-background-size:cover; */
-/* } */
+
 .banner-info {
     background: url(../images/dott.png)repeat 0px 0px;
-    background-size: 4px;
+    height:500px; /* height of  home pic  */
+    background-size: cover;
     -webkit-background-size: 4px;
     -moz-background-size: 4px;
     -o-background-size: 4px;
@@ -251,11 +245,11 @@ body a:hover,body a{
 }
   .main-example .count {
     font-size:1.3em;
-    line-height: 50px;
+    line-height: 70px;
   }
   .main-example .label {
-    font-size: 0.8em;
-    top: 42px;
+    font-size: 0.9em;
+    top: 65px;
   }
 }
 /*-- //count-down --*/
@@ -423,15 +417,25 @@ body a:hover,body a{
 /*}*/
 @media (max-width:1600px){
 	.banner-info {
-        margin-left:250px;
-        margin-top: 10px;
+        margin-left:350px;
+        /*margin-top: 10px;*/
 		padding-top:0em ;
 	}
 }
-@media (max-width:70em){
+@media (max-width:1200px){
+	.banner-info {
+        margin-left:270px;
+        /*margin-top: 10px;*/
+		padding-top:0em ;
+	}
+}
+
+
+
+@media (max-width:40em){
     .banner-info {
-        margin-left:0px;
-        width:50%;
+        margin-left:10px;
+        width:100%;
         padding-top:0em ;
     }
 }

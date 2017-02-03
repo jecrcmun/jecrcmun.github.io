@@ -10,12 +10,14 @@
 
     <link href="timer_css/style.css" rel="stylesheet" type="text/css" media="all" />
 
-
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script type="text/javascript" src="timer_js/jquery-2.1.4.min.js"></script>
 
 
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
+
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
     <link rel="stylesheet" media="screen" href="//fontlibrary.org/face/segment7" type="text/css"/>
 	<link rel="shortcut icon" href="images/favicon.ico">
 
@@ -60,14 +62,14 @@
    <style>
     .text{
         font-weight:bold;
-        font-family:Rockwell;
+        font-family:lato;
         color:white;
         padding-top:5px;
     }
 
 
        .apply{
-            font-family:Rockwell;
+            font-family:lato;
            font-size:20px;
            color:black;
            border:3px #1c88b5 solid;
@@ -80,6 +82,11 @@
         color:white;
         background-color:black;
     }
+
+    /*.one_fourth{*/
+
+        /*box-shadow:1px 1px 1px black;*/
+    /*}*/
 
        .hometext
 {
@@ -102,6 +109,92 @@
            width:100%;
            height:100%;
        }
+.cont{
+    padding-left:10px;
+    box-shadow:2px 2px 2px rgba(13, 13, 13, 0.77);
+}
+
+.cont:hover{
+    box-shadow:2px 2px 2px rgba(13, 13, 13, 0.77);
+}
+
+    .face{
+
+        color:black;
+        padding-left:100px;
+    }
+
+       .insta{
+           color:black;
+       }
+
+
+    .register{
+        color:white;
+        background-color: rgba(14, 9, 9, 0.69);
+        border:2px black solid;
+
+
+    }
+    #main{
+        position: relative;
+        top:-150px;
+        left:580px;
+        width:15%;
+        padding-top:13px;
+        height:50px;
+
+
+    }
+    .aa{
+
+        padding-left:45px;
+        font-size:18px;
+    }
+
+
+
+    @media only screen and (max-width:1200px)
+    { .aa{
+
+        padding-left:30px;
+        font-size:18px;
+    }
+        #main{
+            position: relative;
+            top:-150px;
+            left:480px;
+            width:15%;
+            padding-top:13px;
+            height:50px;
+
+
+        }
+    }
+
+    @media only screen and (max-width:40em){
+
+        #main{
+            position: relative;
+            top:-150px;
+            left:90px;
+            width:50%;
+            padding-top:13px;
+            height:50px;
+
+        }
+        .aa{
+
+            padding-left:35px;
+            font-size:18px;
+        }
+
+
+    }
+
+
+
+
    </style>
 
 </head>
@@ -123,8 +216,8 @@
             <!-- Logo -->
             <div class="logo" style="display:inline-flex;" id="home"  >
 			<a href="#home" data-scroll><img src="images/logo.jpg" alt="" /><!--<img src="images/mun.png" alt="" style="width:160px;" />--></a>
-			<p  style="font-weight:bold;font-family:Arial Black;padding:20px 0px 0px 15px; " ><b style="color:red;" class="mob_logo"> JECRC MUN</b> <span style="color:white;" class="mob_logo">2017</span><br>
-			<span style="color:white;" class="mob_tlogo">Diplomacy At Its Zenith</span>
+			<p  style="font-weight:bold;font-family:lato ;padding:20px 0px 0px 15px; " ><b style="color:red;font-family: lato;" class="mob_logo"> JECRC MUN</b> <span style="color:white;font-family: lato;" class="mob_logo">2017</span><br>
+			<span style="color:white;font-family: lato;" class="mob_tlogo">Diplomacy At Its Zenith</span>
 			</p>
 
 			</div>
@@ -138,9 +231,9 @@
                <!--   <li><a href="#about" data-scroll><i class="fa fa-circle"></i>About</a></li> -->
                   <li><a href="#committee" data-scroll><i class="fa fa-circle"></i>COMMITTEES</a></li>
                   <li><a href="#" data-scroll><i class="fa fa-circle"></i>ITINERARY</a></li>
-                  <li><a href="#" data-scroll><i class="fa fa-circle"></i>SPONSORS</a></li>
-                  <li><a href="#" data-scroll><i class="fa fa-circle"></i>GALLERY</a></li>
-                  <li><a href="#" data-scroll><i class="fa fa-circle"></i>AMBASSADOR</a></li>
+                  <li><a href="sponsor.html" data-scroll><i class="fa fa-circle"></i>OUR ASSOCIATES</a></li>
+                    <li><a href="#" data-scroll><i class="fa fa-circle"></i>AMBASSADOR</a></li>
+                    <li><a href="gallary.html" data-scroll><i class="fa fa-circle"></i>GALLERY</a></li>
                   <li><a href="#contact" data-scroll><i class="fa fa-circle"></i>CONTACT US</a></li>
 
                 </ul>
@@ -160,167 +253,183 @@
 
 <div class="clearfix" ></div>
 
-
- <div class="container" >
-     <div class="row" >
-         <div class="col-xs-12 col-sm-12 col-md-12">
-             <iframe src="try.html"  scrolling="no" class="frame"></iframe>
-         </div></div></div>
-    <div class="sectionarea" id="home" style="position:relative;top:-55px;"  >
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+        <div class="row"  >
+            <div class="col-xs-12 col-sm-12 col-md-12" >
+                <iframe src="try.html"  scrolling="no" class="frame">
 
 
-                    <div class="ms-fullscreen-template" id="slider1-wrapper"  >
-
-                        <div class="master-slider ms-skin-default" id="masterslider"   >
-
-
-                            <div class="ms-slide slide-1" data-delay="5">
-
-                                <h3 class="ms-layer thin-text-white blacktext"
-                                    style="top:150px;text-shadow:3px 3px black;"
-                                    data-type="text"
-                                    data-effect="rotate3dleft(50,0,0,380)"
-                                    data-duration="1000"
-                                    data-ease="easeInOutQuint"
-                                >
-                                    DIPLOMACY AT
-                                </h3>
-
-                                <h3 class="ms-layer thin-text-black whitetext"
-                                    style="top:235px;"
-                                    data-type="text"
-                                    data-effect="rotate3dright(-50,0,0,380)"
-                                    data-duration="1000"
-                                    data-ease="easeInOutQuint"
-                                >
-                                    ITS ZENITH
-                                </h3>
-
-                                <img src="images/pic2.jpg"  alt=""/>
-                            </div>
-
-
-
-
-                            <div class="ms-slide slide-2 " data-delay="5">
-
-                                <h3 class="ms-layer thin-text-white blacktext"					data-type="text"
-                                    style="top:190px;text-shadow:3px 3px black;"
-                                    data-effect="skewright(25,250)"
-                                    data-duration="1500"
-                                    data-ease="easeOutQuart"
-                                    data-delay="700"
-                                >
-                                    TIME FOR
-                                </h3>
-                                <h3 class="ms-layer thin-text-white blacktext"
-                                    data-type="text"
-                                    style="top:270px;text-shadow:3px 3px black;"
-                                    data-effect="scalebottom(1.1,1.1,50)"
-                                    data-duration="1500"
-                                    data-ease="easeOutQuart"
-                                    data-delay="1200"
-                                >
-                                    JECRC MUN 2017
-                                </h3>
-
-                                <div class="ms-layer"
-                                     style="top:365px;text-shadow:3px 3px black;"
-                                     data-type="text"
-                                     data-duration="900"
-                                     data-delay="2200"
-                                     data-ease="easeOutExpo"
-                                     data-effect="bottom(40)"
-                                >
-
-                                </div>
-
-                                <img src="images/pic3.jpg"  alt=""/>
-                            </div>
-
-
-                            <div class="ms-slide slide-3" data-delay="5">
-
-                                <h3 class="ms-layer thin-text-white blacktext"
-                                    data-type="text"
-                                    style="left:670px; top:90px;text-shadow:3px 3px black;"
-                                    data-effect="skewright(25,250)"
-                                    data-duration="1500"
-                                    data-ease="easeOutQuart"
-                                    data-delay="100"
-                                >
-                                    QUESTIONS ?
-                                </h3>
-                                <h3 class="ms-layer big-text"
-                                    data-type="text"
-                                    style="left:670px; top:170px;text-shadow:3px 3px black;"
-                                    data-effect="scalebottom(1.1,1.1,50)"
-                                    data-duration="1500"
-                                    data-ease="easeOutQuart"
-                                    data-delay="600"
-                                >
-                                    CONTACT US
-                                </h3>
-
-                                <div class="ms-layer"
-                                     style="left:570px; top:295px;text-shadow:3px 3px black;"
-                                     data-type="text"
-                                     data-duration="900"
-                                     data-delay="1600"
-                                     data-ease="easeOutExpo"
-                                     data-effect="bottom(40)"
-                                >
-
-                                </div>
-
-                                <img src="images/main1.jpg"  alt=""/>
-                            </div>
-
-
-
-
-
-                            <div class="ms-slide slide-4" data-delay="5">
-
-                                <h4 class="ms-layer small-text"
-                                    style="top:160px;text-shadow:3px 3px black;"
-                                    data-type="text"
-                                    data-effect="top(45)"
-                                    data-duration="3400"
-                                    data-delay="100"
-                                    data-ease="easeOutExpo"
-                                >
-                                    DELEGATES APPLICATIONS
-                                </h4>
-
-                                <h4 class="ms-layer bold-text-white bigtext"
-                                    style="top:245px;text-shadow:3px 3px black;"
-                                    data-type="text"
-                                    data-effect="top(45)"
-                                    data-duration="3400"
-                                    data-delay="700"
-                                    data-ease="easeOutExpo"
-                                >
-                                    ARE OPEN NOW !!!
-                                </h4>
-                                <img src="images/main3.jpg"  alt=""/>
-                            </div>
-
-
-
-
-                        </div>
-
-                    </div>
+                </iframe>
+                <div id="main" data-anijs="if: mouseover, do: swing animated" class="register">
+                    <a href="#apply" class="aa" style="color:white;" >Register Now</a>
                 </div>
 
+                <!--<script src="http://anijs.github.io/lib/anijs/anijs-min.js"></script>-->
 
-            </div>
-        </div>
+                <!--<script src="http://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>-->
+
+                <!--<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>-->
+
+            </div></div>
+
+
+
+
+
+    <div class="sectionarea" id="home"   >
+
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-md-12">-->
+        <!--style="position:relative;top:-55px;"-->
+
+        <!--<div class="ms-fullscreen-template" id="slider1-wrapper"  >-->
+
+                        <!--<div class="master-slider ms-skin-default" id="masterslider"   >-->
+
+
+                            <!--<div class="ms-slide slide-1" data-delay="5">-->
+
+                                <!--<h3 class="ms-layer thin-text-white blacktext"-->
+                                    <!--style="top:150px;text-shadow:3px 3px black;"-->
+                                    <!--data-type="text"-->
+                                    <!--data-effect="rotate3dleft(50,0,0,380)"-->
+                                    <!--data-duration="1000"-->
+                                    <!--data-ease="easeInOutQuint"-->
+                                <!--&gt;-->
+                                    <!--DIPLOMACY AT-->
+                                <!--</h3>-->
+
+                                <!--<h3 class="ms-layer thin-text-black whitetext"-->
+                                    <!--style="top:235px;"-->
+                                    <!--data-type="text"-->
+                                    <!--data-effect="rotate3dright(-50,0,0,380)"-->
+                                    <!--data-duration="1000"-->
+                                    <!--data-ease="easeInOutQuint"-->
+                                <!--&gt;-->
+                                    <!--ITS ZENITH-->
+                                <!--</h3>-->
+
+                                <!--<img src="images/pic2.jpg"  alt=""/>-->
+                            <!--</div>-->
+
+
+
+
+                            <!--<div class="ms-slide slide-2 " data-delay="5">-->
+
+                                <!--<h3 class="ms-layer thin-text-white blacktext"					data-type="text"-->
+                                    <!--style="top:190px;text-shadow:3px 3px black;"-->
+                                    <!--data-effect="skewright(25,250)"-->
+                                    <!--data-duration="1500"-->
+                                    <!--data-ease="easeOutQuart"-->
+                                    <!--data-delay="700"-->
+                                <!--&gt;-->
+                                    <!--TIME FOR-->
+                                <!--</h3>-->
+                                <!--<h3 class="ms-layer thin-text-white blacktext"-->
+                                    <!--data-type="text"-->
+                                    <!--style="top:270px;text-shadow:3px 3px black;"-->
+                                    <!--data-effect="scalebottom(1.1,1.1,50)"-->
+                                    <!--data-duration="1500"-->
+                                    <!--data-ease="easeOutQuart"-->
+                                    <!--data-delay="1200"-->
+                                <!--&gt;-->
+                                    <!--JECRC MUN 2017-->
+                                <!--</h3>-->
+
+                                <!--<div class="ms-layer"-->
+                                     <!--style="top:365px;text-shadow:3px 3px black;"-->
+                                     <!--data-type="text"-->
+                                     <!--data-duration="900"-->
+                                     <!--data-delay="2200"-->
+                                     <!--data-ease="easeOutExpo"-->
+                                     <!--data-effect="bottom(40)"-->
+                                <!--&gt;-->
+
+                                <!--</div>-->
+
+                                <!--<img src="images/pic3.jpg"  alt=""/>-->
+                            <!--</div>-->
+
+
+                            <!--<div class="ms-slide slide-3" data-delay="5">-->
+
+                                <!--<h3 class="ms-layer thin-text-white blacktext"-->
+                                    <!--data-type="text"-->
+                                    <!--style="left:670px; top:90px;text-shadow:3px 3px black;"-->
+                                    <!--data-effect="skewright(25,250)"-->
+                                    <!--data-duration="1500"-->
+                                    <!--data-ease="easeOutQuart"-->
+                                    <!--data-delay="100"-->
+                                <!--&gt;-->
+                                    <!--QUESTIONS ?-->
+                                <!--</h3>-->
+                                <!--<h3 class="ms-layer big-text"-->
+                                    <!--data-type="text"-->
+                                    <!--style="left:670px; top:170px;text-shadow:3px 3px black;"-->
+                                    <!--data-effect="scalebottom(1.1,1.1,50)"-->
+                                    <!--data-duration="1500"-->
+                                    <!--data-ease="easeOutQuart"-->
+                                    <!--data-delay="600"-->
+                                <!--&gt;-->
+                                    <!--CONTACT US-->
+                                <!--</h3>-->
+
+                                <!--<div class="ms-layer"-->
+                                     <!--style="left:570px; top:295px;text-shadow:3px 3px black;"-->
+                                     <!--data-type="text"-->
+                                     <!--data-duration="900"-->
+                                     <!--data-delay="1600"-->
+                                     <!--data-ease="easeOutExpo"-->
+                                     <!--data-effect="bottom(40)"-->
+                                <!--&gt;-->
+
+                                <!--</div>-->
+
+                                <!--<img src="images/main1.jpg"  alt=""/>-->
+                            <!--</div>-->
+
+
+
+
+
+                            <!--<div class="ms-slide slide-4" data-delay="5">-->
+
+                                <!--<h4 class="ms-layer small-text"-->
+                                    <!--style="top:160px;text-shadow:3px 3px black;"-->
+                                    <!--data-type="text"-->
+                                    <!--data-effect="top(45)"-->
+                                    <!--data-duration="3400"-->
+                                    <!--data-delay="100"-->
+                                    <!--data-ease="easeOutExpo"-->
+                                <!--&gt;-->
+                                    <!--DELEGATES APPLICATIONS-->
+                                <!--</h4>-->
+
+                                <!--<h4 class="ms-layer bold-text-white bigtext"-->
+                                    <!--style="top:245px;text-shadow:3px 3px black;"-->
+                                    <!--data-type="text"-->
+                                    <!--data-effect="top(45)"-->
+                                    <!--data-duration="3400"-->
+                                    <!--data-delay="700"-->
+                                    <!--data-ease="easeOutExpo"-->
+                                <!--&gt;-->
+                                    <!--ARE OPEN NOW !!!-->
+                                <!--</h4>-->
+                                <!--<img src="images/main3.jpg"  alt=""/>-->
+                            <!--</div>-->
+
+
+
+
+                        <!--</div>-->
+
+                    <!--</div>-->
+                <!--</div>-->
+
+
+            <!--</div>-->
+        <!--</div>-->
 
 
 
@@ -330,15 +439,15 @@
 
 <div class="container">
 <div class="section1" id="about">
-    <h1  class="message" >MESSAGE FROM THE SECRETARY GENERAL</h1>
+    <h1  class="message" style="font-family:'lato';font-weight:bold;" >MESSAGE FROM THE SECRETARY GENERAL</h1>
     <br />
-    <div class="peosec" style="margin-left:60px;" ><img src="./images/ar.jpg" alt="" /> <strong>- Shivansh Ahuja<i style="color:black"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbspSecretary General </i></strong></div>
-    <p style="font-family:'Century Gothic';font-weight:bold;font-size:16px;padding-left:60px;">
+    <div class="peosec" style="margin-left:60px;" ><img src="./images/ar.jpg" alt="" /> <strong style="font-family:'lato';font-weight:bold;">- Shivansh Ahuja<i style="color:black"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbspSecretary General </i></strong></div>
+    <p style="font-family: 'Lato', sans-serif;font-weight:bold;font-size:16px;padding-left:60px;color:black;">
         <i>Greetings Delegates</i><br>
-        <br>"Labor Omnia Vincit"<br>This  phrase from Virgil's Georgics has stayed true to its meaning. We can achieve the zenith of success only when we are genuine and consistent  with our efforts, no matter how strenuous the task is. Being afraid of failure is a natural instinct, but the real winner is the one who overpowers the  fear and unleashes the true potential. <br><br>
-        It gives me immense pleasure to welcome you all to JECRC Model United Nations 2017. It is an honor and a moment of pride to be the Secretary General of its sixth edition. I am fortunate to be a part of JECRC MUN since 2014 .On behalf of my entire team I extend to you all a very warm welcome to JECRC MUN 2017.<br><br>
-        JECRC MUN being one of the oldest and largest MUN conferences of our country has established a very popular name in the MUN circuit. This year we'll be simulating 5 committees wherein we'll witness discussions between delegates from across the country and beyond; about the measures of peace and security in the nation and around the world, the rights of refugees and resolve  some international conflicts. The "why" of MUNs for me  has always remained to empower yourself by empowering others. All the different dimensions of MUNs have a latent learning.<br><br>
-        As Secretary General, I personally welcome the delegates from all around the globe to broaden their minds and step into the shoes of diplomats of the countries they represent. I, on behalf of my entire secretariat invite you to explore, how this can be achieved, and on what basis, under what framework and in what capacity. That, is the mark of an excellent Delegate, and we will accept no less, here at JECRC MUN 2017.<br><br>
+        <br>"Labor Omnia Vincit"<br>This  phrase from Virgil's Georgics has stayed true to its meaning. We can achieve the zenith of success only when we are genuine and consistent  with our efforts, no matter how strenuous the task is. Being afraid of failure is a natural instinct, but the real winner is the one who overpowers the  fear and unleashes the true potential. <br>
+        It gives me immense pleasure to welcome you all to JECRC Model United Nations 2017. It is an honor and a moment of pride to be the Secretary General of its sixth edition. I am fortunate to be a part of JECRC MUN since 2014 .On behalf of my entire team I extend to you all a very warm welcome to JECRC MUN 2017.<br>
+        JECRC MUN being one of the oldest and largest MUN conferences of our country has established a very popular name in the MUN circuit. This year we'll be simulating 5 committees wherein we'll witness discussions between delegates from across the country and beyond; about the measures of peace and security in the nation and around the world, the rights of refugees and resolve  some international conflicts. The "why" of MUNs for me  has always remained to empower yourself by empowering others. All the different dimensions of MUNs have a latent learning.<br>
+        As Secretary General, I personally welcome the delegates from all around the globe to broaden their minds and step into the shoes of diplomats of the countries they represent. I, on behalf of my entire secretariat invite you to explore, how this can be achieved, and on what basis, under what framework and in what capacity. That, is the mark of an excellent Delegate, and we will accept no less, here at JECRC MUN 2017.<br>
         Being responsible for the secretariat, I have closely looked after all the aspects of making this Secretariat the best you could find. Please feel free to contact me at secgen@jecrcmun.co.in <br><br>
         Regards<br>
         Shivansh Ahuja<br>
@@ -349,55 +458,51 @@
     <br>
 
 
-	<h1>Welcome to JECRC MUN 2017</h1>
-    <h5><b><span style="color:black;">A Model United Nations Conference(MUN)</span> is a simulation of international committees wherein national and international issues are tackled and talked about by students each of whom represents a country in the conference. MUN helps students develop their verbal and written English. It also improves debating, public-speaking and problem-solving skills. MUN conferences raise the youth's awareness of global problems and introduce them to people from different backgrounds. Another aim of MUN is to encourage students to share different views and try to understand these views.<br><br>JECRC holds credit of organizing the first MUN in Jaipur, inaugurated by Shri. Kul Bhushan Kothari, renowned educationist,&nbsp in March 2012. This is going to be the fifth venture in the same path to bring in more awareness of MUNs and their emphasis to help people cultivate in them the art of leadership and negotiation.</b></h5>
 
-    <div class="clearfix margin_top7"></div>
+    <!--<div class="one_third">-->
 
-    <div class="one_third">
+        <!--<div class="circle animate" data-anim-type="zoomIn" data-anim-delay="400">-->
+        	<!--<i class="fa fa-coffee"></i>-->
+        <!--</div>-->
 
-        <div class="circle animate" data-anim-type="zoomIn" data-anim-delay="400">
-        	<i class="fa fa-coffee"></i>
-        </div>
+        <!--<strong style="text-align:center;">Peeking into Cultures</strong>-->
 
-        <strong style="text-align:center;">Peeking into Cultures</strong>
-
-        <p>Exploring ethnic diversities and socities that are ever so different from ours always brings revelations. It is in unveiling this human story, we find compassion and feel connected with the rest of humanity.</p>
+        <!--<p>Exploring ethnic diversities and socities that are ever so different from ours always brings revelations. It is in unveiling this human story, we find compassion and feel connected with the rest of humanity.</p>-->
 
 
-    </div><!-- end section -->
+    <!--</div>&lt;!&ndash; end section &ndash;&gt;-->
 
-    <div class="one_third">
+    <!--<div class="one_third">-->
 
-        <div class="circle animate" data-anim-type="zoomIn" data-anim-delay="600">
-        	<i class="fa fa-tags"></i>
-        </div>
+        <!--<div class="circle animate" data-anim-type="zoomIn" data-anim-delay="600">-->
+        	<!--<i class="fa fa-tags"></i>-->
+        <!--</div>-->
 
-        <strong style="text-align:center;">Addressing Problems</strong>
+        <!--<strong style="text-align:center;">Addressing Problems</strong>-->
 
-        <p>Part of being a delegate in an MUN often involves looking at the situation inside out, from the perspective of the nations. This requires analyzing the problems faced by the natives and identifying the obstacles development in the region faces.</p>
-
-
-    </div><!-- end section -->
-
-    <div class="one_third last">
-
-        <div class="circle animate" data-anim-type="zoomIn" data-anim-delay="800">
-        	<i class="fa fa-trophy"></i>
-        </div>
-
-        <strong style="text-align:center;">Putting Forward Solutions</strong>
-
-        <p>What follows a Model UN Conference(usually) is a resolution, that details the modus operandi of the solution that has been put forward by the member states.</p>
+        <!--<p>Part of being a delegate in an MUN often involves looking at the situation inside out, from the perspective of the nations. This requires analyzing the problems faced by the natives and identifying the obstacles development in the region faces.</p>-->
 
 
-    </div><!-- end section -->
+    <!--</div>&lt;!&ndash; end section &ndash;&gt;-->
+
+    <!--<div class="one_third last">-->
+
+        <!--<div class="circle animate" data-anim-type="zoomIn" data-anim-delay="800">-->
+        	<!--<i class="fa fa-trophy"></i>-->
+        <!--</div>-->
+
+        <!--<strong style="text-align:center;">Putting Forward Solutions</strong>-->
+
+        <!--<p>What follows a Model UN Conference(usually) is a resolution, that details the modus operandi of the solution that has been put forward by the member states.</p>-->
+
+
+    <!--</div>&lt;!&ndash; end section &ndash;&gt;-->
    <!-- end section -->
 
 </div>
 </div><!-- end about section -->
 
-<div class="clearfix"></div>
+<!--<div class="clearfix"></div>-->
 <!--
 <div class="funfacts">
 <div class="container animate" data-anim-type="fadeIn" data-anim-delay="800">
@@ -418,156 +523,163 @@
 <div class="clearfix"></div>
 
 <div class="section2" id="committee">
+    <div class="container">
+    <h1 class="white" style="font-size:35px;font-family:'lato';"><b>COMMITTEES</b></h1>
+
+    </div>
+    <div class="clearfix margin_top5"></div>
+    <iframe src="commit.html" scrolling="no" class="commit"></iframe>
 <div class="container">
 
-	<h1 class="white" style="font-size:35px;"><b>COMMITTEES</b></h1>
-    <h5><b class="white">There are 5 committees in JECRC Model United Nations. Your participation is awaited.</b></h5>
 
-	<div class="clearfix margin_top5"></div>
 
-    <div id="filters-container" class="cbp-l-filters-button animate" data-anim-type="fadeInRight">
-        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">ALL COMMITTEES</div>
-        <div class="cbp-filter-item"><a href="#">SEE THE EXEXCUTIVE BOARD</a></div>
-        <div  class="cbp-filter-item"><a href="#">VIEW COUNTRY MATRIX</a></div>
-        <div  class="cbp-filter-item"><a href="#">VIEW BACKGROUND GUIDES</a></div>
+
+
+
+
+    <div id="filters-container" class="cbp-l-filters-button animate" data-anim-type="fadeInRight" style="margin-left:170px;" >
+        <!--<div data-filter="*" class="cbp-filter-item-active cbp-filter-item">ALL COMMITTEES</div>-->
+        <div class="cbp-filter-item"><a href="#" style="font-family:'lato';">SEE THE EXEXCUTIVE BOARD</a></div>
+        <div  class="cbp-filter-item"><a href="#" style="font-family:'lato';">VIEW COUNTRY MATRIX</a></div>
+        <div  class="cbp-filter-item"><a href="#" style="font-family:'lato';">VIEW BACKGROUND GUIDES</a></div>
      <!--   <div data-filter=".logo" class="cbp-filter-item">Logo</div> -->
     </div>
 
-</div>
+<!--</div>-->
 
-<div class="container_full animate" data-anim-type="fadeInUp">
+<!--<div class="container_full animate" data-anim-type="fadeInUp">-->
 
-	<div id="grid-container" class="cbp-l-grid-fullScreen">
-        <ul>
-            <li class="cbp-item web-design" >
-                <a href="./images/ga.jpg" class="cbp-caption cbp-lightbox" data-title="Developed By<br>by Arpit Kalra">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="./images/ga.jpg" class="size" alt="" />
-                    </div>
-                    <div class="cbp-caption-activeWrap" >
-                        <div class="cbp-l-caption-alignLeft">
-                            <div class="cbp-l-caption-body">
-                                <div class="cbp-l-caption-title">GA-DISEC</div>
-                                <!--<div class="cbp-l-caption-desc"><b  class="commit">International Peace and security with special<br> emphasis on South China Sea</b></div>-->
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="cbp-item web-design">
-                <a href="./images/nation.jpg" class="cbp-caption cbp-lightbox" data-title="Developed By<br>by Arpit Kalra">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="./images/nation.jpg" class="size" alt="" />
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignLeft">
-                            <div class="cbp-l-caption-body">
-                                <div class="cbp-l-caption-title">UNSC</div>
-                                <!--<div class="cbp-l-caption-desc"><b class="commit">Discussing the past resolutions regarding <br>Israel Palestine conflict.</b></div>-->
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="cbp-item motion identity">
-                <a href="./images/1-2.jpg" class="cbp-caption cbp-lightbox" data-title="Developed By<br>by Arpit Kalra">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="./images/1-2.jpg" class="size" alt="" />
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignLeft">
-                            <div class="cbp-l-caption-body">
-                                <div class="cbp-l-caption-title">UN HCR</div>
-                                <!--<div class="cbp-l-caption-desc"><b class="commit">The inception and globalisation of <br>Syrian refugee crisis</b></div>-->
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="cbp-item identity graphic">
-                <a href="./images/sochum.jpg" class="cbp-caption cbp-lightbox" data-title="Developed By<br>by Arpit Kalra">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="./images/sochum.jpg" class="size" style="width:100%;height:100%;" alt="" />
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignLeft">
-                            <div class="cbp-l-caption-body">
-                                <div class="cbp-l-caption-title">SOCHUM</div>
-                                <!--<div class="cbp-l-caption-desc"><b class="commit">Customizing and framing a Uniform<br> Civil Code for the Indian Scenario.</b></div>-->
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-          <li class="cbp-item web-design">
-                <a href="./images/5.jpg" class="cbp-caption cbp-lightbox" data-title="Skateshop Website<br>by Ayush Gandhi">
-                    <div class="cbp-caption-defaultWrap">
-                        <img src="./images/5.jpg" class="size" alt="" />
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                        <div class="cbp-l-caption-alignLeft">
-                            <div class="cbp-l-caption-body">
-                                <div class="cbp-l-caption-title">INTERNATIONAL COURT OF JUSTICE</div>
-                                <!--<div class="cbp-l-caption-desc">by GSRthemes9</div>-->
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <!--      <li class="cbp-item web-design">
-                    <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="10 Navigation Bars<br>by GSRthemes9">
-                        <div class="cbp-caption-defaultWrap">
-                            <img src="http://placehold.it/800x600" alt="" />
-                        </div>
-                        <div class="cbp-caption-activeWrap">
-                            <div class="cbp-l-caption-alignLeft">
-                                <div class="cbp-l-caption-body">
-                                    <div class="cbp-l-caption-title">10 Navigation Bars</div>
-                                    <div class="cbp-l-caption-desc">by GSRthemes9</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="cbp-item identity motion">
-                    <a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="To-Do Dashboard<br>by Tiberiu Neamu">
-                        <div class="cbp-caption-defaultWrap">
-                            <img src="http://placehold.it/800x600" alt="" />
-                        </div>
-                        <div class="cbp-caption-activeWrap">
-                            <div class="cbp-l-caption-alignLeft">
-                                <div class="cbp-l-caption-body">
-                                    <div class="cbp-l-caption-title">To-Do Dashboard</div>
-                                    <div class="cbp-l-caption-desc">by Tiberiu Neamu</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="cbp-item web-design graphic">
-                    <a href="http://vimeo.com/14912890" class="cbp-caption cbp-lightbox" data-title="Events and  More<br>by Tiberiu Neamu">
-                        <div class="cbp-caption-defaultWrap">
-                            <img src="http://placehold.it/800x600" alt="" />
-                        </div>
-                        <div class="cbp-caption-activeWrap">
-                            <div class="cbp-l-caption-alignLeft">
-                                <div class="cbp-l-caption-body">
-                                    <div class="cbp-l-caption-title">Events and More</div>
-                                    <div class="cbp-l-caption-desc">by Tiberiu Neamu</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li> -->
+	<!--<div id="grid-container" class="cbp-l-grid-fullScreen">-->
+        <!--<ul>-->
+            <!--<li class="cbp-item web-design" >-->
+                <!--<a href="./images/ga.jpg" class="cbp-caption cbp-lightbox" data-title="Developed By<br>by Arpit Kalra">-->
+                    <!--<div class="cbp-caption-defaultWrap">-->
+                        <!--<img src="./images/ga.jpg" class="size" alt="" />-->
+                    <!--</div>-->
+                    <!--<div class="cbp-caption-activeWrap" >-->
+                        <!--<div class="cbp-l-caption-alignLeft">-->
+                            <!--<div class="cbp-l-caption-body">-->
+                                <!--<div class="cbp-l-caption-title">GA-DISEC</div>-->
+                                <!--&lt;!&ndash;<div class="cbp-l-caption-desc"><b  class="commit">International Peace and security with special<br> emphasis on South China Sea</b></div>&ndash;&gt;-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li class="cbp-item web-design">-->
+                <!--<a href="./images/nation.jpg" class="cbp-caption cbp-lightbox" data-title="Developed By<br>by Arpit Kalra">-->
+                    <!--<div class="cbp-caption-defaultWrap">-->
+                        <!--<img src="./images/nation.jpg" class="size" alt="" />-->
+                    <!--</div>-->
+                    <!--<div class="cbp-caption-activeWrap">-->
+                        <!--<div class="cbp-l-caption-alignLeft">-->
+                            <!--<div class="cbp-l-caption-body">-->
+                                <!--<div class="cbp-l-caption-title">UNSC</div>-->
+                                <!--&lt;!&ndash;<div class="cbp-l-caption-desc"><b class="commit">Discussing the past resolutions regarding <br>Israel Palestine conflict.</b></div>&ndash;&gt;-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li class="cbp-item motion identity">-->
+                <!--<a href="./images/1-2.jpg" class="cbp-caption cbp-lightbox" data-title="Developed By<br>by Arpit Kalra">-->
+                    <!--<div class="cbp-caption-defaultWrap">-->
+                        <!--<img src="./images/1-2.jpg" class="size" alt="" />-->
+                    <!--</div>-->
+                    <!--<div class="cbp-caption-activeWrap">-->
+                        <!--<div class="cbp-l-caption-alignLeft">-->
+                            <!--<div class="cbp-l-caption-body">-->
+                                <!--<div class="cbp-l-caption-title">UN HCR</div>-->
+                                <!--&lt;!&ndash;<div class="cbp-l-caption-desc"><b class="commit">The inception and globalisation of <br>Syrian refugee crisis</b></div>&ndash;&gt;-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li class="cbp-item identity graphic">-->
+                <!--<a href="./images/sochum.jpg" class="cbp-caption cbp-lightbox" data-title="Developed By<br>by Arpit Kalra">-->
+                    <!--<div class="cbp-caption-defaultWrap">-->
+                        <!--<img src="./images/sochum.jpg" class="size" style="width:100%;height:100%;" alt="" />-->
+                    <!--</div>-->
+                    <!--<div class="cbp-caption-activeWrap">-->
+                        <!--<div class="cbp-l-caption-alignLeft">-->
+                            <!--<div class="cbp-l-caption-body">-->
+                                <!--<div class="cbp-l-caption-title">SOCHUM</div>-->
+                                <!--&lt;!&ndash;<div class="cbp-l-caption-desc"><b class="commit">Customizing and framing a Uniform<br> Civil Code for the Indian Scenario.</b></div>&ndash;&gt;-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+          <!--<li class="cbp-item web-design">-->
+                <!--<a href="./images/5.jpg" class="cbp-caption cbp-lightbox" data-title="Skateshop Website<br>by Ayush Gandhi">-->
+                    <!--<div class="cbp-caption-defaultWrap">-->
+                        <!--<img src="./images/5.jpg" class="size" alt="" />-->
+                    <!--</div>-->
+                    <!--<div class="cbp-caption-activeWrap">-->
+                        <!--<div class="cbp-l-caption-alignLeft">-->
+                            <!--<div class="cbp-l-caption-body">-->
+                                <!--<div class="cbp-l-caption-title">INTERNATIONAL COURT OF JUSTICE</div>-->
+                                <!--&lt;!&ndash;<div class="cbp-l-caption-desc">by GSRthemes9</div>&ndash;&gt;-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--&lt;!&ndash;      <li class="cbp-item web-design">-->
+                    <!--<a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="10 Navigation Bars<br>by GSRthemes9">-->
+                        <!--<div class="cbp-caption-defaultWrap">-->
+                            <!--<img src="http://placehold.it/800x600" alt="" />-->
+                        <!--</div>-->
+                        <!--<div class="cbp-caption-activeWrap">-->
+                            <!--<div class="cbp-l-caption-alignLeft">-->
+                                <!--<div class="cbp-l-caption-body">-->
+                                    <!--<div class="cbp-l-caption-title">10 Navigation Bars</div>-->
+                                    <!--<div class="cbp-l-caption-desc">by GSRthemes9</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li class="cbp-item identity motion">-->
+                    <!--<a href="http://placehold.it/800x600" class="cbp-caption cbp-lightbox" data-title="To-Do Dashboard<br>by Tiberiu Neamu">-->
+                        <!--<div class="cbp-caption-defaultWrap">-->
+                            <!--<img src="http://placehold.it/800x600" alt="" />-->
+                        <!--</div>-->
+                        <!--<div class="cbp-caption-activeWrap">-->
+                            <!--<div class="cbp-l-caption-alignLeft">-->
+                                <!--<div class="cbp-l-caption-body">-->
+                                    <!--<div class="cbp-l-caption-title">To-Do Dashboard</div>-->
+                                    <!--<div class="cbp-l-caption-desc">by Tiberiu Neamu</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li class="cbp-item web-design graphic">-->
+                    <!--<a href="http://vimeo.com/14912890" class="cbp-caption cbp-lightbox" data-title="Events and  More<br>by Tiberiu Neamu">-->
+                        <!--<div class="cbp-caption-defaultWrap">-->
+                            <!--<img src="http://placehold.it/800x600" alt="" />-->
+                        <!--</div>-->
+                        <!--<div class="cbp-caption-activeWrap">-->
+                            <!--<div class="cbp-l-caption-alignLeft">-->
+                                <!--<div class="cbp-l-caption-body">-->
+                                    <!--<div class="cbp-l-caption-title">Events and More</div>-->
+                                    <!--<div class="cbp-l-caption-desc">by Tiberiu Neamu</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</a>-->
+                <!--</li> &ndash;&gt;-->
 
-		</ul>
-    </div>
+		<!--</ul>-->
+    <!--</div>-->
 
-    <div class="cbp-l-loadMore-text">
-        <div data-href="#" class="cbp-l-loadMore-text-link"></div>
-    </div>
+    <!--<div class="cbp-l-loadMore-text">-->
+        <!--<div data-href="#" class="cbp-l-loadMore-text-link"></div>-->
+    <!--</div>-->
 
-</div>
+<!--</div>-->
 </div><!-- end portfolio section -->
 
 <div class="clearfix"></div>
@@ -606,24 +718,28 @@
     <img src="images/site-img1.png" class="img_left wres animate" data-anim-type="fadeInRight" data-anim-delay="1300" alt="" />
 
 </div>
-</div> --><!-- end services section -->
 
+<!-- end services section -->
+</div>
 
-
-<div class="section4" id="pricing">
+<a name="apply"></a>
+<div class="section4" >
     <div class="container">
+        <br><br>
+        <h1 style="font-family:'lato';">APPLY NOW</h1>
 
-        <h1>APPLY NOW</h1>
-        <h5><b>JECRC FOUNDATION PRESENTS&nbsp <i>JECRC MUN 2017</i>, Prizes worth ₹ 5 lakh !!! &nbspFor More Information, Kindly Contact Us.</b></h5>
 
         <div class="one_third packagesinfo animate" data-anim-type="fadeInUp" data-anim-delay="400">
+
+
+
 
             <ul class="active"  >
 
                 <li class="mostp">APPLY AS A DELEGATE</li>
                 <li class="title">	<img src="images/delegate.png" alt="" /></li>
 
-                <li><strong>Delegate Application Fee:</strong> ₹ 1200 <span> (Primary)</span></li>
+                <li><strong>Delegate Application Fee:</strong> ₹ 1200 <span> (Priority)</span></li>
                 <li><strong>Accomodation Fee:</strong> ₹ 600</li>
                 <li class="planbut"><a href="#">CLICK HERE</a></li>
 
@@ -641,7 +757,7 @@
 
                 <li><strong>Are Open Now !!!</strong></li>
 
-                <li class="planbut"><a href="#">CLICK HERE</a></li>
+                <li class="planbut"><a href="https://goo.gl/forms/b9FsyG6q6BfyF5m23">CLICK HERE</a></li>
 
             </ul>
 
@@ -656,8 +772,6 @@
                 <li class="title">	<img src="images/ipapplications.png" style="height:270px;" alt="" /></li>
 
                 <li style="padding-top:45px;padding-bottom:40px;"><strong>Journalist & Photographer Fee:</strong> ₹ 800</li>
-
-
 
                 <li class="planbut"><a href="#">CLICK HERE</a></li>
 
@@ -689,31 +803,30 @@
 <div class="section5" id="blog">
 <div class="container animate"  data-anim-type="fadeInUp" data-anim-delay="400">
 
-	<h1>SECRETARIAT</h1>
-    <h5><b>One of the principal organs of United Nations, the Secretariat promotes the aiding states to collectively maintain international peace and security.</b></h5>
+	<h1 style="color:black;font-family:'lato';">SECRETARIAT</h1>
+    <!--<h5><b style="color:black;font-family:'lato';">One of the principal organs of United Nations, the Secretariat promotes the aiding states to collectively maintain international peace and security.</b></h5>-->
 
     <div class="clearfix margin_top6"></div>
 
-    <div class="one_third">
+    <div class="one_fourth" >
 
-        <img src="./profile/forMun.jpg" style="height:320px;width:100%;" alt="" class="wres" />
+        <img src="./profile/forMun.jpg" style="height:250px;width:100%;" alt="" class="wres" />
 
         <div class="cont">
 
         <h4>Chaitanaya Sethi</h4>
-
         <p><strong>Director General</strong><br>✆ +91-8890860033</p>
             <p><i class="fa fa-file-text"></i> chaitanayasethi13@gmail.com</p>
         <br />
-        <a href="https://www.facebook.com/sethichaitanaya"><i class="fa fa-facebook"></i></a> &nbsp; <a href="https://www.instagram.com/sethichaitanaya/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/sethichaitanaya"><i  class="fa fa-facebook face" ></i></a> &nbsp; <a href="https://www.instagram.com/sethichaitanaya/"><i class="fa fa-instagram insta"></i></a>
 
         </div>
 
     </div><!-- end section -->
 
-    <div class="one_third">
+    <div class="one_fourth">
 
-        <img src="./images/ar.jpg" style="height:320px;width:100%;" alt="" class="wres" />
+        <img src="./images/ar.jpg" style="height:250px;width:100%;" alt="" class="wres" />
 
         <div class="cont">
 
@@ -722,26 +835,42 @@
         <p><strong>Secretary General</strong><br>✆ +91-9001331366</p>
             <p><i class="fa fa-file-text"></i> secgen@jecrcmun.co.in </p>
         <br />
-        <a href="https://www.facebook.com/ahujashivansh"><i class="fa fa-facebook"></i></a> &nbsp
-            <a href="https://www.instagram.com/shivanshahuja/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/ahujashivansh"><i class="fa fa-facebook face"></i></a> &nbsp
+            <a href="https://www.instagram.com/shivanshahuja/"><i class="fa fa-instagram insta"></i></a>
 
 
         </div>
 
     </div><!-- end section -->
 
-    <div class="one_third last">
+    <div class="one_fourth">
 
-        <img src="./profile/krishna-dsg.JPG" style="height:320px;width:100%;" alt="" class="wres" />
+        <img src="./profile/krishna-dsg.JPG" style="height:250px;width:100%;" alt="" class="wres" />
 
-        <div class="cont">
+        <div class="cont"  >
 
         <h4>Krishna Vijayvargiya</h4>
 
         <p><strong>Deputy Secretary General</strong><br>✆ +91-9530044997</p>
             <p><i class="fa fa-file-text"></i> krishna.vijayvargiya15@gmail.com</p>
         <br>
-        <a href="https://www.facebook.com/krishna.vijayvargiya.5"><i class="fa fa-facebook"></i></a> &nbsp; <a href="https://www.instagram.com/krishna_vv/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/krishna.vijayvargiya.5"><i class="fa fa-facebook face" ></i></a> &nbsp; <a href="https://www.instagram.com/krishna_vv/"><i class="fa fa-instagram insta"></i></a>
+
+        </div>
+
+    </div>
+    <div class="one_fourth last">
+
+        <img src="./profile/Naman_Oc President.jpg" style="height:250px;width:100%;" alt="" class="wres" />
+
+        <div class="cont">
+
+        <h4>Naman Ojha</h4>
+
+        <p><strong>OC President</strong><br>✆ +91-7737947832</p>
+            <p><i class="fa fa-file-text"></i> namanojha12@gmail.com</p>
+        <br>
+        <a href="https://www.facebook.com/namanojha12"><i class="fa fa-facebook face"></i></a> &nbsp; <a href="https://www.instagram.com/naman_ojha12/"><i class="fa fa-instagram insta"></i></a>
 
         </div>
 
@@ -801,14 +930,14 @@
 
 <div class="clearfix"></div>
 
-<div class="container">
-<div class="punchtext" id="venue">
 
-	<h3 class="animate" data-anim-type="fadeInRight" data-anim-delay="400">JECRC MUN 2017 Team Members !!!<a href="team.html"> Click Here To See ...</a></h3>
+<div class="punchtext" id="venue" style="background-color: #000000;background-color: #000000;background-image: url('https://www.transparenttextures.com/patterns/low-contrast-linen.png');">
+
+	<h3 class="animate" data-anim-type="fadeInRight" data-anim-delay="400" style="color:white;font-size:18px;">Contact, USG Delegate Affairs <br> Anukriti Goyal - +91-9829458172<br>Bhanu Khattar - +91-9783153123 .<br class="br"><a href="team.html" style="border-radius:0px;" class="click"> OUR TEAM</a></h3>
   <!--  <a href="team.html" class="animate" data-anim-type="fadeIn" data-anim-delay="800">Get More About</a> -->
 
 </div>
-</div>
+
 
 <div class="clearfix"></div>
 
@@ -913,7 +1042,8 @@
         <li class="animate" data-anim-type="zoomIn" data-anim-delay="600"><a href="https://www.instagram.com/jecrcmun/"><i class="fa fa-instagram"></i></a></li>
 
     </ul>
-    <span style="font-size:19px"> <a href="https://in.linkedin.com/in/arpit-kalra-40b046103" style="margin-left:100px;color:black;"><i>Developed By </i><strong>ARPIT KALRA </strong></a> </span>
+<br class="br"><br class="br">
+    <span style="font-family:lato;font-size:19px"> <a href="https://in.linkedin.com/in/arpit-kalra-40b046103"  class="arpit"><i style="font-family:lato;">Developed By </i><strong style="color:rgba(0, 0, 0, 0.86);font-family:lato;">ARPIT KALRA </strong></a> </span>
 
 </div>
 

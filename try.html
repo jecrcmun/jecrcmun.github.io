@@ -11,14 +11,41 @@
 <!-- //js -->
 <link href="timer_css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href='//fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+
+
+	<style>
+		.banner{
+			background:url(./images/pic3.jpg) no-repeat 0px 0px;
+			background-size:100% 100%;
+			/*-webkit-background-size:100% 100%;*/
+			/*-moz-background-size:100% 100%;*/
+			/*-o-background-size:100% 100%;*/
+			/*-ms-background-size:100% 100%;*/
+		}
+
+
+		/*@media only screen and (max-width:400px){*/
+
+
+			/*.banner{*/
+				/*background:url(./images/pic3.jpg) no-repeat 0px 0px;*/
+				/*background-size:100px;*/
+				/*!*-webkit-background-size:100% 100%;*!*/
+				/*!*-moz-background-size:100% 100%;*!*/
+				/*!*-o-background-size:100% 100%;*!*/
+				/*!*-ms-background-size:100% 100%;*!*/
+			/*}*/
+		/*}*/
+
+	</style>
 </head>
 <body>
 <!-- banner -->
 	<div class="banner" >
-		<div class="banner-info">
+		<div class="banner-info" >
 			
 			<div class="main-example" >
-				<div class="countdown-container" id="main-example"></div>
+				<div class="countdown-container" id="main-example" style="padding-top:20px;"></div>
 			</div>
 			<script type="text/javascript" src="timer_js/jquery.countdown.js"></script>
 			<script type="text/javascript" src="timer_js/lodash.min.js"></script>
@@ -29,8 +56,14 @@
 				  <span class="count next bottom"><%= next %></span>
 				  <span class="count curr bottom"><%= curr %></span>
 				  <span class="label"><%= label.length < 6 ? label : label.substr(0, 3)  %></span>
+
+
 				</div>
+
 			</script>
+
+
+
 			<script type="text/javascript">
 			  $(window).on('load', function() {
 				var labels = ['weeks', 'days', 'hours', 'minutes', 'seconds'],
@@ -97,8 +130,9 @@
 				});
 			  });
 			</script>
-		
+
 		</div>
+
 	</div>
 <!-- //banner -->
 
