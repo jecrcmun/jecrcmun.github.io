@@ -60,6 +60,8 @@
     <!-- forms -->
     <link rel="stylesheet" href="js/form/sky-forms.css" type="text/css" media="all">
    <style>
+
+
     .text{
         font-weight:bold;
         font-family:lato;
@@ -230,9 +232,9 @@
                   <li class="active"><a href="#home" data-scroll><i class="fa fa-circle"></i>Home</a></li>
                <!--   <li><a href="#about" data-scroll><i class="fa fa-circle"></i>About</a></li> -->
                   <li><a href="#committee" data-scroll><i class="fa fa-circle"></i>COMMITTEES</a></li>
-                  <li><a href="#" data-scroll><i class="fa fa-circle"></i>ITINERARY</a></li>
+                  <li><a href="#" data-scroll onclick="wait()"><i class="fa fa-circle"></i>ITINERARY</a></li>
                   <li><a href="sponsor.html" data-scroll><i class="fa fa-circle"></i>OUR ASSOCIATES</a></li>
-                    <li><a href="#" data-scroll><i class="fa fa-circle"></i>AMBASSADOR</a></li>
+                    <li><a href="#" data-scroll onclick="wait()"><i class="fa fa-circle"></i>AMBASSADOR</a></li>
                     <li><a href="gallary.html" data-scroll><i class="fa fa-circle"></i>GALLERY</a></li>
                   <li><a href="#contact" data-scroll><i class="fa fa-circle"></i>CONTACT US</a></li>
 
@@ -537,11 +539,11 @@
 
 
 
-    <div id="filters-container" class="cbp-l-filters-button animate" data-anim-type="fadeInRight" style="margin-left:170px;" >
+    <div id="filters-container" class="cbp-l-filters-button animate" data-anim-type="fadeInRight" style="margin-left:183px;" >
         <!--<div data-filter="*" class="cbp-filter-item-active cbp-filter-item">ALL COMMITTEES</div>-->
-        <div class="cbp-filter-item"><a href="#" style="font-family:'lato';">SEE THE EXEXCUTIVE BOARD</a></div>
-        <div  class="cbp-filter-item"><a href="#" style="font-family:'lato';">VIEW COUNTRY MATRIX</a></div>
-        <div  class="cbp-filter-item"><a href="#" style="font-family:'lato';">VIEW BACKGROUND GUIDES</a></div>
+        <div class="cbp-filter-item"><a href="#" style="font-family:'lato';" onclick="wait()">SEE THE EXECUTIVE BOARD</a></div>
+        <div  class="cbp-filter-item"><a href="#" style="font-family:'lato';" onclick="wait()">VIEW COUNTRY MATRIX</a></div>
+        <div  class="cbp-filter-item"><a href="#" style="font-family:'lato';" onclick="wait()">VIEW BACKGROUND GUIDES</a></div>
      <!--   <div data-filter=".logo" class="cbp-filter-item">Logo</div> -->
     </div>
 
@@ -739,7 +741,7 @@
                 <li class="mostp">APPLY AS A DELEGATE</li>
                 <li class="title">	<img src="images/delegate.png" alt="" /></li>
 
-                <li><strong>Delegate Application Fee:</strong> ₹ 1200 <span> (Priority)</span></li>
+                <li><strong>Delegate Application Fee:</strong> ₹ 1200 <span> (Priority Round)</span></li>
                 <li><strong>Accomodation Fee:</strong> ₹ 600</li>
                 <li class="planbut"><a href="https://goo.gl/forms/HPjm2FGNJhKc2Sow1">CLICK HERE</a></li>
 
@@ -757,8 +759,17 @@
 
                 <li><strong>Are Open Now !!!</strong></li>
 
-                <li class="planbut"><a href="https://goo.gl/forms/b9FsyG6q6BfyF5m23">CLICK HERE</a></li>
+                <li class="planbut"><a href="https://goo.gl/forms/b9FsyG6q6BfyF5m23" >CLICK HERE</a></li>
+<script>
 
+    function wait(){
+
+        alert("Coming Soon");
+
+    }
+
+
+</script>
             </ul>
 
 
@@ -773,7 +784,7 @@
 
                 <li style="padding-top:45px;padding-bottom:40px;"><strong>Journalist & Photographer Fee:</strong> ₹ 800</li>
 
-                <li class="planbut"><a href="#">CLICK HERE</a></li>
+                <li class="planbut"><a href="#" onclick="wait()">CLICK HERE</a></li>
 
             </ul>
 
@@ -933,7 +944,7 @@
 
 <div class="punchtext" id="venue" style="background-color: #000000;background-color: #000000;background-image: url('https://www.transparenttextures.com/patterns/low-contrast-linen.png');">
 
-    <a class="animate" data-anim-type="fadeInRight" data-anim-delay="400" style="color:white;font-size:18px;">Contact, USG Delegate Affairs <br> <a href="https://www.facebook.com/anu.goyal.9"  >Anukriti Goyal</a> - +91-9829458172<br><a href="#" class="aaa">Bhanu Khattar</a> - +91-9783153123 .<br class="br"><a href="team.html" style="border-radius:0px;" class="click"> OUR TEAM </a></h3>
+    <a class="animate" data-anim-type="fadeInRight" data-anim-delay="400" style="color:white;font-size:19px;">Contact, USG Delegate Affairs <br> <a href="https://www.facebook.com/anu.goyal.9"  style="font-size:19px;">Anukriti Goyal</a> +91-9829458172<br><a href="#" class="aaa" style="font-size:19px;">Bhanu Khattar</a> +91-9783153123 <br class="br"><a href="team.html" style="border-radius:0px;" class="click"> OUR TEAM </a></h3>
   <!--  <a href="team.html" class="animate" data-anim-type="fadeIn" data-anim-delay="800">Get More About</a> -->
 
 </div>
