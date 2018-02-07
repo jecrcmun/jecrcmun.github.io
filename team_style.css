@@ -81,28 +81,6 @@ body {
     position: relative;
   }
 
-  .logo {
-  	width: 100%;
-
-  }
-  .logo img {
-  	float: left;
-    width:5%;
-    height: auto;
-    margin-left: 50px;
-   	margin-top: 10px;
-  }
-  .mob_logo
-  {
-  	font-size:30px;
-    padding-left: 10px;
-  }
-  .mob_tlogo
-  {
-  	font-size:20px;
-  	padding-left:10px;
-  }
-
   ul.personal-buttons{
     margin: 0px;
     padding: 0px;
