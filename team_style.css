@@ -172,12 +172,36 @@ body {
       margin-top: 30px;
       margin-bottom: 30px;
     }
+  .img-size-4{
+      width: 60%;
+      height: auto;
   }
+  .img-size-3{
+      width: 60%;
+      height: auto;
+  }
+  .img-size-2{
+      width: 60%;
+      height: auto;
+  }
+}
   @media screen and (max-width: 480px) {
     .logo {
         font-size: 150px;
     }
+.img-size-4{
+      width: 60%;
+      height: auto;
   }
+  .img-size-3{
+      width: 60%;
+      height: auto;
+  }
+  .img-size-2{
+      width: 60%;
+      height: auto;
+  }  
+}
 
 
 /*------------------*/
@@ -188,4 +212,16 @@ body {
    .sm-scr{
      display: inline-block;
    }
- }
+.img-size-4{
+      width: 60%;
+      height: auto;
+  }
+  .img-size-3{
+      width: 60%;
+      height: auto;
+  }
+  .img-size-2{
+      width: 60%;
+      height: auto;
+  } 
+}
