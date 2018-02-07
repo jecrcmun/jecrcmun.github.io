@@ -713,8 +713,6 @@ a.glink:hover {
 	z-index: 999;
 }
 @media only screen and (max-width: 40em) {
-
-
 	.mob_logo{
 		font-size:13px;
 	}
