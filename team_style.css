@@ -184,11 +184,13 @@ body {
       width: 60%;
       height: auto;
   }
+        h1{font-size:20px;}
 }
   @media screen and (max-width: 480px) {
     .logo {
         font-size: 150px;
     }
+        h1{font-size:20px;}
 .img-size-4{
       width: 60%;
       height: auto;
@@ -209,6 +211,7 @@ body {
    .lg-scr{
       display: none;
    }
+      h1{font-size:20px;}
    .sm-scr{
      display: inline-block;
    }
