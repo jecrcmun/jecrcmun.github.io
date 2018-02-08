@@ -49,7 +49,8 @@ display: block;
 }
 
 .logo {
-	width: 100%;
+	float: left;
+	width: 35%;
 
 }
 .logo img {
@@ -61,8 +62,8 @@ display: block;
 }
 
 .menu_main {
-	float: center;
-	width: 100%;
+	float: right;
+	width: 65%;
 	margin-top:10px;
 
 }
