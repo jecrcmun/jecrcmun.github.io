@@ -36,24 +36,37 @@
 </head>
 <body>
   <!-- Header -->
-  <div class="site_wrapper">
-    <div id="header">
-      <div id="trueHeader">
-        <div class="wrapper">
-          <div class="container_full">
-            <header>
-              <!-- Logo -->
-              <div class="logo" style="display:inline-flex;" id="home">
-                <a href="#home" data-scroll><img src="images/logomun.png"  alt="" /><!--<img src="images/mun.png" alt="" style="width:160px;" />--></a>
-                <p style="font-weight:bold;font-family:lato ;padding:20px 0px 0px 15px; "><b style="color:red;font-family: lato;" class="mob_logo"> JECRC MUN</b> <span style="color:white;font-family: lato;" class="mob_logo">2018</span><br>
-                  <span style="color:white;font-family: lato;" class="mob_tlogo">Diplomacy At Its Zenith</span>
-                </p>
-              </div>
-            </header>
-          </div>
-        </div>
+  <img src="images/smun.png" class="logo_mun" alt="">
+  <img src="images/logomun.png" class="logo_jecrc" alt="">
+  <div class="head">
+      <p style="font-weight:bold;font-family:lato ;"><b style="color:red;font-family: lato;" class="mob_logo">JECRC MUN</b> <span style="color:white;font-family: lato;" class="mob_logo">2018</span><br>
+      <span style="color:white;font-family: lato;" class="mob_tlogo">Diplomacy At Its Zenith</span></p>
+  </div>
+        <script type="text/javascript">
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                  x.className += " responsive";
+              } else {
+                  x.className = "topnav";
+              }
+            }
+      </script>
+      <div class="topnav" id="myTopnav">
+        <a href="main.html">Home</a>
+        <a data-target="#myCarousel" data-slide-to="0">Secretariant</a>
+        <a data-target="#myCarousel" data-slide-to="1">Delegate Affairs</a>
+        <a data-target="#myCarousel" data-slide-to="2">EB Affairs</a>
+        <a data-target="#myCarousel" data-slide-to="3">Outreach</a>
+        <a data-target="#myCarousel" data-slide-to="4">Campus Management</a>
+        <a data-target="#myCarousel" data-slide-to="5">Sponsorship</a>
+        <a data-target="#myCarousel" data-slide-to="6">Socia Media</a>
+        <a data-target="#myCarousel" data-slide-to="7">Logistics</a>
+        <a data-target="#myCarousel" data-slide-to="8">Technical</a>
+        <a data-target="#myCarousel" data-slide-to="9">Design</a>
+        <a data-target="#myCarousel" data-slide-to="10">Content</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
-    </div>
     <!-- Team -->
     <div id="team" class="container-fluid text-center bg-grey">
       <div class="row slideanim">
@@ -64,7 +77,7 @@
         <div class="carousel-inner" role="listbox">
 
         <div class="item active">
-          <h1 class="text-center">SECRETARIAT</h2>
+          <h1 class="text-center" >SECRETARIAT</h2>
         <div class="col-sm-3">
           <a href="profile/gaurav.JPG" target="_blank" data-lightbox="example-set">
           <img src="profile/gaurav.JPG" class="img-circle img-size-4" alt="Gaurav Gupta Agarwal"></a>
