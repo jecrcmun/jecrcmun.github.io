@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+<head>
+
+<meta name="JECRC MUN 2018" description="JECRC MUN 2018 Diplomacy at its zenith. At 7th and 8th april.
+JOIN US>
+</head>
