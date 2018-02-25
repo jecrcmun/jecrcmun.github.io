@@ -1,0 +1,17 @@
+<section id="message">
+  <div class="container-fluid">
+    <h1 id="mess_title">Message from secretary general</h1>
+    <div class="row">
+      {% for message in site.data.message %}
+      <div class="col-md-4">
+        <img src="{{ message.photo }}" alt="{{ message.author }}" id="profile_img">
+        <h1 id="author">{{ message.author }}</h1>
+        <p id="desg">{{ message.designation }}</p>
+      </div>
+      <div class="col-md-8" id="msg_box">
+        <p id="message">{{ message.message }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
