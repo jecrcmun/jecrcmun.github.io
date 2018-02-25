@@ -20,7 +20,7 @@ email: mun@jecrc.ac.in
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://munjecrc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jecrcmun.co.in" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jecrcmun
 facebook_username: jecrcmun
 instagram_username: jecrcmun
