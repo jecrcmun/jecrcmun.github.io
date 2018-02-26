@@ -69,7 +69,8 @@ function handleFormSubmit(event) { // handles form submit withtout any jquery
   */
 
   if (!validEmail(data.email)) { // if email is not valid show error
-    document.getElementById('email-invalid').style.display = 'block';
+    // document.getElementById('email-invalid').style.display = 'block';
+    window.alert('Please check your email');
     return false;
   } else {
     var url = event.target.action; //
@@ -85,8 +86,8 @@ function handleFormSubmit(event) { // handles form submit withtout any jquery
 
       document.getElementById('contact').style.display = 'block'; // hide form
       document.getElementById('thankyou_message').style.display = 'block';
-      contact.reset();
 
+      contact.reset();
 
 
     };
