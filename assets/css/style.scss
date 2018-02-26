@@ -301,7 +301,7 @@ header {
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-    font-family: jokerman;
+    font-family: serif;
     -webkit-text-stroke: 1px black;
   }
   #profile_img{
@@ -374,7 +374,7 @@ text-align: center;
     font-size: 50px;
     padding-top: 2%;
     text-align: center;
-    font-family: jokerman;
+    font-family: serif;
   }
 
   .flex-container {
@@ -546,7 +546,7 @@ cursor: pointer;
   font-size: 50px;
   padding-top: 2%;
   text-align: center;
-  font-family: jokerman;
+  font-family: serif;
 font-weight: bold;
 }
 }
@@ -571,7 +571,7 @@ margin-top: 120px;
     font-size: 50px;
     padding-top: 2%;
     font-weight: bold;
-    font-family: jokerman;
+    font-family: serif;
     text-align: center;
   }
 
@@ -589,11 +589,11 @@ margin-top: 120px;
   .flex-element {
     background: rgb(255, 255, 246);
     border-radius: 20px;
-font-family: PT serif;
+    font-family: PT serif;
     text-align: center;
-    width: 360px;
+    width: 320px;
     margin-top: 3%;
-margin-right: 3%;
+margin-right: 2%;
     margin-bottom: 3%;
     -webkit-box-shadow: 8px 10px 15px rgba(41, 45, 43, 0.83);
     box-shadow: 8px 10px 15px rgba(41, 45, 43, 0.83);
@@ -626,7 +626,7 @@ font-style: italic;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 15px;
-    width: 300px;
+    width: 260px;
   }
   @media screen and (max-width: 425px) {
     .flex-element {
@@ -662,7 +662,7 @@ font-style: italic;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-    font-family: jokerman;
+    font-family: serif;
     font-weight: bold;
   }
   .form{
@@ -805,6 +805,8 @@ font-style: italic;
   }
   .address{
     text-align: center;
+    margin: 0px;
+    padding: 0px;
   }
   .map{
     text-align: center;
