@@ -2,7 +2,7 @@
   image: /assets/img/delegate.jpeg
   info: <strong>Application Fee:</strong> INR 1200/-<br>
   text: Closed Now!
-  link: "#"
+  link: /apply/delegate
 
 - for: APPLY AS A AMBASSADOR
   image: /assets/img/ambassador.jpeg
