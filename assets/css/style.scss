@@ -811,22 +811,22 @@ font-style: italic;
   .map{
     text-align: center;
   }
-  .usg_contact{
-    text-align: left;
-    padding-top: 5%;
-    padding-left: 15%;
-  }
   .contact_no{
     color: white;
     font-size: 20px;
   }
-    @media screen and (max-width: 425px) {
-      .usg_contact{
-        padding-left: 5%;
-      }
-    }
 }
-
+.usg_contact{
+  text-align: center;
+  padding: 1% 1% 1% 1%;
+  background: black;
+  border-bottom: 2px solid red;
+  color: white;
+  font-size: 20px;
+  @media screen and (max-width: 425px) {
+      padding-left: 5%;
+  }
+}
 /*-------------------------------------------------------*/
 
 

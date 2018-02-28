@@ -1,17 +1,17 @@
 - for: APPLY AS A PRIORITY DELEGATE
   image: /assets/img/delegate.jpeg
-  info: <strong>Application Fee:</strong> INR 1200/-<br>
+  info: <strong>Applications Closed Now!!</strong>
   text: Closed Now!
-  link: /apply/delegate
+  link: /
 
 - for: APPLY AS A AMBASSADOR
   image: /assets/img/ambassador.jpeg
-  info: OPEN NOW!!
-  text: APPLY NOW
-  link: /apply/ambassador/
+  info: <strong>Applications Closed Now!!</strong>
+  text: Closed Now!!
+  link: /
 
 - for: INTERNATIONAL PRESS APPLICATION
   image: /assets/img/ipapplications.jpeg
   info: <strong>Application Fee:</strong> INR 800/-<br>
-  text: APPLY NOW
+  text: Apply Now
   link: /apply/ipapplications/
