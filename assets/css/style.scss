@@ -30,7 +30,6 @@ header {
     width: 40%;
     color: red;
     font-size: 24px;
-    font-style: italic;
     font-weight: bold;
   }
 
@@ -227,7 +226,6 @@ header {
   color: white;
   font-size: 24px;
   border-radius: 15px;
-  font-style: oblique;
   font-weight: bold;
   }
   .btn:hover{
@@ -441,7 +439,6 @@ text-align: center;
   color: white;
   font-size: 20px;
   border-radius: 15px;
-  font-style: oblique;
   font-weight: bold;
   text-align: center;
   }
@@ -522,7 +519,6 @@ font-weight: lighter;
 .info{
 margin-top: 4%;
 font-size: 22px;
-font-style: italic;
 font-weight: 500;
 }
 
@@ -533,7 +529,6 @@ background: red;
 color: white;
 font-size: 18px;
 border-radius: 20px 20px 20px 20px;
-font-style: oblique;
 font-weight: bold;
 }
 .btn:hover{
@@ -599,12 +594,10 @@ margin-right: 2%;
     box-shadow: 8px 10px 15px rgba(41, 45, 43, 0.83);
   }
 .sec-name{
-font-style: oblique;
 font-weight:bold;
 }
 .sec-des{
 font-size: 20px;
-font-style: italic;
 font-family: arial;
 }
 .icon{
@@ -614,11 +607,9 @@ margin-bottom: 5px;
 }
 .contact{
   font-size: 16px;
-  font-style: italic;
 }
 .email{
 font-size: 16px;
-font-style: italic;
 }
   .sec-image {
     -webkit-box-shadow: 5px 8px 9px grey;
@@ -653,8 +644,8 @@ font-style: italic;
     background-color: black;
     min-height: 400px;
     padding:0;
-    text-align: center;
-    justify-content: center;
+    // justify-content: center;
+    margin: 0 auto;
   }
   #title_contact{
     color: white;
@@ -666,10 +657,13 @@ font-style: italic;
     font-weight: bold;
   }
   .form{
-    max-width: 800px;
-    width: 100%;
+    width: 60%;
+    min-width: 360px;
     position: relative;
     padding: 2% 5% 2% 5%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
     height: 100%;
   }
 
@@ -677,11 +671,6 @@ font-style: italic;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
@@ -700,8 +689,7 @@ font-style: italic;
     padding: 25px;
     border-radius: 10px;
     height: 520px;
-    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
 
   #contact h3 {
@@ -805,15 +793,9 @@ font-style: italic;
   }
   .address{
     text-align: center;
-    margin: 0px;
-    padding: 0px;
   }
   .map{
     text-align: center;
-  }
-  .contact_no{
-    color: white;
-    font-size: 20px;
   }
 }
 .usg_contact{
