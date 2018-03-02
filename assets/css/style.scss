@@ -4,7 +4,9 @@
 
 @import "minima";
 $defualt-color: black;
+$primary_color: rgb(255, 171, 9);
 $backgrond: rgb(219, 219, 218);
+$sec_color: rgb(62, 61, 62);
 html {
   overflow-x: hidden;
 }
@@ -57,7 +59,7 @@ header {
   }
 
   .header-logo-title {
-    color: white;
+    color: $primary_color;
     font-family: lato;
     font-size: 2vw;
     line-height: 25px;
@@ -73,7 +75,7 @@ header {
   }
 
   #logo-jecrc {
-    color: red;
+    color: white;
   }
 
   .container-fluid {
@@ -197,7 +199,7 @@ header {
   }
 
   .mun {
-    color: rgb(0, 12, 124);
+    color: $primary_color;
     font-size: 9vw;
     padding-top: 20px;
     text-shadow: 3px 5px 10px black;
@@ -205,32 +207,33 @@ header {
   }
 
   #year{
-    color: white;
+    color: $primary_color;
   }
 
   .caption{
     font-size: 5vw;
     text-shadow: 3px 5px 10px black;
-    color: rgb(255, 0, 0);
+    color: $sec_color;
   }
   .dates {
     font-size: 4vw;
-    color: rgb(0, 12, 124);
+    color: $primary_color;
     font-weight: bold;
+    -webkit-text-stroke: 1px $sec_color;
   }
 
   .btn{
   margin-top: 1%;
   margin-bottom: 1%;
-  background: red;
-  color: white;
+  background: $sec_color;
+  color: $primary_color;
   font-size: 24px;
   border-radius: 15px;
   font-weight: bold;
   }
   .btn:hover{
-  background: white;
-  color: red;
+  background: $primary_color;
+  color: $sec_color;
   cursor: pointer;
   }
 
@@ -436,16 +439,16 @@ text-align: center;
   .btn{
   margin-top: 1%;
   margin-bottom: 1%;
-  background: red;
-  color: white;
+  background: $primary_color;
+  color: $sec_color;
   font-size: 20px;
   border-radius: 15px;
   font-weight: bold;
   text-align: center;
   }
   .btn:hover{
-  background: white;
-  color: red;
+  background: $sec_color;
+  color: $primary_color;
   cursor: pointer;
   }
    @media screen and (max-width: 425px) {
@@ -514,11 +517,11 @@ margin-right: 3%;
 .for{
 margin-top: 0px;
 padding-top: 5px;
-border-bottom: 2px solid red;
-background: red;
+border-bottom: 2px solid $primary_color;
+background: $primary_color;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
-color: white;
+color: darken($sec_color,5);
 font-family: serif;
 font-weight: lighter;
 }
@@ -532,15 +535,15 @@ font-weight: 500;
 .btn{
 margin-top: 2%;
 margin-bottom: 3%;
-background: red;
-color: white;
+background: $primary_color;
+color: $sec_color;
 font-size: 18px;
 border-radius: 20px 20px 20px 20px;
 font-weight: bold;
 }
 .btn:hover{
-background: white;
-color: red;
+background: $sec_color;
+color: $primary_color;
 cursor: pointer;
 }
 #apply_title{
@@ -764,15 +767,16 @@ font-size: 16px;
     cursor: pointer;
     width: 100%;
     border: none;
-    background: #4CAF50;
-    color: #FFF;
+    background: $primary_color;
+    color: black;
     margin: 0 0 5px;
     padding: 10px;
     font-size: 15px;
   }
 
   #contact button[type="submit"]:hover {
-    background: #43A047;
+    background: $sec_color;
+    color: $primary_color;
     -webkit-transition: background 0.3s ease-in-out;
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
@@ -819,7 +823,7 @@ font-size: 16px;
   text-align: center;
   padding: 1% 1% 1% 1%;
   background: black;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid $primary_color;
   color: white;
   font-size: 20px;
   @media screen and (max-width: 425px) {
@@ -833,7 +837,7 @@ footer {
   .container-fluid{
     background: black;
     text-align: center;
-    border-top: 2px solid red;
+    border-top: 2px solid $primary_color;
   }
   .icon{
   margin-top: 10px;
@@ -848,7 +852,7 @@ footer {
     margin-top: 5px;
   }
   #tag{
-    color: red;
+    color: $primary_color;
   }
   #technical{
     font-size: 26px;
