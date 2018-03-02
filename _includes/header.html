@@ -23,7 +23,7 @@
             <li><a href="/">HOME</a></li>
             <li><a href="#committee">COMMITTEES</a></li>
             <li><a href="#apply">APPLY NOW</a></li>
-            <li><a href="/">CAMPUS AMBASSADOR</a></li>
+            <li><a href="/campus_ambassador/">CAMPUS AMBASSADOR</a></li>
             <li><a href="/collabrators/">OUR COLLABORATIONS</a></li>
             <li><a href="/sponsors/">SPONSORS</a></li>
             <li><a href="/our_team/">OUR TEAM</a></li>
@@ -34,4 +34,12 @@
         </div>
       </div>
     </nav>
+    <script type="text/javascript">
+      $(function() {
+        var navMain = $("#myNavbar");
+        navMain.on("click", "a", null, function() {
+          navMain.collapse('hide');
+        });
+      });
+    </script>
 </header>
