@@ -4,7 +4,7 @@
 
 @import "minima";
 $defualt-color: black;
-$primary_color: rgb(252,214,0);
+$primary_color: rgb(254, 168, 41);
 $backgrond: rgb(219, 219, 218);
 $sec_color: rgb(62, 61, 62);
 html {
@@ -331,7 +331,7 @@ header {
   }
 
   #msg_box {
-    background-color: lighten($primary_color,10);
+    background-color: white;
     border-radius: 20px;
     -webkit-box-shadow: 2px 3px 10px black;
     box-shadow: 2px 3px 10px black;
