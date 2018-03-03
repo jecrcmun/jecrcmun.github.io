@@ -26,7 +26,7 @@ twitter_username: jecrc_mun
 facebook_username: jecrcmun
 instagram_username: jecrcmun
 
-force-https: False
+force-https: True
 
 # Build settings
 include: ['_data']
