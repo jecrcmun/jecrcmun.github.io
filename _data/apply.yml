@@ -6,9 +6,9 @@
 
 - for: APPLY AS A AMBASSADOR
   image: /assets/img/ambassador.jpeg
-  info: <strong>Applications Closed Now!!</strong>
-  text: Closed Now!!
-  link: /
+  info: <strong>Apply Now!</strong>
+  text: Apply Now
+  link: /apply/ambassador/
 
 - for: INTERNATIONAL PRESS APPLICATION
   image: /assets/img/ipapplications.jpeg
