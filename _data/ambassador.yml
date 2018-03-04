@@ -1,19 +1,36 @@
-- pic: /assets/img/gallery/1.jpg
-  name: amrit
-  org: jaipur engineering college and research center, jaipur
+- pic: /assets/img/ambassadors/anushree.jpg
+  name: Anushree Kabra
+  org: Banasthali Vidhyapeeth
 
-- pic: /assets/img/gallery/2.jpg
-  name: amrit
-  org: jaipur engineering college and research center, jaipur
+- pic: /assets/img/ambassadors/aditya.jpg
+  name: Aditya Yadav
+  org: Galgotias University
 
-- pic: /assets/img/gallery/3.jpg
-  name: amrit
-  org: jaipur engineering college and research center, jaipur
 
-- pic: /assets/img/gallery/4.jpg
-  name: amrit
-  org: jaipur engineering college and research center, jaipur
+- pic: /assets/img/ambassadors/japharneet.jpg
+  name: JapHarneet Kaur
+  org: S.J Public School
 
-- pic: /assets/img/gallery/5.jpg
-  name: amrit
-  org: jaipur engineering college and research center, jaipur
+- pic: /assets/img/ambassadors/mrityunjaya.jpg
+  name: Mrityunjaya Indoria
+  org: International College for Girls
+
+- pic: /assets/img/ambassadors/parth.jpg
+  name: Parth Bhatt
+  org: Army Public School, Jodhpur
+
+- pic: /assets/img/ambassadors/poorvika.jpg
+  name: Poorvika Agarwal
+  org: Seedling Public School
+
+- pic: /assets/img/ambassadors/rinni.jpg
+  name: Rinni Thomas
+  org: JECRC University
+
+- pic: /assets/img/ambassadors/swati.jpg
+  name: Swati Chitlangia
+  org: St. Xavier's College
+
+- pic: /assets/img/ambassadors/kunal.jpg
+  name: Kunal Advani
+  org: S.K.I.T
