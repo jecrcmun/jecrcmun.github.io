@@ -89,7 +89,6 @@ function handleFormSubmit(event) { // handles form submit withtout any jquery
 
       contact.reset();
 
-
     };
     // url encode form data for sending as post data
     var encoded = Object.keys(data).map(function(k) {
