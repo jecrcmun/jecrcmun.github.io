@@ -7,7 +7,8 @@ permalink: /our_team/
 <div class="container-fluid">
 <h1>Our Team</h1>
 {% for grp in site.data.team %}
-<p class="group" id="{{ grp.group }}">{{ grp.group }}<p>
+
+<button id="{{ forloop.index }}" class="group" disabled>{{ grp.group }}</button>
 <div class="flex-container">
   {% for member in grp.members %}
     <div class="flex-element">
