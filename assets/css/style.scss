@@ -909,15 +909,16 @@ footer {
   }
 
   .group {
-    background: $primary_color;
-    font-size: 35px;
-    color: black;
+    // background: $primary_color;
+    font-size: 40px;
+    color: #2957AB;
     margin-top: 2%;
+    font-weight: bold;
     margin-bottom: 1%;
     padding: 12px;
     text-align: center;
-    border: 2px solid grey;
-    border-radius: 20px 20px;
+    // border: 2px solid grey;
+    // border-radius: 20px 20px;
   }
 
   .flex-container {
@@ -1147,7 +1148,7 @@ footer {
   }
 
   .flex-element {
-    background: $sec_color;
+    background: white;
     border-radius: 20px;
     font-family: PT serif;
     text-align: center;
@@ -1168,9 +1169,9 @@ footer {
   }
 
   .name {
-    border-top: 2px solid grey;
-    background: $sec_color;
-    color: $primary_color;
+    border-top: 2px solid white;
+    background: white;
+    color: black;
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 0;
