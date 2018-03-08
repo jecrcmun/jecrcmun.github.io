@@ -932,7 +932,7 @@ footer {
   }
 
   .flex-element {
-    background: $sec_color;
+    background: white;
     border-radius: 20px;
     font-family: PT serif;
     text-align: center;
@@ -954,8 +954,8 @@ footer {
 
   .name {
     border-top: 2px solid grey;
-    background: $sec_color;
-    color: $primary_color;
+    background: white;
+    color:  black;
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 0;
