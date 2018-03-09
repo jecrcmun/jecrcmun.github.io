@@ -4,7 +4,7 @@
 
 @import "minima";
 $defualt-color: black;
-$primary_color: rgb(252,214,0);
+$primary_color: red;
 $backgrond: rgb(219, 219, 218);
 $sec_color: rgb(62, 61, 62);
 html {
@@ -153,24 +153,30 @@ header {
     left: 0;
     right: 0;
     top: 700px;
+    width: 60%;
     font-family: sans-serif;
-    color: rgba(#f2f2f2, 0.68);
+    color: white;
     display: inline-block;
     text-align: center;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
   }
 
   #clockdiv > div {
     padding: 5px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
     border-radius: 3px;
-    background: rgba(0, 0, 0, 1);
+    // background: rgba(0, 0, 0, 1);
     display: inline-block;
   }
 
   #clockdiv div > span {
     padding: 0 15px;
     border-radius: 3px;
-    background: rgba(255, 255, 255, 0.2);
+    // background: rgba(255, 255, 255, 0.2);
     font-size: 60px;
     display: inline-block;
   }
@@ -185,26 +191,30 @@ header {
   }
 
   .mun {
-    color: $primary_color;
+    color: white;
     font-size: 9vw;
     padding-top: 20px;
     text-shadow: 3px 5px 10px black;
     font-style: serif;
+    font-weight: 200;
   }
 
   #year {
-    color: $primary_color;
+    color: white;
   }
 
   .caption {
     font-size: 5vw;
     text-shadow: 3px 5px 10px black;
-    color: white;
+    color: red;
+    animation: reveal 1s steps(9) infinite;
+    font-family: Serif;
   }
+
 
   .dates {
     font-size: 4vw;
-    color: $primary_color;
+    color: white;
     font-weight: bold;
     -webkit-text-stroke: 1px $sec_color;
   }
@@ -212,16 +222,16 @@ header {
   .btn {
     margin-top: 1%;
     margin-bottom: 1%;
-    background: $sec_color;
-    color: $primary_color;
-    font-size: 24px;
+    background: red;
+    color: white;
+    font-size: 35px;
     border-radius: 15px;
     font-weight: bold;
   }
 
   .btn:hover {
-    background: $primary_color;
-    color: $sec_color;
+    background: white;
+    color: red;
     cursor: pointer;
   }
   @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -238,6 +248,13 @@ header {
     .dates {
       font-size: 7vw;
     }
+    #clockdiv{
+      width: 90%;
+    }
+    #clockdiv>div{
+      margin-left: 2%;
+      margin-right: 2%;
+    }
   }
   @media screen and (max-width: 420px) {
     .banner {
@@ -249,12 +266,17 @@ header {
 
     #clockdiv {
       top: 500px;
+      width: 90%;
     }
 
     #clockdiv div > span {
       font-size: 30px;
     }
 
+    #clockdiv > div{
+      margin-left: 0%;
+      margin-right: 0%;
+    }
     .smalltext {
       font-size: 18px;
     }
@@ -279,7 +301,7 @@ header {
 /*-------------------------------------------------------*/
 #message {
   .container-fluid {
-    background: $backgrond;
+    background: $sec_color;
     min-height: 480px;
     text-align: center;
     padding-right: 4%;
@@ -287,9 +309,10 @@ header {
   }
 
   #mess_title {
-    color: black;
+    color: white;
     font-size: 70px;
     padding-top: 2%;
+    font-weight: bold;
     padding-bottom: 2%;
     text-align: center;
     font-family: serif;
@@ -297,9 +320,9 @@ header {
   }
 
   #profile_img {
-    border-radius: 50%;
+    border-radius: 20px;
     width: 300px;
-    border: 4px solid $primary_color;
+    // border: 4px solid black;
     -webkit-box-shadow: 3px 5px 10px black;
     box-shadow: 3px 5px 10px black;
   }
@@ -309,12 +332,13 @@ header {
     font-size: 22px;
     color: black;
     font-family: arial;
+    font-weight: 500;
     padding: 2% 1% 1%;
   }
 
   #msg_box {
     background-color: white;
-    border-radius: 20px;
+    // border-radius: 20px;
     -webkit-box-shadow: 2px 3px 10px black;
     box-shadow: 2px 3px 10px black;
   }
@@ -323,13 +347,13 @@ header {
     font-size: 40px;
     font-weight: bold;
     font-family: sans-serif;
-    color: black;
+    color: white;
   }
 
   #desg {
     font-size: 30px;
     font-family: serif;
-    color: black;
+    color: white;
   }
   @media screen and (max-width: 420px) {
     #message {
@@ -367,7 +391,7 @@ header {
   }
 
   #comm_title {
-    color: $primary_color;
+    color: white;
     font-size: 50px;
     padding-top: 2%;
     text-align: center;
@@ -436,8 +460,8 @@ header {
   .btn {
     margin-top: 1%;
     margin-bottom: 1%;
-    background: $primary_color;
-    color: $sec_color;
+    background: white;
+    color: $primary_color;
     font-size: 20px;
     border-radius: 15px;
     font-weight: bold;
@@ -446,7 +470,7 @@ header {
 
   .btn:hover {
     background: $sec_color;
-    color: $primary_color;
+    color: white;
     cursor: pointer;
   }
   @media screen and (max-width: 425px) {
@@ -483,7 +507,7 @@ header {
 /*-------------------------------------------------------*/
 #apply {
   .container-fluid {
-    background: $backgrond;
+    background: $sec_color;
     padding-bottom: 4%;
     border-bottom: 1px solid black;
   }
@@ -520,7 +544,7 @@ header {
     background: $primary_color;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    color: darken($sec_color,5);
+    color: white;
     font-family: serif;
     font-weight: lighter;
   }
@@ -535,7 +559,7 @@ header {
     margin-top: 2%;
     margin-bottom: 3%;
     background: $primary_color;
-    color: $sec_color;
+    color: white;
     font-size: 18px;
     border-radius: 20px 20px 20px 20px;
     font-weight: bold;
@@ -543,12 +567,12 @@ header {
 
   .btn:hover {
     background: $sec_color;
-    color: $primary_color;
+    color: white;
     cursor: pointer;
   }
 
   #apply_title {
-    color: rgb(38, 38, 34);
+    color: white;
     font-size: 50px;
     padding-top: 2%;
     text-align: center;
@@ -664,7 +688,7 @@ header {
 /*-------------------------------------------------------*/
 #mailus {
   .container-fluid {
-    background-color: black;
+    background-color: $sec_color;
     min-height: 400px;
     padding: 0;
     // justify-content: center;
@@ -672,7 +696,7 @@ header {
   }
 
   #title_contact {
-    color: $primary_color;
+    color: white;
     font-size: 60px;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -777,7 +801,7 @@ header {
     width: 100%;
     border: none;
     background: $primary_color;
-    color: black;
+    color: white;
     margin: 0 0 5px;
     padding: 10px;
     font-size: 15px;
@@ -911,7 +935,7 @@ footer {
   .group {
     // background: $primary_color;
     font-size: 40px;
-    color: #2957AB;
+    color:rgb(233, 0, 0);
     margin-top: 2%;
     font-weight: bold;
     margin-bottom: 1%;
@@ -1121,14 +1145,15 @@ footer {
 /*-------------------------------------------------------*/
 #ambassador {
   .container-fluid {
-    background: $backgrond;
+    background: $sec_color;
     padding-bottom: 4%;
     margin-top: 120px;
     text-align: center;
   }
 
   h1 {
-    text-shadow: 2px 3px 2px white;
+    color: white;
+    // text-shadow: 2px 3px 2px white;
     font-weight: bold;
     margin-top: 2%;
     text-align: center;
@@ -1149,7 +1174,7 @@ footer {
 
   .flex-element {
     background: white;
-    border-radius: 20px;
+    // border-radius: 20px;
     font-family: PT serif;
     text-align: center;
     width: 360px;
@@ -1158,21 +1183,22 @@ footer {
     margin-top: 3%;
     margin-right: 3%;
     margin-bottom: 3%;
-    -webkit-box-shadow: 8px 10px 15px rgba(41, 45, 43, 0.83);
-    box-shadow: 8px 10px 15px rgba(41, 45, 43, 0.83);
+    // -webkit-box-shadow: 8px 10px 15px rgba(41, 45, 43, 0.83);
+    // box-shadow: 8px 10px 15px rgba(41, 45, 43, 0.83);
   }
 
   .image {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    // border-top-left-radius: 20px;
+    // border-top-right-radius: 20px;
     padding: 5px 5px 0;
   }
 
   .name {
     border-top: 2px solid white;
-    background: white;
+    background: rgba(215, 215, 215, 0.55);
     color: black;
     font-size: 25px;
+    font-family: sans-serif;
     font-weight: bold;
     margin-bottom: 0;
     padding-top: 5px;
