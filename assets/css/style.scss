@@ -177,6 +177,19 @@ header {
     display: inline-block;
   }
 
+  .android_app{
+    color: white;
+    max-height: 300px;
+    max-height: auto;
+    width: 5%;
+    height: auto;
+    float: left;
+    font-size: 40px;
+    margin-top: 200px;
+    position: fixed;
+    z-index: 1;
+  }
+
   .smalltext {
     padding-top: 0;
     font-size: 26px;
@@ -240,7 +253,10 @@ header {
       font-size: 9vw;
       font-family: cursive;
     }
-
+    .android_app{
+      width: 10%;
+      margin-top: 400px;
+    }
     .dates {
       font-size: 7vw;
     }
@@ -259,7 +275,10 @@ header {
       min-height: 550px;
       margin-top: 70px;
     }
-
+    .android_app{
+      width: 12%;
+      margin-top: 250px;
+    }
     #clockdiv {
       top: 500px;
       width: 90%;
