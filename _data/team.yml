@@ -42,10 +42,6 @@
   - name: Vidisha Singh
     profile_pic: /assets/img/team/vidisha.jpg
 
-  - name: Gopi Vallabh Agarwal
-    profile_pic: /assets/img/team/gopi.jpg
-
-
 - group: USG SOCIAL MEDIA
   members:
   - name: Prateek Vijayvergiya
@@ -97,7 +93,16 @@
     profile_pic: /assets/img/team/palak.jpg
 
 
-- group: USG HOSPITALITY
+- group: USG HOSPITALITY/ACCOMMODATION
   members:
   - name: Gaurav Aggarwal
     profile_pic: /assets/img/team/gauravA.jpg
+
+  - name: Gopi Vallabh Agarwal
+    profile_pic: /assets/img/team/gopi.jpg
+
+  - name: Aditi Rathi
+    profile_pic: /assets/img/team/aditi.jpg
+
+  - name: Rafay Hameed
+    profile_pic: /assets/img/team/rafay.jpg
