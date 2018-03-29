@@ -26,7 +26,14 @@
           <li><a class="item" href="/campus_ambassador/">CAMPUS AMBASSADOR</a></li>
           <li><a class="item" href="/collabrators/">OUR COLLABORATIONS</a></li>
           <li><a class="item" href="/sponsors/">SPONSORS</a></li>
-          <!-- <li><a href="/our_team/">OUR TEAM</a></li> -->
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EXECUTIVE BOARD<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              {% for grp in site.data.execboard %}
+              <li><a class="item" href="/execboard/#{{ forloop.index }}">{{ grp.group }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">OUR TEAM<span class="caret"></span></a>
             <ul class="dropdown-menu">
               {% for grp in site.data.team %}
