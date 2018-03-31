@@ -1,8 +1,8 @@
 <section id="message">
   <div class="container-fluid">
     <h1 id="mess_title">Our Chief Guest</h1>
+    {% for message in site.data.message %}
     <div class="row">
-      {% for message in site.data.message %}
       <div class="col-md-4">
         <img src="{{ message.photo }}" alt="{{ message.author }}" id="profile_img">
         <h1 id="author">{{ message.author }}</h1>
@@ -11,7 +11,7 @@
       <div class="col-md-8" id="msg_box">
         <p id="message">{{ message.message }}</p>
       </div>
-      {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </section>

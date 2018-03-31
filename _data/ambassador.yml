@@ -74,7 +74,7 @@
 
 - pic: /assets/img/ambassadors/Hirannya.png
   name: Hirannya
-  org:    DPS   
+  org:    DPS
 
 - pic: /assets/img/ambassadors/rabia.jpg
   name: Rabiya Mateen
@@ -83,3 +83,7 @@
 - pic: /assets/img/ambassadors/ADVAITAVEDANTA.jpg
   name: Advaita Vedanta
   org: BIT Mesra
+
+- pic: /assets/img/ambassadors/raj.jpg
+  name: Raj Pandey
+  org: Ryan International School
