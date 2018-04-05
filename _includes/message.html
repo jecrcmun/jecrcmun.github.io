@@ -1,17 +1,19 @@
 <section id="message">
   <div class="container-fluid">
-    <h1 id="mess_title">Our Chief Guest</h1>
-    {% for message in site.data.message %}
+    {%for grp in site.data.message%}
+    <h1 id="mess_title">{{ grp.group }}</h1>
+    {% for member in grp.members %}
     <div class="row">
       <div class="col-md-4">
-        <img src="{{ message.photo }}" alt="{{ message.author }}" id="profile_img">
-        <h1 id="author">{{ message.author }}</h1>
-        <p id="desg">{{ message.designation }}</p>
+        <img src="{{ member.photo }}" alt="{{ member.author }}" id="profile_img">
+        <h1 id="author">{{ member.author }}</h1>
+        <p id="desg">{{ member.designation }}</p>
       </div>
       <div class="col-md-8" id="msg_box">
-        <p id="message">{{ message.message }}</p>
+        <p id="message">{{ member.message }}</p>
       </div>
     </div>
+    {% endfor %}
     {% endfor %}
   </div>
 </section>
