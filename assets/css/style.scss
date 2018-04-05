@@ -1336,12 +1336,12 @@ footer {
     background: $backgrond;
     padding-bottom: 4%;
     margin-top: 120px;
-    // text-align: center;
     color: black;
   }
 h1{
   text-align: center;
   font-weight: bold;
+  font-family: serif;
 }
   #div2{
     display: none;
@@ -1354,12 +1354,21 @@ h1{
   #day1, #day2 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: red;
+    background: -webkit-gradient(linear,left top, left bottom,from(rgb(210, 0, 0)),to(rgb(255, 0, 58)));
+    background: linear-gradient(rgb(210, 0, 0),rgb(255, 0, 58));
     color: white;
     width: 150px;
   }
+  #day1 {
+    background: rgb(249, 142, 0);
+  }
   .thead{
     font-size: 25px;
+    tr{
+      background: rgba(70, 70, 70, 0.67) !important;
+      color:white;
+      font-family: serif;
+    }
   }
 .table{
   font-size: 20px;
@@ -1371,16 +1380,20 @@ td {
   border: 1px solid black;
   padding: 20px;
 }
-tr:nth-child(even) {
-    background-color: #dddddd;
+tr:nth-child(odd) {
+    background: #dddddd;
 }
 
-tr:nth-child(odd) {
-    background-color: #79a6d2;
+tr:nth-child(even) {
+    background: -webkit-gradient(linear,left top, left bottom,from(rgb(0, 58, 187)),to(rgb(70, 25, 251)));
+    background: linear-gradient(rgb(0, 58, 187),rgb(70, 25, 251));
+    color: white;
 }
 tr:hover{
-  background-color: red;
+  background: rgb(255, 96, 6);
   color:white;
+  -webkit-transition: background 0.75s;
+  transition: background 0.75s;
 }
 @media screen and (max-width: 425px) {
   .table{
