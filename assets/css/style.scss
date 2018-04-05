@@ -1330,3 +1330,29 @@ footer {
     }
   }
 }
+/*-----------------Itenary----------------------*/
+#itenary{
+  .container-fluid {
+    background: $backgrond;
+    padding-bottom: 4%;
+    margin-top: 120px;
+    text-align: center;
+    color: black;
+  }
+  #div2{
+    display: none;
+  }
+  .buttons{
+    margin: 7% auto 0 auto;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+    width: 350px;
+  }
+  #day1, #day2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: red;
+    color: white;
+    width: 150px;
+  }
+}

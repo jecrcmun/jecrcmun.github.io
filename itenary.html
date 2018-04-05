@@ -1,0 +1,39 @@
+---
+layout: default
+title: Itenary
+permalink: /itenary/
+---
+<section id="itenary">
+  <div class="container-fluid">
+    <div class="buttons">
+      <button type="button" id='day1' onclick="foo1()">Day1</button>
+      <button type="button" id='day2'onclick="foo2()">Day2</button>
+    </div>
+    <div id="div1">
+      <table>
+        <th>
+          <td>TIME</td>
+          <td>EVENT</td>
+          <td>VENUE</td>
+        </th>
+      </table>
+    </div>
+    <div id="div2">
+      This is the content of day 2.
+    </div>
+    <script type="text/javascript">
+      btn1=document.getElementById('day1')
+      btn2=document.getElementById('day2')
+      div1=document.getElementById('div1')
+      div2=document.getElementById('div2')
+      function foo1() {
+        div1.style.display = "block"
+        div2.style.display = "none"
+      }
+      function foo2 () {
+        div2.style.display = "block"
+        div1.style.display = "none"
+      }
+    </script>
+  </div>
+</section>
