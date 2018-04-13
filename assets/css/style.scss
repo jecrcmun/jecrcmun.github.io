@@ -159,7 +159,9 @@ header {
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.6);
   }
-
+  #nextmessage{
+    font-weight: bold;
+  }
   #clockdiv > div {
     padding: 5px;
     margin-top: 5px;
@@ -278,6 +280,10 @@ header {
     #clockdiv{
       width: 90%;
     }
+    #nextmessage{
+      font-weight:lighter;
+      font-size: 25px;
+    }
     #clockdiv>div{
       margin-left: 2%;
       margin-right: 2%;
@@ -298,7 +304,10 @@ header {
       top: 500px;
       width: 90%;
     }
-
+    #nextmessage{
+      font-weight:lighter;
+      font-size:25px;
+    }
     #clockdiv div > span {
       font-size: 30px;
     }
